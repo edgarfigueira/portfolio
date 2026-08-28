@@ -1,0 +1,116 @@
+{
+  "funding": [
+    {
+      "year": "2026–2030",
+      "title": "FCT Doctoral Research Grant",
+      "institution": "Fundação para a Ciência e a Tecnologia (FCT)",
+      "place": "Portugal",
+      "statusKey": "status_active",
+      "typeKey": "mob_type_grant",
+      "description": {
+        "pt": "Bolsa de investigação para o desenvolvimento do doutoramento em Geografia Física, com início em agosto de 2026 e duração prevista de quatro anos.",
+        "en": "Research grant supporting the PhD in Physical Geography, starting in August 2026 with an expected duration of four years.",
+        "es": "Beca de investigación para el desarrollo del doctorado en Geografía Física, con inicio en agosto de 2026 y duración prevista de cuatro años.",
+        "de": "Forschungsstipendium zur Unterstützung der Promotion in Physischer Geographie, Beginn August 2026, voraussichtliche Laufzeit vier Jahre.",
+        "fr": "Bourse de recherche soutenant le doctorat en géographie physique, à partir d’août 2026 pour une durée prévue de quatre ans.",
+        "it": "Borsa di ricerca a supporto del dottorato in Geografia Fisica, con inizio nell’agosto 2026 e durata prevista di quattro anni.",
+        "no": "Forskningsstipend som støtter doktorgraden i fysisk geografi, med oppstart i august 2026 og planlagt varighet på fire år.",
+        "zh": "支持自然地理学博士研究的科研奖助，自2026年8月开始，预计持续四年。"
+      }
+    },
+    {
+      "year": "2025",
+      "title": "IAG Grant — BSG Post-Graduate Training Workshop",
+      "institution": "International Association of Geomorphologists (IAG)",
+      "place": "Windsor, United Kingdom",
+      "statusKey": "status_awarded",
+      "typeKey": "mob_type_training_grant",
+      "link": "https://www.geomorph.org/2025/12/reports-by-iag-grant-holders-bsg-post-graduate-training-workshop-windsor-uk-1-4-december-2025/",
+      "linkLabelKey": "mob_open_link",
+      "description": {
+        "pt": "Apoio de 300 € atribuído pela International Association of Geomorphologists (IAG) para participação no BSG Post-Graduate Training Workshop, em Windsor, Reino Unido.",
+        "en": "€300 grant awarded by the International Association of Geomorphologists (IAG) to support attendance at the BSG Post-Graduate Training Workshop in Windsor, United Kingdom.",
+        "es": "Ayuda de 300 € concedida por la International Association of Geomorphologists (IAG) para apoyar la participación en el BSG Post-Graduate Training Workshop en Windsor, Reino Unido.",
+        "de": "Förderung in Höhe von 300 € der International Association of Geomorphologists (IAG) zur Teilnahme am BSG Post-Graduate Training Workshop in Windsor, Vereinigtes Königreich.",
+        "fr": "Aide de 300 € attribuée par l’International Association of Geomorphologists (IAG) pour soutenir la participation au BSG Post-Graduate Training Workshop à Windsor, Royaume-Uni.",
+        "it": "Contributo di 300 € assegnato dalla International Association of Geomorphologists (IAG) per sostenere la partecipazione al BSG Post-Graduate Training Workshop a Windsor, Regno Unito.",
+        "no": "Støtte på 300 € tildelt av International Association of Geomorphologists (IAG) for deltakelse på BSG Post-Graduate Training Workshop i Windsor, Storbritannia.",
+        "zh": "获国际地貌学家协会（IAG）300欧元资助，用于参加在英国温莎举办的 BSG Post-Graduate Training Workshop。"
+      }
+    },
+    {
+      "year": "2027",
+      "title": "Erasmus+ MIND PhD25",
+      "institution": "UiT — The Arctic University of Norway",
+      "place": "Tromsø, Norway",
+      "statusKey": "status_planned",
+      "typeKey": "mob_type_mobility_grant",
+      "description": {
+        "pt": "Financiamento de mobilidade Erasmus+ MIND PhD25 para uma estadia de investigação na UiT, integrada no plano doutoral e prevista para junho–julho de 2027.",
+        "en": "Erasmus+ MIND PhD25 mobility funding for a research stay at UiT, integrated into the doctoral plan and scheduled for June–July 2027.",
+        "es": "Financiación Erasmus+ MIND PhD25 para una estancia de investigación en UiT, integrada en el plan doctoral y prevista para junio–julio de 2027.",
+        "de": "Erasmus+ MIND PhD25 Mobilitätsförderung für einen Forschungsaufenthalt an der UiT, vorgesehen für Juni–Juli 2027.",
+        "fr": "Financement Erasmus+ MIND PhD25 pour un séjour de recherche à l’UiT, intégré au plan doctoral et prévu en juin–juillet 2027.",
+        "it": "Finanziamento Erasmus+ MIND PhD25 per un soggiorno di ricerca presso UiT, integrato nel piano dottorale e previsto per giugno–luglio 2027.",
+        "no": "Erasmus+ MIND PhD25-finansiering for et forskningsopphold ved UiT, integrert i doktorgradsplanen og planlagt til juni–juli 2027.",
+        "zh": "Erasmus+ MIND PhD25 国际流动资助，用于UiT研究访问，纳入博士培养计划，预计于2027年6月至7月进行。"
+      }
+    }
+  ],
+  "abroad": [
+    {
+      "year": "29–31 Jul 2026",
+      "title": "Técnicas de Trabajo de Campo en Zonas de Montañas y Regiones Frías",
+      "institution": "IPE-CSIC",
+      "place": "Jaca, Spain",
+      "statusKey": "status_training",
+      "typeKey": "mob_type_field_course",
+      "description": {
+        "pt": "Formação técnico-científica em trabalho de campo em montanha e regiões frias, incluindo segurança, observação geomorfológica, monitorização, GPS e utilização de dados de terreno de elevada resolução.",
+        "en": "Scientific and technical training in fieldwork in mountain and cold-region environments, including safety, geomorphological observation, monitoring, GPS and high-resolution terrain data.",
+        "es": "Formación científico-técnica en trabajo de campo en montaña y regiones frías, incluyendo seguridad, observación geomorfológica, monitorización, GPS y datos del terreno de alta resolución.",
+        "de": "Wissenschaftlich-technische Ausbildung für Feldarbeit in Gebirgs- und Kaltregionen, einschließlich Sicherheit, geomorphologischer Beobachtung, Monitoring, GPS und hochauflösender Geländedaten.",
+        "fr": "Formation scientifique et technique au travail de terrain en montagne et régions froides, incluant sécurité, observation géomorphologique, suivi, GPS et données topographiques à haute résolution.",
+        "it": "Formazione scientifica e tecnica per il lavoro sul terreno in montagna e regioni fredde, con sicurezza, osservazione geomorfologica, monitoraggio, GPS e dati topografici ad alta risoluzione.",
+        "no": "Vitenskapelig og teknisk opplæring i feltarbeid i fjell- og kaldregioner, inkludert sikkerhet, geomorfologisk observasjon, overvåking, GPS og høyoppløselige terrengdata.",
+        "zh": "山地和寒区野外工作的科学技术培训，包括安全、地貌观察、监测、GPS及高分辨率地形数据应用。"
+      }
+    },
+    {
+      "year": "1–4 Dec 2025",
+      "title": "BSG Post-Graduate Training Workshop (Windsor Workshop)",
+      "institution": "British Society for Geomorphology (BSG)",
+      "place": "Cumberland Lodge, Windsor Great Park, United Kingdom",
+      "statusKey": "status_completed",
+      "typeKey": "mob_type_postgrad_workshop",
+      "description": {
+        "pt": "Formação pós-graduada para investigadores em início de doutoramento em geomorfologia, com sessões sobre desenho e gestão da investigação, comunicação científica, ética, financiamento, publicação, carreira académica e atividades práticas com R e Python.",
+        "en": "Postgraduate training for early-stage PhD researchers in geomorphology, with sessions on research design and management, scientific communication, ethics, funding, publication, academic careers and practical activities using R and Python.",
+        "es": "Formación de posgrado para investigadores de doctorado en geomorfología en etapas iniciales, con sesiones sobre diseño y gestión de la investigación, comunicación científica, ética, financiación, publicación, carrera académica y actividades prácticas con R y Python.",
+        "de": "Postgraduale Weiterbildung für Promovierende in der frühen Phase der geomorphologischen Forschung mit Einheiten zu Forschungsdesign und -management, Wissenschaftskommunikation, Ethik, Finanzierung, Publikation, akademischer Laufbahn sowie praktischen Übungen mit R und Python.",
+        "fr": "Formation postgraduée destinée aux doctorants en début de parcours en géomorphologie, avec des sessions sur la conception et la gestion de la recherche, la communication scientifique, l’éthique, le financement, la publication, la carrière académique et des activités pratiques avec R et Python.",
+        "it": "Formazione post-laurea per dottorandi nelle fasi iniziali della ricerca geomorfologica, con sessioni su progettazione e gestione della ricerca, comunicazione scientifica, etica, finanziamento, pubblicazione, carriera accademica e attività pratiche con R e Python.",
+        "no": "Videregående opplæring for doktorgradsforskere i en tidlig fase innen geomorfologi, med temaer som forskningsdesign og prosjektstyring, vitenskapelig kommunikasjon, etikk, finansiering, publisering, akademisk karriere og praktiske aktiviteter med R og Python.",
+        "zh": "面向地貌学博士研究早期阶段的研究生培训，内容涵盖研究设计与项目管理、科学交流、研究伦理、科研资助、论文发表、学术职业发展，以及 R 和 Python 实践活动。"
+      }
+    },
+    {
+      "year": "Jun–Jul 2027",
+      "title": "Doctoral research mobility",
+      "institution": "UiT — The Arctic University of Norway",
+      "place": "Tromsø, Norway",
+      "statusKey": "status_planned",
+      "typeKey": "mob_type_research_stay",
+      "description": {
+        "pt": "Estadia doutoral prevista na UiT para contacto com processos glaciários ativos e desenvolvimento de competências em modelação, cartografia remota, trabalho de campo e exploração de abordagens geocronológicas.",
+        "en": "Planned doctoral research stay at UiT to engage with active glacial processes and develop skills in modelling, remote mapping, fieldwork and exploration of geochronological approaches.",
+        "es": "Estancia doctoral prevista en UiT para trabajar con procesos glaciares activos y desarrollar competencias en modelización, cartografía remota, campo y aproximaciones geocronológicas.",
+        "de": "Geplanter Promotionsaufenthalt an der UiT mit Fokus auf aktive glaziale Prozesse sowie Modellierung, Fernerkundungskartierung, Feldarbeit und geochronologische Ansätze.",
+        "fr": "Séjour doctoral prévu à l’UiT pour travailler sur des processus glaciaires actifs et développer des compétences en modélisation, cartographie à distance, terrain et approches géochronologiques.",
+        "it": "Soggiorno dottorale previsto presso UiT per lavorare su processi glaciali attivi e sviluppare competenze in modellazione, cartografia remota, terreno e approcci geocronologici.",
+        "no": "Planlagt doktorgradsopphold ved UiT for arbeid med aktive glasiale prosesser og kompetanseutvikling innen modellering, fjernkartlegging, feltarbeid og geokronologiske tilnærminger.",
+        "zh": "计划在UiT开展博士研究访问，接触现代冰川过程，并加强建模、遥感制图、野外工作和地质年代学方法方面的能力。"
+      }
+    }
+  ]
+}

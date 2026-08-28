@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="light dark" name="color-scheme"/>
+<link href="styles.css" rel="stylesheet"/>
+<meta content="Portefólio científico de Edgar Figueira — geomorfologia glaciária, SIG, LiDAR e reconstrução paleoglaciária no Noroeste Ibérico." data-i18n-content="home_meta_description" name="description"/>
+<title data-i18n="home_meta_title">Edgar Figueira · Portefólio científico</title>
+<link data-site-favicon="1" href="assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+</head>
+<body>
+<a class="skip-link" data-i18n="skip" href="#main"></a>
+<header class="site-header">
+<nav aria-label="Navegação principal" class="navbar" data-i18n-aria="nav_primary">
+<a class="brand" href="index.html"><span class="brand-mark" data-profile-mark="1">EF</span><span data-profile-name="1">Edgar Figueira</span></a>
+<div class="nav-links" id="navLinks">
+<a aria-current="page" data-i18n="nav_home" href="index.html"></a><a data-i18n="nav_works" href="works.html"></a><a data-i18n="nav_research" href="research.html"></a><a data-i18n="nav_terms" href="terminology.html"></a><a data-i18n="nav_atlas" href="atlas.html"></a><a data-i18n="nav_mobility" href="mobility.html"></a><a data-i18n="nav_training" href="training.html"></a><a data-i18n="nav_cv" href="cv.html"></a><a data-i18n="nav_contact" href="contact.html"></a>
+</div>
+<div class="nav-actions">
+<select aria-label="Selecionar idioma" class="lang-select" data-i18n-aria="language_select" id="languageSelect">
+<option value="pt">PT</option>
+<option value="es">ES</option>
+<option value="en">EN</option>
+<option value="de">DE</option>
+<option value="fr">FR</option>
+<option value="it">IT</option>
+<option value="no">NO</option>
+<option value="zh">中文</option></select><button class="icon-btn" data-i18n-aria="theme" id="themeToggle">
+						◐</button><button aria-expanded="false" class="icon-btn menu-btn" data-i18n-aria="menu" id="menuToggle">
+						☰
+					</button>
+</div>
+</nav>
+</header>
+<main id="main">
+<section class="hero home-hero">
+<div class="shell hero-grid home-hero-grid">
+<div class="home-hero-copy">
+<div class="kicker" data-i18n="hero_kicker"></div>
+<h1 data-profile-name="1">Edgar Figueira</h1>
+<p class="hero-subtitle" data-i18n="hero_subtitle"></p>
+<p class="hero-copy" data-i18n="hero_copy"></p>
+<div class="actions">
+<a class="text-action strong" data-i18n="explore" href="works.html"></a>
+<a class="text-action strong" data-i18n="research" href="research.html"></a>
+</div>
+</div>
+<div class="home-hero-media" data-home-parallax="">
+<figure class="portrait-wrap home-portrait">
+<img alt="Retrato de Edgar Figueira" data-i18n-alt="cv_portrait_alt" data-profile-image="1" src="assets/me.jpeg"/>
+<figcaption>
+<span data-i18n="home_affiliation_primary">CEGOT · FLUP</span><span data-i18n="home_affiliation_secondary">Universidade do Porto</span>
+</figcaption>
+</figure>
+<figure class="home-field-image" hidden="" id="homeHeroField">
+<img alt="" id="homeHeroFieldImage"/>
+<figcaption id="homeHeroFieldCaption"></figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section class="section home-highlights-section" data-reveal="">
+<div class="shell">
+<div class="section-head">
+<div>
+<h2 class="section-title" data-i18n="selected"></h2>
+<p class="section-copy" data-i18n="selected_copy"></p>
+</div>
+<a class="text-action" data-i18n="all_works" href="works.html"></a>
+</div>
+<div class="selected-list" id="highlightsList"></div>
+</div>
+</section>
+<section class="section home-atlas-preview" data-reveal="" hidden="" id="homeAtlasPreview">
+<div class="shell">
+<div class="section-head atlas-preview-head">
+<div>
+<div class="kicker" data-i18n="atlas_kicker"></div>
+<h2 class="section-title" data-i18n="atlas_title"></h2>
+</div>
+<div>
+<p class="section-copy" data-i18n="atlas_copy"></p>
+<a class="text-action strong" data-i18n="nav_atlas" href="atlas.html"></a>
+</div>
+</div>
+<div aria-live="polite" class="home-photo-mosaic" id="homePhotoMosaic"></div>
+</div>
+</section>
+<section class="section home-metrics-section" data-reveal="">
+<div class="shell">
+<div class="metrics" id="homeMetrics">
+<div class="metric">
+<strong data-count-metric="" data-metric-value="publications">17</strong><span data-i18n="metric_publications"></span>
+</div>
+<div class="metric metric-live" data-live-source="crossref">
+<strong aria-live="polite" data-count-metric="" data-live-citation="crossref">—</strong><span data-i18n="metric_crossref_citations"></span>
+</div>
+<div class="metric metric-live" data-live-source="opencitations">
+<strong aria-live="polite" data-count-metric="" data-live-citation="opencitations">—</strong><span data-i18n="metric_opencitations_citations"></span>
+</div>
+<div class="metric">
+<strong data-count-metric="" data-metric-value="studyAreas">6</strong><span data-i18n="metric_regions"></span>
+</div>
+</div>
+<p class="metrics-source">
+<span data-i18n="metric_live_source"></span>
+<a href="https://www.crossref.org/" rel="noopener" target="_blank">Crossref</a>
+<span aria-hidden="true">·</span>
+<a href="https://opencitations.net/" rel="noopener" target="_blank">OpenCitations</a>
+<span aria-hidden="true">·</span>
+<span aria-live="polite" data-metrics-status="metric_live_loading" id="metricsLiveStatus"></span>
+</p>
+<p class="metrics-note" data-i18n="metric_coverage_note"></p>
+</div>
+</section>
+</main>
+<footer>
+<div class="shell footer-row">
+<span><span data-i18n="footer"></span> · <span data-current-year=""></span></span>
+<div class="footer-links">
+<a data-i18n="nav_contact" href="contact.html"></a><a data-profile-link="orcid" href="https://orcid.org/0000-0001-9567-1648" rel="noopener" target="_blank">ORCID</a><a data-profile-link="researchgate" href="https://www.researchgate.net/profile/Edgar-Figueira-2" rel="noopener" target="_blank">ResearchGate</a><a data-profile-link="googleScholar" href="https://scholar.google.com/citations?user=lm7kI1sAAAAJ&amp;hl=pt-PT&amp;oi=ao" rel="noopener" target="_blank">Google Scholar</a><a data-profile-link="cegot" href="https://cegot.pt/pt/membros/edgar-junceiro-ramos-carneiro-figueira" rel="noopener" target="_blank">CEGOT</a>
+</div>
+</div>
+</footer>
+<script src="js/data-loader.js"></script>
+<script src="js/app.js"></script>
+<script src="js/metrics.js?v=7.5.0"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

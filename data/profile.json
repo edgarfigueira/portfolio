@@ -1,0 +1,40 @@
+{
+  "profile": {
+    "email": "up201604568@up.pt",
+    "orcid": "https://orcid.org/0000-0001-9567-1648",
+    "researchgate": "https://www.researchgate.net/profile/Edgar-Figueira-2",
+    "googleScholar": "https://scholar.google.com/citations?user=lm7kI1sAAAAJ&hl=pt-PT&oi=ao",
+    "linkedin": "https://www.linkedin.com/in/edgarfigueira",
+    "cegot": "https://cegot.pt/pt/membros/edgar-junceiro-ramos-carneiro-figueira",
+    "name": "Edgar Figueira",
+    "brandMark": "EF"
+  },
+  "homepage": {
+    "profileImage": "assets/me.jpeg",
+    "atlasPreviewCount": 4,
+    "highlights": [
+      {
+        "id": "w14",
+        "label": "2025 · Quaternary"
+      },
+      {
+        "id": "w06",
+        "label": "2023 · Land"
+      },
+      {
+        "id": "w17",
+        "label": "2026 · Congresso Nacional de Geologia"
+      }
+    ]
+  },
+  "site": {
+    "favicon": "assets/favicon.svg"
+  },
+  "metrics": {
+    "citationCacheHours": 12,
+    "citationSources": {
+      "crossref": true,
+      "opencitations": true
+    }
+  }
+}

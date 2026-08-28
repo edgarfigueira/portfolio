@@ -1,0 +1,88 @@
+{
+	"activities": [
+		{
+			"year": "8 Jul 2026",
+			"title": "Geotecnologias, AR e AI ao serviço dos professores de ciências",
+			"institution": "XI Encontro da Casa das Ciências · DG-FLUP",
+			"place": "Guimarães, Portugal",
+			"roleKey": "training_role_co_trainer",
+			"typeKey": "training_type_workshop",
+			"duration": null,
+			"description": {
+				"pt": "Coformação dirigida a professores de Biologia e Geologia e de Geografia, estruturada em três momentos: introdução às geotecnologias, realidade aumentada e inteligência artificial aplicadas ao ensino; recolha de dados no exterior com Google Earth; e organização e cartografia dos dados no Google Earth Web.",
+				"en": "Co-delivered workshop for Biology and Geology and Geography teachers, structured in three stages: an introduction to geotechnologies, augmented reality and artificial intelligence for teaching; outdoor data collection with Google Earth; and organisation and mapping of the collected data in Google Earth Web.",
+				"es": "Taller impartido conjuntamente para docentes de Biología y Geología y de Geografía, estructurado en tres momentos: introducción a las geotecnologías, la realidad aumentada y la inteligencia artificial aplicadas a la enseñanza; recogida de datos en el exterior con Google Earth; y organización y cartografía de los datos en Google Earth Web.",
+				"de": "Gemeinsam durchgeführter Workshop für Lehrkräfte der Fächer Biologie und Geologie sowie Geographie. Die Veranstaltung umfasste drei Phasen: Einführung in Geotechnologien, Augmented Reality und künstliche Intelligenz im Unterricht; Datenerhebung im Gelände mit Google Earth; sowie Aufbereitung und Kartierung der erhobenen Daten in Google Earth Web.",
+				"fr": "Atelier coanimé destiné aux enseignants de biologie-géologie et de géographie, structuré en trois temps : introduction aux géotechnologies, à la réalité augmentée et à l’intelligence artificielle appliquées à l’enseignement ; collecte de données sur le terrain avec Google Earth ; puis organisation et cartographie des données dans Google Earth Web.",
+				"it": "Workshop svolto in co-docenza per insegnanti di Biologia e Geologia e di Geografia, articolato in tre momenti: introduzione alle geotecnologie, alla realtà aumentata e all’intelligenza artificiale applicate alla didattica; raccolta di dati sul terreno con Google Earth; organizzazione e cartografia dei dati in Google Earth Web.",
+				"no": "Workshop gjennomført sammen med en medkursholder for lærere i biologi og geologi og geografi. Opplegget besto av tre deler: introduksjon til geoteknologi, utvidet virkelighet og kunstig intelligens i undervisning; datainnsamling ute med Google Earth; og organisering og kartlegging av dataene i Google Earth Web.",
+				"zh": "面向生物与地质以及地理教师共同开展的培训工作坊，分为三个环节：介绍地理空间技术、增强现实和人工智能在教学中的应用；使用 Google Earth 开展户外数据采集；以及在 Google Earth Web 中整理并制图展示所采集的数据。"
+			},
+			"link": "https://www.casadasciencias.org/11encontro/wkc1_9.php",
+			"linkLabelKey": "training_open_link"
+		},
+		{
+			"year": "2023–2026",
+			"title": "Dinamização de aulas através da representação de informação geográfica (DARIG)",
+			"institution": "Departamento de Geografia · Faculdade de Letras da Universidade do Porto",
+			"place": "Universidade do Porto · online",
+			"roleKey": "training_role_trainer",
+			"typeKey": "training_type_course",
+			"duration": null,
+			"description": {
+				"pt": "Participação como formador na unidade de formação contínua DARIG, orientada para o uso pedagógico de geotecnologias e para a representação de informação geográfica. A formação aborda aplicações móveis, Google Earth e Google Maps, cartografia com Excel e Google Sheets e ArcGIS Online/StoryMaps, num modelo teórico-prático e à distância.",
+				"en": "Participation as a trainer in the DARIG continuing-education unit, focused on the pedagogical use of geotechnologies and the representation of geographic information. The course covers mobile applications, Google Earth and Google Maps, mapping with Excel and Google Sheets, and ArcGIS Online/StoryMaps through a theory-and-practice distance-learning model.",
+				"es": "Participación como formador en la unidad de formación continua DARIG, centrada en el uso pedagógico de las geotecnologías y en la representación de información geográfica. La formación aborda aplicaciones móviles, Google Earth y Google Maps, cartografía con Excel y Google Sheets y ArcGIS Online/StoryMaps, mediante un modelo teórico-práctico a distancia.",
+				"de": "Mitwirkung als Dozent in der Weiterbildungs­einheit DARIG mit Schwerpunkt auf dem didaktischen Einsatz von Geotechnologien und der Darstellung geografischer Informationen. Die Ausbildung behandelt mobile Anwendungen, Google Earth und Google Maps, Kartenerstellung mit Excel und Google Sheets sowie ArcGIS Online/StoryMaps in einem theorie- und praxisorientierten Online-Format.",
+				"fr": "Participation en tant que formateur à l’unité de formation continue DARIG, consacrée à l’usage pédagogique des géotechnologies et à la représentation de l’information géographique. La formation aborde les applications mobiles, Google Earth et Google Maps, la cartographie avec Excel et Google Sheets ainsi qu’ArcGIS Online/StoryMaps, dans un dispositif à distance associant théorie et pratique.",
+				"it": "Partecipazione come formatore nell’unità di formazione continua DARIG, dedicata all’uso didattico delle geotecnologie e alla rappresentazione dell’informazione geografica. La formazione comprende applicazioni mobili, Google Earth e Google Maps, cartografia con Excel e Google Sheets e ArcGIS Online/StoryMaps, secondo un modello teorico-pratico a distanza.",
+				"no": "Deltakelse som kursholder i videreutdanningsenheten DARIG, med vekt på pedagogisk bruk av geoteknologi og framstilling av geografisk informasjon. Kurset omfatter mobilapplikasjoner, Google Earth og Google Maps, kartproduksjon med Excel og Google Sheets samt ArcGIS Online/StoryMaps i et nettbasert opplegg som kombinerer teori og praksis.",
+				"zh": "作为培训讲师参与 DARIG 继续教育课程，重点围绕地理空间技术在教学中的应用以及地理信息表达。课程内容涵盖移动应用、Google Earth 与 Google Maps、使用 Excel 和 Google Sheets 进行制图，以及 ArcGIS Online/StoryMaps，并采用理论与实践相结合的远程教学模式。"
+			},
+			"link": "https://sigarra.up.pt/flup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=568340",
+			"linkLabelKey": "training_open_link"
+		},
+		{
+			"year": "Nov 2024",
+			"title": "Programação aplicada a WebSIG's",
+			"institution": "Jornadas da Geografia — GeoPlanUM · Departamento de Geografia, Universidade do Minho",
+			"place": "Braga, Portugal",
+			"roleKey": "training_role_trainer",
+			"typeKey": "training_type_workshop",
+			"duration": "4 h",
+			"description": {
+				"pt": "Workshop de 4 horas dirigido a estudantes de Licenciatura e Mestrado do Departamento de Geografia da Universidade do Minho, dedicado à programação aplicada a WebSIG e à exploração das possibilidades de desenvolvimento de aplicações geográficas para a web.",
+				"en": "Four-hour workshop for undergraduate and master's students from the Department of Geography at the University of Minho, focused on programming applied to WebGIS and on exploring approaches to developing web-based geographic applications.",
+				"es": "Taller de cuatro horas dirigido a estudiantes de Grado y Máster del Departamento de Geografía de la Universidade do Minho, centrado en la programación aplicada a WebSIG y en la exploración de posibilidades para desarrollar aplicaciones geográficas web.",
+				"de": "Vierstündiger Workshop für Bachelor- und Masterstudierende des Fachbereichs Geographie der Universidade do Minho mit Schwerpunkt auf Programmierung für WebGIS und auf Ansätzen zur Entwicklung webbasierter geografischer Anwendungen.",
+				"fr": "Atelier de quatre heures destiné aux étudiants de licence et de master du Département de géographie de l’Universidade do Minho, consacré à la programmation appliquée aux WebSIG et à l’exploration des possibilités de développement d’applications géographiques pour le web.",
+				"it": "Workshop di quattro ore rivolto a studenti di laurea e laurea magistrale del Dipartimento di Geografia dell’Universidade do Minho, dedicato alla programmazione applicata ai WebGIS e all’esplorazione delle possibilità di sviluppo di applicazioni geografiche per il web.",
+				"no": "Fire timers workshop for bachelor- og masterstudenter ved Institutt for geografi ved Universidade do Minho, med fokus på programmering for WebGIS og på muligheter for utvikling av nettbaserte geografiske applikasjoner.",
+				"zh": "面向米尼奥大学地理系本科生和硕士生开展的4小时工作坊，重点介绍 WebGIS 编程，并探讨基于网络开发地理信息应用的方式与可能性。"
+			},
+			"link": null,
+			"linkLabelKey": "training_open_link"
+		},
+		{
+			"year": "2020",
+			"title": "Adobe Illustrator & ArcGIS Pro: integração de ferramentas SIG e de design gráfico",
+			"institution": "Open GIS Days 2020 · Faculdade de Letras da Universidade do Porto",
+			"place": "Porto, Portugal",
+			"roleKey": "training_role_co_trainer",
+			"typeKey": "training_type_workshop",
+			"duration": "3 h",
+			"description": {
+				"pt": "Lecionação conjunta de um workshop de 3 horas, dirigido à comunidade académica e especialmente a estudantes de Licenciatura e Mestrado em Geografia, articulando Adobe Illustrator com ferramentas SIG no contexto dos Open GIS Days 2020.",
+				"en": "Co-delivery of a three-hour workshop for the academic community, particularly undergraduate and master's students in Geography, combining Adobe Illustrator with GIS tools within Open GIS Days 2020.",
+				"es": "Impartición conjunta de un taller de tres horas dirigido a la comunidad académica, especialmente a estudiantes de Grado y Máster en Geografía, combinando Adobe Illustrator con herramientas SIG en el marco de Open GIS Days 2020.",
+				"de": "Gemeinsame Durchführung eines dreistündigen Workshops für die akademische Gemeinschaft, insbesondere für Bachelor- und Masterstudierende der Geographie, der Adobe Illustrator mit GIS-Werkzeugen im Rahmen der Open GIS Days 2020 verband.",
+				"fr": "Coanimation d’un atelier de trois heures destiné à la communauté universitaire, en particulier aux étudiants de licence et de master en géographie, associant Adobe Illustrator à des outils SIG dans le cadre des Open GIS Days 2020.",
+				"it": "Co-docenza in un workshop di tre ore rivolto alla comunità accademica, in particolare agli studenti di laurea e laurea magistrale in Geografia, integrando Adobe Illustrator con strumenti GIS nell’ambito degli Open GIS Days 2020.",
+				"no": "Tre timers workshop gjennomført sammen med en medkursholder for det akademiske miljøet, særlig bachelor- og masterstudenter i geografi, med kombinasjon av Adobe Illustrator og GIS-verktøy under Open GIS Days 2020.",
+				"zh": "共同讲授的3小时工作坊，面向学术群体，尤其是地理学本科生和硕士生，在 Open GIS Days 2020 框架下结合 Adobe Illustrator 与 GIS 工具开展实践培训。"
+			},
+			"link": "https://ogdays2020.wixsite.com/opengisdays2020/links-para-sess%C3%B5es",
+			"linkLabelKey": "training_open_link"
+		}
+	]
+}

@@ -1,0 +1,318 @@
+{
+  "lead": {
+    "label": {
+      "pt": "Enquadramento",
+      "en": "Framework",
+      "es": "Marco",
+      "de": "Rahmen",
+      "fr": "Cadre",
+      "it": "Quadro",
+      "no": "Rammeverk",
+      "zh": "研究框架"
+    },
+    "title": {
+      "pt": "Paisagens paleoglaciadas como arquivo geomorfológico e climático",
+      "en": "Palaeoglaciated landscapes as geomorphological and climatic archives",
+      "es": "Paisajes paleoglaciados como archivos geomorfológicos y climáticos",
+      "de": "Paläoglaziale Landschaften als geomorphologische und klimatische Archive",
+      "fr": "Les paysages paléoglaciaires comme archives géomorphologiques et climatiques",
+      "it": "Paesaggi paleoglaciali come archivi geomorfologici e climatici",
+      "no": "Paleoglasiale landskap som geomorfologiske og klimatiske arkiv",
+      "zh": "古冰川景观作为地貌与气候档案"
+    },
+    "copy": {
+      "pt": "A investigação articula cartografia de detalhe, modelação e evidência de campo para reconstruir a evolução de ambientes de montanha durante o Plistocénico Superior.",
+      "en": "The research combines detailed mapping, modelling and field evidence to reconstruct the evolution of mountain environments during the Late Pleistocene.",
+      "es": "La investigación combina cartografía detallada, modelización y evidencias de campo para reconstruir la evolución de ambientes de montaña durante el Pleistoceno Superior.",
+      "de": "Die Forschung verbindet detaillierte Kartierung, Modellierung und Geländebefunde, um die Entwicklung von Gebirgsräumen im Spätpleistozän zu rekonstruieren.",
+      "fr": "La recherche combine cartographie détaillée, modélisation et observations de terrain afin de reconstruire l’évolution des environnements de montagne au Pléistocène supérieur.",
+      "it": "La ricerca integra cartografia di dettaglio, modellazione ed evidenze di terreno per ricostruire l’evoluzione degli ambienti montani nel Pleistocene superiore.",
+      "no": "Forskningen kombinerer detaljert kartlegging, modellering og feltobservasjoner for å rekonstruere utviklingen av fjellmiljøer i sen pleistocen.",
+      "zh": "研究结合精细地貌制图、数值建模与野外证据，重建晚更新世山地环境的演化。"
+    }
+  },
+  "axes": [
+    {
+      "number": "01",
+      "title": {
+        "pt": "Geomorfologia glaciária",
+        "en": "Glacial geomorphology",
+        "es": "Geomorfología glaciar",
+        "de": "Glazialgeomorphologie",
+        "fr": "Géomorphologie glaciaire",
+        "it": "Geomorfologia glaciale",
+        "no": "Glasial geomorfologi",
+        "zh": "冰川地貌学"
+      },
+      "copy": {
+        "pt": "Inventariação e interpretação de formas de erosão, deposição glaciária. Compreensão de ambientes periglaciários e integração de sistemas fluvioglaciários, paraglaciários e fluviais.",
+        "en": "Inventory and interpretation of glacial erosional and depositional landforms, periglacial processes and paraglacial reworking.",
+        "es": "Inventario y interpretación de formas erosivas y deposicionales glaciares, procesos periglaciares y retrabajamiento paraglaciar.",
+        "de": "Inventar und interpretieren glazialer Erosions- und Akkumulationsformen, periglazialer Prozesse und paraglazialer Überprägung.",
+        "fr": "Inventaire et interprétation des formes d’érosion et d’accumulation glaciaires, des processus périglaciaires et du remaniement paraglaciaire.",
+        "it": "Inventario e interpretazione di forme erosive e deposizionali glaciali, processi periglaciali e rielaborazione paraglaciale.",
+        "no": "Inventar og tolke glasiale erosjons- og avsetningsformer, periglasiære prosesser og paraglasiære omarbeiding.",
+        "zh": "冰川侵蚀与堆积地貌、周冰缘过程及冰后重塑的清单与解释。"
+      }
+    },
+    {
+      "number": "02",
+      "title": {
+        "pt": "Reconstrução paleoglaciária",
+        "en": "Palaeoglacier reconstruction",
+        "es": "Reconstrucción paleoglaciar",
+        "de": "Paläogletscher-Rekonstruktion",
+        "fr": "Reconstruction paléoglaciaire",
+        "it": "Ricostruzione paleoglaciale",
+        "no": "Paleobre-rekonstruksjon",
+        "zh": "古冰川重建"
+      },
+      "copy": {
+        "pt": "Reconstrução da extensão, espessura, volume, fluxo de gelo e altitude da linha de equilíbrio, integrando condicionantes topográficas e climáticas.",
+        "en": "Reconstruction of glacier extent, thickness, volume, ice flow and equilibrium-line altitude, integrating topographic and climatic controls.",
+        "es": "Reconstrucción de extensión, espesor, volumen, flujo de hielo y altitud de la línea de equilibrio, integrando controles topográficos y climáticos.",
+        "de": "Rekonstruktion von Ausdehnung, Eisdicke, Volumen, Eisfluss und Gleichgewichtslinienhöhe unter Einbezug topographischer und klimatischer Steuerung.",
+        "fr": "Reconstruction de l’extension, de l’épaisseur, du volume, des écoulements glaciaires et de l’altitude de la ligne d’équilibre en intégrant les contrôles topographiques et climatiques.",
+        "it": "Ricostruzione di estensione, spessore, volume, flusso del ghiaccio e quota della linea di equilibrio, integrando controlli topografici e climatici.",
+        "no": "Rekonstruksjon av utbredelse, istykkelse, volum, isstrøm og likevektslinjehøyde, med topografiske og klimatiske kontroller.",
+        "zh": "重建冰川范围、厚度、体积、冰流与平衡线高度，并综合地形和气候控制。"
+      }
+    },
+    {
+      "number": "03",
+      "title": {
+        "pt": "Cronologia & paleoclima",
+        "en": "Chronology & palaeoclimate",
+        "es": "Cronología & paleoclima",
+        "de": "Chronologie & Paläoklima",
+        "fr": "Chronologie & paléoclimat",
+        "it": "Cronologia & paleoclima",
+        "no": "Kronologi & paleoklima",
+        "zh": "年代学与古气候"
+      },
+      "copy": {
+        "pt": "Integração progressiva de geocronologia e proxies geomorfológicos para enquadrar fases de glaciação e deglaciação no contexto atlântico do Noroeste Ibérico.",
+        "en": "Progressive integration of geochronology and geomorphological proxies to frame glaciation and deglaciation phases within the Atlantic context of NW Iberia.",
+        "es": "Integración progresiva de geocronología y proxies geomorfológicos para situar fases de glaciación y deglaciación en el contexto atlántico del Noroeste Ibérico.",
+        "de": "Schrittweise Integration geochronologischer Daten und geomorphologischer Proxys zur Einordnung von Vergletscherungs- und Deglaziationsphasen im atlantischen Kontext Nordwest-Iberiens.",
+        "fr": "Intégration progressive de la géochronologie et de proxies géomorphologiques pour replacer les phases de glaciation et de déglaciation dans le contexte atlantique du nord-ouest ibérique.",
+        "it": "Progressiva integrazione di geocronologia e proxy geomorfologici per inquadrare le fasi glaciali e di deglaciazione nel contesto atlantico dell’Iberia nord-occidentale.",
+        "no": "Gradvis integrasjon av geokronologi og geomorfologiske proxyer for å plassere glasiasjons- og deglasiasjonsfaser i den atlantiske konteksten i Nordvest-Iberia.",
+        "zh": "逐步整合地质年代学和地貌代用指标，将冰进与退冰阶段置于伊比利亚西北部的大西洋气候背景中。"
+      }
+    }
+  ],
+  "methodsSection": {
+    "label": {
+      "pt": "Métodos",
+      "en": "Methods",
+      "es": "Métodos",
+      "de": "Methoden",
+      "fr": "Méthodes",
+      "it": "Metodi",
+      "no": "Metoder",
+      "zh": "方法"
+    },
+    "title": {
+      "pt": "Do terreno ao modelo",
+      "en": "From field evidence to model",
+      "es": "Del campo al modelo",
+      "de": "Vom Gelände zum Modell",
+      "fr": "Du terrain au modèle",
+      "it": "Dal terreno al modello",
+      "no": "Fra felt til modell",
+      "zh": "从野外证据到模型"
+    },
+    "copy": {
+      "pt": "O método combina reconhecimento sistemático de campo, dados topográficos de alta resolução e métodos quantitativos de reconstrução, procurando manter uma ligação direta entre evidência geomorfológica, cartografia e interpretação paleoclimática.",
+      "en": "The method combines systematic field survey, high-resolution topographic data and quantitative reconstruction methods, maintaining a direct link between geomorphological evidence, mapping and palaeoclimatic interpretation.",
+      "es": "El método combina reconocimiento sistemático de campo, datos topográficos de alta resolución y métodos cuantitativos de reconstrucción, manteniendo un vínculo directo entre evidencia geomorfológica, cartografía e interpretación paleoclimática.",
+      "de": "Die Methode verbindet systematische Geländeerhebung, hochauflösende topographische Daten und quantitative Rekonstruktionsmethoden mit einer direkten Verbindung zwischen geomorphologischem Befund, Kartierung und paläoklimatischer Interpretation.",
+      "fr": "La méthode combine relevés systématiques de terrain, données topographiques à haute résolution et méthodes quantitatives de reconstruction, en maintenant un lien direct entre preuves géomorphologiques, cartographie et interprétation paléoclimatique.",
+      "it": "Il metodo combina rilievi sistematici di terreno, dati topografici ad alta risoluzione e metodi quantitativi di ricostruzione, mantenendo un legame diretto tra evidenza geomorfologica, cartografia e interpretazione paleoclimatica.",
+      "no": "Metoden kombinerer systematisk feltundersøkelse, høytoppløselige topografiske data og kvantitative rekonstruksjonsmetoder, og opprettholder en direkte kobling mellom geomorfologiske bevis, kartlegging og paleoklimatisk tolkning.",
+      "zh": "该方法结合系统的野外调查、高分辨率地形数据和定量重建方法，保持地貌证据、制图与古气候解释之间的直接联系。"
+    }
+  },
+  "methods": [
+    {
+      "label": {
+        "pt": "Cartografia geomorfológica",
+        "en": "Geomorphological mapping",
+        "es": "Cartografía geomorfológica",
+        "de": "Geomorphologische Kartierung",
+        "fr": "Cartographie géomorphologique",
+        "it": "Cartografia geomorfologica",
+        "no": "Geomorfologisk kartlegging",
+        "zh": "地貌制图"
+      }
+    },
+    {
+      "label": {
+        "pt": "LiDAR / MDTs",
+        "en": "LiDAR / DEMs",
+        "es": "LiDAR / MDT",
+        "de": "LiDAR / DGM",
+        "fr": "LiDAR / MNT",
+        "it": "LiDAR / DEM",
+        "no": "LiDAR / DEM-er",
+        "zh": "LiDAR / DEM"
+      }
+    },
+    {
+      "label": {
+        "pt": "Trabalho de campo",
+        "en": "Field surveys",
+        "es": "Trabajo de campo",
+        "de": "Geländeerhebungen",
+        "fr": "Relevés de terrain",
+        "it": "Rilievi sul terreno",
+        "no": "Feltundersøkelser",
+        "zh": "野外调查"
+      }
+    },
+    {
+      "label": {
+        "pt": "GlaRe",
+        "en": "GlaRe",
+        "es": "GlaRe",
+        "de": "GlaRe",
+        "fr": "GlaRe",
+        "it": "GlaRe",
+        "no": "GlaRe",
+        "zh": "GlaRe"
+      }
+    },
+    {
+      "label": {
+        "pt": "paleo-ELA",
+        "en": "palaeo-ELA",
+        "es": "paleo-ELA",
+        "de": "Paläo-ELA",
+        "fr": "paléo-ELA",
+        "it": "paleo-ELA",
+        "no": "paleo-ELA",
+        "zh": "古冰川 ELA"
+      }
+    },
+    {
+      "label": {
+        "pt": "Datação OSL",
+        "en": "OSL dating",
+        "es": "Datación OSL",
+        "de": "OSL-Datierung",
+        "fr": "Datation OSL",
+        "it": "Datazione OSL",
+        "no": "OSL-datering",
+        "zh": "光释光测年（OSL）"
+      }
+    },
+    {
+      "label": {
+        "pt": "Datação AMS ¹⁴C",
+        "en": "AMS ¹⁴C dating",
+        "es": "Datación AMS ¹⁴C",
+        "de": "AMS-¹⁴C-Datierung",
+        "fr": "Datation AMS ¹⁴C",
+        "it": "Datazione AMS ¹⁴C",
+        "no": "AMS ¹⁴C-datering",
+        "zh": "AMS ¹⁴C 测年"
+      }
+    },
+    {
+      "label": {
+        "pt": "Nuclídeos cosmogénicos",
+        "en": "Cosmogenic nuclides",
+        "es": "Nucleidos cosmogénicos",
+        "de": "Kosmogene Nuklide",
+        "fr": "Nucléides cosmogéniques",
+        "it": "Nuclidi cosmogenici",
+        "no": "Kosmogene nuklider",
+        "zh": "宇宙成因核素"
+      }
+    },
+    {
+      "label": {
+        "pt": "GIS",
+        "en": "GIS",
+        "es": "GIS",
+        "de": "GIS",
+        "fr": "GIS",
+        "it": "GIS",
+        "no": "GIS",
+        "zh": "GIS"
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "works.html",
+      "intro": {
+        "pt": "Produção científica",
+        "en": "Scientific output",
+        "es": "Producción científica",
+        "de": "Wissenschaftliche Arbeiten",
+        "fr": "Production scientifique",
+        "it": "Produzione scientifica",
+        "no": "Vitenskapelige arbeider",
+        "zh": "科研成果"
+      },
+      "cta": {
+        "pt": "Publicações e comunicações",
+        "en": "Publications and conference contributions",
+        "es": "Publicaciones y comunicaciones",
+        "de": "Publikationen und Tagungsbeiträge",
+        "fr": "Publications et communications",
+        "it": "Pubblicazioni e contributi a convegni",
+        "no": "Publikasjoner og konferansebidrag",
+        "zh": "出版物与会议成果"
+      }
+    },
+    {
+      "href": "terminology.html",
+      "intro": {
+        "pt": "Vocabulário controlado",
+        "en": "Controlled vocabulary",
+        "es": "Vocabulario controlado",
+        "de": "Kontrolliertes Vokabular",
+        "fr": "Vocabulaire contrôlé",
+        "it": "Vocabolario controllato",
+        "no": "Kontrollert vokabular",
+        "zh": "受控词汇"
+      },
+      "cta": {
+        "pt": "Glossário",
+        "en": "Glossary",
+        "es": "Glosario",
+        "de": "Glossar",
+        "fr": "Glossaire",
+        "it": "Glossario",
+        "no": "Glosebok",
+        "zh": "术语表"
+      }
+    },
+    {
+      "href": "atlas.html",
+      "intro": {
+        "pt": "Arquivo visual",
+        "en": "Visual archive",
+        "es": "Archivo visual",
+        "de": "Visuelles Archiv",
+        "fr": "Archive visuelle",
+        "it": "Archivio visivo",
+        "no": "Visuelt arkiv",
+        "zh": "影像档案"
+      },
+      "cta": {
+        "pt": "Atlas",
+        "en": "Atlas",
+        "es": "Atlas",
+        "de": "Atlas",
+        "fr": "Atlas",
+        "it": "Atlas",
+        "no": "Atlas",
+        "zh": "图集"
+      }
+    }
+  ]
+}

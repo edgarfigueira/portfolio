@@ -1,0 +1,236 @@
+[
+  {
+    "id": "soajo",
+    "name": "Serra do Soajo / Alto Vez",
+    "extent": {
+      "south": 41.825,
+      "west": -8.43,
+      "north": 42.03,
+      "east": -8.07
+    },
+    "polygon": [
+      {
+        "lat": 41.87,
+        "lon": -8.36
+      },
+      {
+        "lat": 41.9,
+        "lon": -8.42
+      },
+      {
+        "lat": 41.98,
+        "lon": -8.39
+      },
+      {
+        "lat": 42.01,
+        "lon": -8.29
+      },
+      {
+        "lat": 41.98,
+        "lon": -8.17
+      },
+      {
+        "lat": 41.92,
+        "lon": -8.11
+      },
+      {
+        "lat": 41.86,
+        "lon": -8.19
+      },
+      {
+        "lat": 41.84,
+        "lon": -8.29
+      }
+    ]
+  },
+  {
+    "id": "cabreira",
+    "name": "Serra da Cabreira",
+    "extent": {
+      "south": 41.565,
+      "west": -8.145,
+      "north": 41.725,
+      "east": -7.92
+    },
+    "polygon": [
+      {
+        "lat": 41.59,
+        "lon": -8.11
+      },
+      {
+        "lat": 41.63,
+        "lon": -8.15
+      },
+      {
+        "lat": 41.7,
+        "lon": -8.1
+      },
+      {
+        "lat": 41.72,
+        "lon": -8
+      },
+      {
+        "lat": 41.68,
+        "lon": -7.93
+      },
+      {
+        "lat": 41.61,
+        "lon": -7.96
+      },
+      {
+        "lat": 41.58,
+        "lon": -8.03
+      }
+    ]
+  },
+  {
+    "id": "amarela",
+    "name": "Serra Amarela",
+    "extent": {
+      "south": 41.745,
+      "west": -8.255,
+      "north": 41.885,
+      "east": -8.06
+    },
+    "polygon": [
+      {
+        "lat": 41.76,
+        "lon": -8.2
+      },
+      {
+        "lat": 41.79,
+        "lon": -8.25
+      },
+      {
+        "lat": 41.86,
+        "lon": -8.21
+      },
+      {
+        "lat": 41.88,
+        "lon": -8.13
+      },
+      {
+        "lat": 41.84,
+        "lon": -8.07
+      },
+      {
+        "lat": 41.78,
+        "lon": -8.09
+      }
+    ]
+  },
+  {
+    "id": "geres",
+    "name": "Serra do Gerês",
+    "extent": {
+      "south": 41.69,
+      "west": -8.2,
+      "north": 41.95,
+      "east": -7.65
+    },
+    "polygon": [
+      {
+        "lat": 41.72,
+        "lon": -8.13
+      },
+      {
+        "lat": 41.78,
+        "lon": -8.2
+      },
+      {
+        "lat": 41.88,
+        "lon": -8.1
+      },
+      {
+        "lat": 41.93,
+        "lon": -7.88
+      },
+      {
+        "lat": 41.89,
+        "lon": -7.69
+      },
+      {
+        "lat": 41.8,
+        "lon": -7.75
+      },
+      {
+        "lat": 41.73,
+        "lon": -7.95
+      }
+    ]
+  },
+  {
+    "id": "castro",
+    "name": "Castro de Laboreiro",
+    "extent": {
+      "south": 41.965,
+      "west": -8.275,
+      "north": 42.095,
+      "east": -8.03
+    },
+    "polygon": [
+      {
+        "lat": 41.98,
+        "lon": -8.24
+      },
+      {
+        "lat": 42.05,
+        "lon": -8.27
+      },
+      {
+        "lat": 42.09,
+        "lon": -8.17
+      },
+      {
+        "lat": 42.06,
+        "lon": -8.05
+      },
+      {
+        "lat": 41.99,
+        "lon": -8.07
+      }
+    ]
+  },
+  {
+    "id": "sil",
+    "name": "Alto Sil",
+    "extent": {
+      "south": 42.675,
+      "west": -6.85,
+      "north": 42.99,
+      "east": -6.125
+    },
+    "polygon": [
+      {
+        "lat": 42.69,
+        "lon": -6.77
+      },
+      {
+        "lat": 42.76,
+        "lon": -6.85
+      },
+      {
+        "lat": 42.92,
+        "lon": -6.7
+      },
+      {
+        "lat": 42.98,
+        "lon": -6.38
+      },
+      {
+        "lat": 42.9,
+        "lon": -6.16
+      },
+      {
+        "lat": 42.76,
+        "lon": -6.25
+      }
+    ]
+  },
+  {
+    "id": "digital",
+    "name": "Digital workflow",
+    "extent": null,
+    "polygon": null
+  }
+]

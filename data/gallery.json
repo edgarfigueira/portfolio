@@ -1,0 +1,240 @@
+[
+	{
+		"src": "assets/gallery/marinho_lagoa.JPG",
+		"ratio": "landscape",
+		"caption": {
+			"pt": "Serra do Gerês · Lagoa do Marinho",
+			"en": "Serra do Gerês · Lagoa do Marinho",
+			"es": "Serra do Gerês · Lagoa do Marinho",
+			"de": "Serra do Gerês · Lagoa do Marinho",
+			"fr": "Serra do Gerês · Lagoa do Marinho",
+			"it": "Serra do Gerês · Lagoa do Marinho",
+			"no": "Serra do Gerês · Lagoa do Marinho",
+			"zh": "Serra do Gerês · Lagoa do Marinho"
+		}
+	},
+	{
+		"src": "assets/gallery/jaca/jaca4.jpg",
+		"ratio": "portrait",
+		"caption": {
+			"pt": "Ciudadela de Jaca · nota de campo",
+			"en": "Ciudadela de Jaca · field survey note",
+			"es": "Ciudadela de Jaca · nota de campo",
+			"de": "Ciudadela de Jaca · Feldnotiz",
+			"fr": "Citadelle de Jaca · note de terrain",
+			"it": "Cittadella di Jaca · nota di campo",
+			"no": "Ciudadela de Jaca · feltnotat",
+			"zh": "Ciudadela de Jaca · 现场笔记"
+		}
+	},
+	{
+		"src": "assets/gallery/periglaciar3.jpg",
+		"ratio": "landscape",
+		"caption": {
+			"pt": "Levantamento geomorfológico · Pôr do sol na Serra da Cabreira",
+			"en": "Geomorphological survey · Sunset at Serra da Cabreira",
+			"es": "Estudio geomorfológico · Puesta de sol en la Serra da Cabreira",
+			"de": "Geomorphologische Untersuchung · Sonnenuntergang in der Serra da Cabreira",
+			"fr": "Étude géomorphologique · Coucher de soleil dans la Serra da Cabreira",
+			"it": "Rilievo geomorfologico · Tramonto nella Serra da Cabreira",
+			"no": "Geomorfologisk undersøkelse · Solnedgang i Serra da Cabreira",
+			"zh": "地貌调查 · Serra da Cabreira 的日落"
+		}
+	},
+	{
+		"src": "assets/gallery/jaca/jaca8.jpg",
+		"ratio": "portrait",
+		"caption": {
+			"pt": "Sallent de Gállego · Pirinéus aragoneses",
+			"en": "Sallent de Gállego · Pyrenees aragonese",
+			"es": "Sallent de Gállego · Pirineo aragonés",
+			"de": "Sallent de Gállego · Pyrenäen aragoneses",
+			"fr": "Sallent de Gállego · Pyrénées aragonaises",
+			"it": "Sallent de Gállego · Pirenei aragonesi",
+			"no": "Sallent de Gállego · Pyreneene aragonesiske",
+			"zh": "Sallent de Gállego · 阿拉贡比利牛斯山"
+		}
+	},
+	{
+		"src": "assets/gallery/jaca/jaca6.jpg",
+		"ratio": "landscape",
+		"caption": {
+			"pt": "Marcos Abadía e Edgar Figueira · Pirinéus aragoneses",
+			"en": "Marcos Abadía and Edgar Figueira · Pyrenees aragonese",
+			"es": "Marcos Abadía y Edgar Figueira · Pirineo aragonés",
+			"de": "Marcos Abadía und Edgar Figueira · Pyrenäen aragoneses",
+			"fr": "Marcos Abadía et Edgar Figueira · Pyrénées aragonaises",
+			"it": "Marcos Abadía e Edgar Figueira · Pirenei aragonesi",
+			"no": "Marcos Abadía og Edgar Figueira · Pyreneene aragonesiske",
+			"zh": "Marcos Abadía 和 Edgar Figueira · 阿拉贡比利牛斯山"
+		}
+	},
+	{
+		"src": "assets/gallery/jaca/jaca9.JPG",
+		"ratio": "landscape",
+		"caption": {
+			"pt": "Ibón de la Sierra · Pirinéus aragoneses",
+			"en": "Ibón de la Sierra · Pyrenees aragonese",
+			"es": "Ibón de la Sierra · Pirineo aragonés",
+			"de": "Ibón de la Sierra · Pyrenäen aragoneses",
+			"fr": "Ibón de la Sierra · Pyrénées aragonaises",
+			"it": "Ibón de la Sierra · Pirenei aragonesi",
+			"no": "Ibón de la Sierra · Pyreneene aragonesiske",
+			"zh": "Ibón de la Sierra · 阿拉贡比利牛斯山"
+		}
+	},
+	{
+		"src": "assets/gallery/windsor/5.jpg",
+		"ratio": "portrait",
+		"caption": {
+			"pt": "The Long Walk · Windsor Great Park, Reino Unido",
+			"en": "The Long Walk · Windsor Great Park, United Kingdom",
+			"es": "The Long Walk · Windsor Great Park, Reino Unido",
+			"de": "The Long Walk · Windsor Great Park, Vereinigtes Königreich",
+			"fr": "The Long Walk · Windsor Great Park, Royaume-Uni",
+			"it": "The Long Walk · Windsor Great Park, Regno Unito",
+			"no": "The Long Walk · Windsor Great Park, Storbritannia",
+			"zh": "The Long Walk · Windsor Great Park, 英国"
+		}
+	},
+	{
+		"src": "assets/gallery/oviedo/3.jpg",
+		"ratio": "portrait",
+		"caption": {
+			"pt": "Parque Natural Las Ubiñas-La Mesa · Oviedo, Espanha",
+			"en": "Parque Natural Las Ubiñas-La Mesa · Oviedo, Spain",
+			"es": "Parque Natural Las Ubiñas-La Mesa · Oviedo, España",
+			"de": "Parque Natural Las Ubiñas-La Mesa · Oviedo, Spanien",
+			"fr": "Parque Natural Las Ubiñas-La Mesa · Oviedo, Espagne",
+			"it": "Parque Natural Las Ubiñas-La Mesa · Oviedo, Spagna",
+			"no": "Parque Natural Las Ubiñas-La Mesa · Oviedo, Spania",
+			"zh": "Parque Natural Las Ubiñas-La Mesa · Oviedo, 西班牙"
+		}
+	},
+	{
+		"src": "assets/gallery/jaca/jaca3.jpg",
+		"ratio": "portrait",
+		"caption": {
+			"pt": "Foto de grupo · Barranco Zarrambucho",
+			"en": "Group photo · detail",
+			"es": "Foto de grupo · detalle",
+			"de": "Gruppenfoto · Detail",
+			"fr": "Photo de groupe · détail",
+			"it": "Foto di gruppo · dettaglio",
+			"no": "Gruppefoto · detalj",
+			"zh": "群体照片 · 细节"
+		}
+	},
+	{
+		"src": "assets/gallery/drone/ria.jpg",
+		"ratio": "landscape",
+		"caption": {
+			"pt": "Ria de Aveiro · Drone DJI Mini 3",
+			"en": "Ria de Aveiro · DJI Mini 3 Drone",
+			"es": "Ria de Aveiro · Dron DJI Mini 3",
+			"de": "Ria de Aveiro · DJI Mini 3 Drohne",
+			"fr": "Ria de Aveiro · Dron DJI Mini 3",
+			"it": "Ria di Aveiro · Drone DJI Mini 3",
+			"no": "Ria de Aveiro · DJI Mini 3-drone",
+			"zh": "Ria de Aveiro · DJI Mini 3 无人机"
+		}
+	},
+	{
+		"src": "assets/gallery/windsor/4.jpg",
+		"ratio": "portrait",
+		"caption": {
+			"pt": "Ikigai · Workshop British Society for Geomorphology · Windsor, Reino Unido",
+			"en": "Ikigai · Workshop British Society for Geomorphology · Windsor, United Kingdom",
+			"es": "Ikigai · Taller de la Sociedad Británica de Geomorfología · Windsor, Reino Unido",
+			"de": "Ikigai · Workshop der British Society for Geomorphology · Windsor, Vereinigtes Königreich",
+			"fr": "Ikigai · Atelier de la British Society for Geomorphology · Windsor, Royaume-Uni",
+			"it": "Ikigai · Workshop British Society for Geomorphology · Windsor, Regno Unito",
+			"no": "Ikigai · Workshop British Society for Geomorphology · Windsor, Storbritannia",
+			"zh": "Ikigai · 英国地貌学会研讨会 · 温莎，英国"
+		}
+	},
+	{
+		"src": "assets/gallery/windsor/1.jpg",
+		"ratio": "portrait",
+		"caption": {
+			"pt": "Apresentação 1 minuto · Workshop British Society for Geomorphology · Windsor, Reino Unido",
+			"en": "1-minute presentation · Workshop British Society for Geomorphology · Windsor, United Kingdom",
+			"es": "Presentación de 1 minuto · Taller de la Sociedad Británica de Geomorfología · Windsor, Reino Unido",
+			"de": "1-minütige Präsentation · Workshop der British Society for Geomorphology · Windsor, Vereinigtes Königreich",
+			"fr": "Présentation d'une minute · Atelier de la British Society for Geomorphology · Windsor, Royaume-Uni",
+			"it": "Presentazione di 1 minuto · Workshop British Society for Geomorphology · Windsor, Regno Unito",
+			"no": "1-minutters presentasjon · Workshop British Society for Geomorphology · Windsor, Storbritannia",
+			"zh": "1分钟演讲 · 英国地貌学会研讨会 · 温莎，英国"
+		}
+	},
+	{
+		"src": "assets/gallery/windsor/3.jpg",
+		"ratio": "portrait",
+		"caption": {
+			"pt": "Cumberland lodge · Windsor Great Park, Reino Unido",
+			"en": "Cumberland lodge · Windsor Great Park, United Kingdom",
+			"es": "Cumberland lodge · Windsor Great Park, Reino Unido",
+			"de": "Cumberland lodge · Windsor Great Park, Vereinigtes Königreich",
+			"fr": "Cumberland lodge · Windsor Great Park, Royaume-Uni",
+			"it": "Cumberland lodge · Windsor Great Park, Regno Unito",
+			"no": "Cumberland lodge · Windsor Great Park, Storbritannia",
+			"zh": "Cumberland lodge · Windsor Great Park, 英国"
+		}
+	},
+	{
+		"src": "assets/gallery/jaca/jaca7.jpg",
+		"ratio": "landscape",
+		"caption": {
+			"pt": "Canfranc · Pirinéus aragoneses",
+			"en": "Canfranc · Pyrenees aragonese",
+			"es": "Canfranc · Pirineo aragonés",
+			"de": "Canfranc · Pyrenäen aragoneses",
+			"fr": "Canfranc · Pyrénées aragonaises",
+			"it": "Canfranc · Pyrénées aragonaises",
+			"no": "Canfranc · Pyrenæer aragoneses",
+			"zh": "Canfranc · 阿拉贡比利牛斯山脉"
+		}
+	},
+	{
+		"src": "assets/gallery/oviedo/1.jpg",
+		"ratio": "landscape",
+		"caption": {
+			"pt": "Lena, Parque Natural Las Ubiñas-La Mesa · Oviedo, Espanha",
+			"en": "Lena, Natural Park Las Ubiñas-La Mesa · Oviedo, Spain",
+			"es": "Lena,Parque Natural Las Ubiñas-La Mesa · Oviedo, España",
+			"de": "Lena, Naturschutzgebiet Las Ubiñas-La Mesa · Oviedo, Spanien",
+			"fr": "Lena, Parc naturel Las Ubiñas-La Mesa · Oviedo, Espagne",
+			"it": "Lena, Parco naturale Las Ubiñas-La Mesa · Oviedo, Spagna",
+			"no": "Lena, Naturpark Las Ubiñas-La Mesa · Oviedo, Spania",
+			"zh": "Lena, Parque Natural Las Ubiñas-La Mesa · Oviedo, 西班牙"
+		}
+	},
+	{
+		"src": "assets/gallery/oviedo/5.jpg",
+		"ratio": "landscape",
+		"caption": {
+			"pt": "Peña Ubiña · Oviedo, Espanha",
+			"en": "Peña Ubiña · Oviedo, Spain",
+			"es": "Peña Ubiña · Oviedo, España",
+			"de": "Peña Ubiña · Oviedo, Spanien",
+			"fr": "Peña Ubiña · Oviedo, Espagne",
+			"it": "Peña Ubiña · Oviedo, Spagna",
+			"no": "Peña Ubiña · Oviedo, Spania",
+			"zh": "Peña Ubiña · Oviedo, 西班牙"
+		}
+	},
+	{
+		"src": "assets/gallery/jaca/jaca2.jpg",
+		"ratio": "portrait",
+		"caption": {
+			"pt": "Catedral basílica de Nuestra Señora del Pilar · Zaragoza, Espanha",
+			"en": "Basilica Cathedral of Our Lady of the Pillar · Zaragoza, Spain",
+			"es": "Catedral basílica de Nuestra Señora del Pilar · Zaragoza, España",
+			"de": "Basilika-Kathedrale von Unsere Liebe Frau des Pfeils · Zaragoza, Spanien",
+			"fr": "Cathédrale basilique de Notre-Dame du Piller · Zaragoza, Espagne",
+			"it": "Cattedrale basilica di Nostra Signora del Pilar · Zaragoza, Spagna",
+			"no": "Basilika-Kathedrale von Unsere Liebe Frau des Pfeils · Zaragoza, Spanien",
+			"zh": "圣母柱大教堂 · 萨拉戈萨，西班牙"
+		}
+	}
+]

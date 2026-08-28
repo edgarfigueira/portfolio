@@ -1,0 +1,474 @@
+{
+  "aside": {
+    "fields": {
+      "pt": "Geografia Física · Geomorfologia · SIG",
+      "en": "Physical Geography · Geomorphology · GIS",
+      "es": "Geografía Física · Geomorfología · SIG",
+      "de": "Physische Geographie · Geomorphologie · GIS",
+      "fr": "Géographie physique · Géomorphologie · SIG",
+      "it": "Geografia fisica · Geomorfologia · GIS",
+      "no": "Fysisk geografi · Geomorfologi · GIS",
+      "zh": "自然地理学 · 地貌学 · GIS"
+    },
+    "affiliation": {
+      "pt": "Centro de Estudos de Geografia e Ordenamento do Território · Faculdade de Letras · Universidade do Porto",
+      "en": "Center for Geography and Territorial Planning · Faculty of Arts and Humanities · University of Porto",
+      "es": "Center for Geography and Territorial Planning · Facultad de Letras · Universidad de Oporto",
+      "de": "Center for Geography and Territorial Planning · Fakultät für Geisteswissenschaften · Universität Porto",
+      "fr": "Center for Geography and Territorial Planning · Faculté des Lettres et Sciences Humaines · Université de Porto",
+      "it": "Center for Geography and Territorial Planning · Facoltà di Lettere e Scienze Umanistiche · Università di Porto",
+      "no": "Center for Geography and Territorial Planning · Fakultet for humaniora · Universitetet i Porto",
+      "zh": "地理与国土规划研究中心 · 文学院与人文学院 · 波尔图大学"
+    }
+  },
+  "education": [
+    {
+      "period": {
+        "pt": "2025–2031 · em curso",
+        "en": "2025–2031 · ongoing",
+        "es": "2025–2031 · en curso",
+        "de": "2025–2031 · laufend",
+        "fr": "2025–2031 · en cours",
+        "it": "2025–2031 · in corso",
+        "no": "2025–2031 · pågående",
+        "zh": "2025–2031 · 进行中"
+      },
+      "title": {
+        "pt": "3º Ciclo em Geografia",
+        "en": "PhD Programme in Geography",
+        "es": "Programa de doctorado en Geografía",
+        "de": "Doktorandenprogramm in Geographie",
+        "fr": "Programme de doctorat en géographie",
+        "it": "Dottorato di ricerca in Geografia",
+        "no": "PhD-program i geografi",
+        "zh": "地理学博士课程"
+      },
+      "details": {
+        "pt": "Geografia Física · Faculdade de Letras · Universidade do Porto",
+        "en": "Physical Geography · Faculty of Arts and Humanities · University of Porto",
+        "es": "Geografía Física · Facultad de Letras · Universidad de Oporto",
+        "de": "Physische Geographie · Fakultät für Geisteswissenschaften · Universität Porto",
+        "fr": "Géographie physique · Faculté des Lettres et Sciences Humaines · Université de Porto",
+        "it": "Geografia fisica · Facoltà di Lettere e Scienze Umanistiche · Università di Porto",
+        "no": "Fysisk geografi · Fakultet for humaniora · Universitetet i Porto",
+        "zh": "自然地理学 · 文学院与人文学院 · 波尔图大学"
+      }
+    },
+    {
+      "period": {
+        "pt": "2019–2022",
+        "en": "2019–2022",
+        "es": "2019–2022",
+        "de": "2019–2022",
+        "fr": "2019–2022",
+        "it": "2019–2022",
+        "no": "2019–2022",
+        "zh": "2019–2022"
+      },
+      "title": {
+        "pt": "Mestrado · Sistemas de Informação Geográfica aplicados ao Ordenamento do Território",
+        "en": "MSc · Geographic Information Systems applied to Spatial Planning",
+        "es": "Máster · Sistemas de Información Geográfica aplicados a la Ordenación del Territorio",
+        "de": "MSc · Geographische Informationssysteme in der Raumplanung",
+        "fr": "Master · Systèmes d’information géographique appliqués à l’aménagement du territoire",
+        "it": "Laurea magistrale · Sistemi Informativi Geografici applicati alla pianificazione territoriale",
+        "no": "Master · Geografiske informasjonssystemer anvendt i arealplanlegging",
+        "zh": "硕士 · 应用于国土空间规划的地理信息系统"
+      },
+      "details": {
+        "pt": "Especialização em Geomorfologia e Cartografia · Universidade do Porto · classificação 17/20",
+        "en": "Specialisation in Geomorphology and Cartography · University of Porto · final grade 17/20",
+        "es": "Especialización en Geomorfología y Cartografía · Universidad de Oporto · calificación final 17/20",
+        "de": "Schwerpunkt Geomorphologie und Kartographie · Universität Porto · Abschlussnote 17/20",
+        "fr": "Spécialisation en géomorphologie et cartographie · Université de Porto · note finale 17/20",
+        "it": "Specializzazione in Geomorfologia e Cartografia · Università di Porto · valutazione finale 17/20",
+        "no": "Spesialisering i geomorfologi og kartografi · Universitetet i Porto · sluttkarakter 17/20",
+        "zh": "地貌学与制图学方向 · 波尔图大学 · 最终成绩 17/20"
+      }
+    },
+    {
+      "period": {
+        "pt": "2016–2019",
+        "en": "2016–2019",
+        "es": "2016–2019",
+        "de": "2016–2019",
+        "fr": "2016–2019",
+        "it": "2016–2019",
+        "no": "2016–2019",
+        "zh": "2016–2019"
+      },
+      "title": {
+        "pt": "Licenciatura em Geografia",
+        "en": "Degree in Geography",
+        "es": "Grado en Geografía",
+        "de": "Bachelorstudium Geographie",
+        "fr": "Licence en géographie",
+        "it": "Laurea in Geografia",
+        "no": "Bachelorgrad i geografi",
+        "zh": "地理学学士"
+      },
+      "details": {
+        "pt": "SIG e Geografia Física · Universidade do Porto",
+        "en": "GIS and Physical Geography · University of Porto",
+        "es": "SIG y Geografía Física · Universidad de Oporto",
+        "de": "GIS und Physische Geographie · Universität Porto",
+        "fr": "SIG et géographie physique · Université de Porto",
+        "it": "GIS e Geografia fisica · Università di Porto",
+        "no": "GIS og fysisk geografi · Universitetet i Porto",
+        "zh": "GIS 与自然地理学 · 波尔图大学"
+      }
+    },
+    {
+      "period": {
+        "pt": "2024",
+        "en": "2024",
+        "es": "2024",
+        "de": "2024",
+        "fr": "2024",
+        "it": "2024",
+        "no": "2024",
+        "zh": "2024"
+      },
+      "title": {
+        "pt": "Certificado de Competências Pedagógicas",
+        "en": "Certificate of Pedagogical Competences",
+        "es": "Certificado de Competencias Pedagógicas",
+        "de": "Zertifikat pädagogischer Kompetenzen",
+        "fr": "Certificat de compétences pédagogiques",
+        "it": "Certificato di competenze pedagogiche",
+        "no": "Sertifikat i pedagogisk kompetanse",
+        "zh": "教学能力证书"
+      },
+      "details": {
+        "pt": "Instituto do Emprego e Formação Profissional",
+        "en": "Instituto do Emprego e Formação Profissional",
+        "es": "Instituto do Emprego e Formação Profissional",
+        "de": "Instituto do Emprego e Formação Profissional",
+        "fr": "Instituto do Emprego e Formação Profissional",
+        "it": "Instituto do Emprego e Formação Profissional",
+        "no": "Instituto do Emprego e Formação Profissional",
+        "zh": "Instituto do Emprego e Formação Profissional"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "period": "2025–2026",
+      "role": {
+        "pt": "Técnico Superior",
+        "en": "Senior Technician",
+        "es": "Técnico Superior",
+        "de": "Höherer technischer Mitarbeiter",
+        "fr": "Technicien supérieur",
+        "it": "Tecnico superiore",
+        "no": "Seniorrådgiver / teknisk medarbeider",
+        "zh": "高级技术人员"
+      },
+      "organizations": [
+        {
+          "name": {
+            "pt": "Faculdade de Letras · Universidade do Porto",
+            "en": "Faculty of Arts and Humanities · University of Porto",
+            "es": "Facultad de Letras · Universidad de Oporto",
+            "de": "Fakultät für Geisteswissenschaften · Universität Porto",
+            "fr": "Faculté des Lettres et Sciences Humaines · Université de Porto",
+            "it": "Facoltà di Lettere e Scienze Umanistiche · Università di Porto",
+            "no": "Fakultet for humaniora · Universitetet i Porto",
+            "zh": "文学院与人文学院 · 波尔图大学"
+          },
+          "url": "https://www.fl.up.pt/"
+        }
+      ],
+      "description": {
+        "pt": "Desenvolvimento e manutenção de aplicações Web e sistemas de informação para suporte a processos académicos e institucionais, integrando frontend, backend, bases de dados e controlo de acessos.",
+        "en": "Development and maintenance of web applications and information systems supporting academic and institutional processes, integrating frontend, backend, databases and access control.",
+        "es": "Desarrollo y mantenimiento de aplicaciones web y sistemas de información para procesos académicos e institucionales, integrando frontend, backend, bases de datos y control de accesos.",
+        "de": "Entwicklung und Wartung von Webanwendungen und Informationssystemen zur Unterstützung akademischer und institutioneller Prozesse mit Frontend, Backend, Datenbanken und Zugriffskontrolle.",
+        "fr": "Développement et maintenance d’applications web et de systèmes d’information pour les processus académiques et institutionnels, intégrant frontend, backend, bases de données et contrôle des accès.",
+        "it": "Sviluppo e manutenzione di applicazioni web e sistemi informativi a supporto dei processi accademici e istituzionali, integrando frontend, backend, database e controllo degli accessi.",
+        "no": "Utvikling og vedlikehold av webapplikasjoner og informasjonssystemer for akademiske og institusjonelle prosesser, med frontend, backend, databaser og tilgangskontroll.",
+        "zh": "开发和维护用于学术与机构流程的 Web 应用和信息系统，涵盖前端、后端、数据库与访问控制。"
+      },
+      "tech": {
+        "pt": "JavaScript · React · Node.js / Django · PostgreSQL · SQL · HTML · CSS",
+        "en": "JavaScript · React · Node.js / Django · PostgreSQL · SQL · HTML · CSS",
+        "es": "JavaScript · React · Node.js / Django · PostgreSQL · SQL · HTML · CSS",
+        "de": "JavaScript · React · Node.js / Django · PostgreSQL · SQL · HTML · CSS",
+        "fr": "JavaScript · React · Node.js / Django · PostgreSQL · SQL · HTML · CSS",
+        "it": "JavaScript · React · Node.js / Django · PostgreSQL · SQL · HTML · CSS",
+        "no": "JavaScript · React · Node.js / Django · PostgreSQL · SQL · HTML · CSS",
+        "zh": "JavaScript · React · Node.js / Django · PostgreSQL · SQL · HTML · CSS"
+      }
+    },
+    {
+      "period": "2024–2025",
+      "role": {
+        "pt": "Técnico Superior",
+        "en": "Senior Technician",
+        "es": "Técnico Superior",
+        "de": "Höherer technischer Mitarbeiter",
+        "fr": "Technicien supérieur",
+        "it": "Tecnico superiore",
+        "no": "Seniorrådgiver / teknisk medarbeider",
+        "zh": "高级技术人员"
+      },
+      "organizations": [
+        {
+          "name": {
+            "pt": "RAIZ — Instituto de Investigação da Floresta e do Papel",
+            "en": "RAIZ — Instituto de Investigação da Floresta e do Papel",
+            "es": "RAIZ — Instituto de Investigação da Floresta e do Papel",
+            "de": "RAIZ — Instituto de Investigação da Floresta e do Papel",
+            "fr": "RAIZ — Instituto de Investigação da Floresta e do Papel",
+            "it": "RAIZ — Instituto de Investigação da Floresta e do Papel",
+            "no": "RAIZ — Instituto de Investigação da Floresta e do Papel",
+            "zh": "RAIZ — Instituto de Investigação da Floresta e do Papel"
+          },
+          "url": "https://raiz-iifp.pt/"
+        },
+        {
+          "name": {
+            "pt": "The Navigator Company",
+            "en": "The Navigator Company",
+            "es": "The Navigator Company",
+            "de": "The Navigator Company",
+            "fr": "The Navigator Company",
+            "it": "The Navigator Company",
+            "no": "The Navigator Company",
+            "zh": "The Navigator Company"
+          },
+          "url": "https://thenavigatorcompany.com/"
+        }
+      ],
+      "description": {
+        "pt": "Desenvolvimento de soluções WebGIS e gestão de infraestruturas de informação geográfica para apoio ao setor florestal, integrando bases de dados espaciais, serviços geográficos, desenvolvimento Web e produção cartográfica.",
+        "en": "Development of WebGIS solutions and management of geographic information infrastructures supporting the forestry sector, integrating spatial databases, geospatial services, web development and cartographic production.",
+        "es": "Desarrollo de soluciones WebGIS y gestión de infraestructuras de información geográfica para el sector forestal, integrando bases de datos espaciales, servicios geográficos, desarrollo web y producción cartográfica.",
+        "de": "Entwicklung von WebGIS-Lösungen und Verwaltung geografischer Informationsinfrastrukturen für den Forstsektor durch die Integration räumlicher Datenbanken, Geodienste, Webentwicklung und kartografischer Produktion.",
+        "fr": "Développement de solutions WebGIS et gestion d’infrastructures d’information géographique pour le secteur forestier, intégrant bases de données spatiales, services géographiques, développement web et production cartographique.",
+        "it": "Sviluppo di soluzioni WebGIS e gestione di infrastrutture di informazione geografica per il settore forestale, integrando database spaziali, servizi geografici, sviluppo web e produzione cartografica.",
+        "no": "Utvikling av WebGIS-løsninger og forvaltning av geografisk informasjonsinfrastruktur for skogsektoren, med integrasjon av romlige databaser, geodatatjenester, webutvikling og kartproduksjon.",
+        "zh": "为林业领域开发 WebGIS 解决方案并管理地理信息基础设施，整合空间数据库、地理空间服务、Web 开发与地图制作。"
+      },
+      "tech": {
+        "pt": "QGIS · PostgreSQL/PostGIS · GeoServer · OpenLayers · Leaflet · JavaScript · HTML · CSS · WebGIS",
+        "en": "QGIS · PostgreSQL/PostGIS · GeoServer · OpenLayers · Leaflet · JavaScript · HTML · CSS · WebGIS",
+        "es": "QGIS · PostgreSQL/PostGIS · GeoServer · OpenLayers · Leaflet · JavaScript · HTML · CSS · WebGIS",
+        "de": "QGIS · PostgreSQL/PostGIS · GeoServer · OpenLayers · Leaflet · JavaScript · HTML · CSS · WebGIS",
+        "fr": "QGIS · PostgreSQL/PostGIS · GeoServer · OpenLayers · Leaflet · JavaScript · HTML · CSS · WebGIS",
+        "it": "QGIS · PostgreSQL/PostGIS · GeoServer · OpenLayers · Leaflet · JavaScript · HTML · CSS · WebGIS",
+        "no": "QGIS · PostgreSQL/PostGIS · GeoServer · OpenLayers · Leaflet · JavaScript · HTML · CSS · WebGIS",
+        "zh": "QGIS · PostgreSQL/PostGIS · GeoServer · OpenLayers · Leaflet · JavaScript · HTML · CSS · WebGIS"
+      }
+    },
+    {
+      "period": "2022–2023",
+      "role": {
+        "pt": "Técnico Superior",
+        "en": "Senior Technician",
+        "es": "Técnico Superior",
+        "de": "Höherer technischer Mitarbeiter",
+        "fr": "Technicien supérieur",
+        "it": "Tecnico superiore",
+        "no": "Seniorrådgiver / teknisk medarbeider",
+        "zh": "高级技术人员"
+      },
+      "organizations": [
+        {
+          "name": {
+            "pt": "AdEvolutio",
+            "en": "AdEvolutio",
+            "es": "AdEvolutio",
+            "de": "AdEvolutio",
+            "fr": "AdEvolutio",
+            "it": "AdEvolutio",
+            "no": "AdEvolutio",
+            "zh": "AdEvolutio"
+          },
+          "url": "https://www.evolutio.pt/pt/"
+        }
+      ],
+      "description": {
+        "pt": "Desenvolvimento e gestão de informação geográfica para plataformas municipais, incluindo produção cartográfica, desenvolvimento WebGIS e criação de soluções interativas para visualização e comunicação de informação espacial.",
+        "en": "Development and management of geographic information for municipal platforms, including cartographic production, WebGIS development and interactive solutions for visualising and communicating spatial information.",
+        "es": "Desarrollo y gestión de información geográfica para plataformas municipales, incluyendo producción cartográfica, desarrollo WebGIS y soluciones interactivas para visualizar y comunicar información espacial.",
+        "de": "Entwicklung und Verwaltung geografischer Informationen für kommunale Plattformen, einschließlich kartografischer Produktion, WebGIS-Entwicklung und interaktiver Lösungen zur Visualisierung und Vermittlung räumlicher Informationen.",
+        "fr": "Développement et gestion de l’information géographique pour des plateformes municipales, incluant production cartographique, développement WebGIS et solutions interactives de visualisation et de communication de l’information spatiale.",
+        "it": "Sviluppo e gestione di informazioni geografiche per piattaforme comunali, comprendendo produzione cartografica, sviluppo WebGIS e soluzioni interattive per la visualizzazione e comunicazione di informazioni spaziali.",
+        "no": "Utvikling og forvaltning av geografisk informasjon for kommunale plattformer, inkludert kartproduksjon, WebGIS-utvikling og interaktive løsninger for visualisering og formidling av romlig informasjon.",
+        "zh": "为市政平台开发和管理地理信息，包括地图制作、WebGIS 开发以及用于空间信息可视化与传播的交互式解决方案。"
+      },
+      "tech": {
+        "pt": "SIG · JavaScript · HTML · CSS · OpenLayers · GSAP · GeoServer · Web Mapping",
+        "en": "GIS · JavaScript · HTML · CSS · OpenLayers · GSAP · GeoServer · Web Mapping",
+        "es": "SIG · JavaScript · HTML · CSS · OpenLayers · GSAP · GeoServer · Web Mapping",
+        "de": "GIS · JavaScript · HTML · CSS · OpenLayers · GSAP · GeoServer · Web Mapping",
+        "fr": "SIG · JavaScript · HTML · CSS · OpenLayers · GSAP · GeoServer · Web Mapping",
+        "it": "GIS · JavaScript · HTML · CSS · OpenLayers · GSAP · GeoServer · Web Mapping",
+        "no": "GIS · JavaScript · HTML · CSS · OpenLayers · GSAP · GeoServer · Web Mapping",
+        "zh": "GIS · JavaScript · HTML · CSS · OpenLayers · GSAP · GeoServer · Web Mapping"
+      }
+    },
+    {
+      "period": "2022",
+      "role": {
+        "pt": "Técnico Superior",
+        "en": "Senior Technician",
+        "es": "Técnico Superior",
+        "de": "Höherer technischer Mitarbeiter",
+        "fr": "Technicien supérieur",
+        "it": "Tecnico superiore",
+        "no": "Seniorrådgiver / teknisk medarbeider",
+        "zh": "高级技术人员"
+      },
+      "organizations": [
+        {
+          "name": {
+            "pt": "SOCARTO LDA.",
+            "en": "SOCARTO LDA.",
+            "es": "SOCARTO LDA.",
+            "de": "SOCARTO LDA.",
+            "fr": "SOCARTO LDA.",
+            "it": "SOCARTO LDA.",
+            "no": "SOCARTO LDA.",
+            "zh": "SOCARTO LDA."
+          },
+          "url": "https://www.socarto.pt/"
+        }
+      ],
+      "description": {
+        "pt": "Produção e edição de cartografia homologada pela DGT, gestão de informação geográfica e levantamentos de campo com apoio de ferramentas SIG.",
+        "en": "Production and editing of DGT-approved cartography, geographic data management and field surveys supported by GIS tools.",
+        "es": "Producción y edición de cartografía homologada por la DGT, gestión de información geográfica y levantamientos de campo con herramientas SIG.",
+        "de": "Erstellung und Bearbeitung DGT-zugelassener Kartographie, Verwaltung geografischer Daten und GIS-gestützte Geländeerhebungen.",
+        "fr": "Production et édition de cartographie homologuée par la DGT, gestion de données géographiques et relevés de terrain assistés par SIG.",
+        "it": "Produzione e modifica di cartografia omologata dalla DGT, gestione di dati geografici e rilievi sul terreno con strumenti GIS.",
+        "no": "Produksjon og redigering av DGT-godkjent kartografi, geografisk dataforvaltning og GIS-støttede feltundersøkelser.",
+        "zh": "制作与编辑经 DGT 认可的地图数据，管理地理信息，并利用 GIS 工具开展野外调查。"
+      },
+      "tech": {
+        "pt": "QGIS · PostGIS · plugins SIG · edição topocartográfica",
+        "en": "QGIS · PostGIS · GIS plugins · topographic data editing",
+        "es": "QGIS · PostGIS · plugins SIG · edición topocartográfica",
+        "de": "QGIS · PostGIS · GIS-Plugins · topographische Datenbearbeitung",
+        "fr": "QGIS · PostGIS · extensions SIG · édition topographique",
+        "it": "QGIS · PostGIS · plugin GIS · editing topografico",
+        "no": "QGIS · PostGIS · GIS-utvidelser · redigering av topografiske data",
+        "zh": "QGIS · PostGIS · GIS 插件 · 地形制图数据编辑"
+      }
+    },
+    {
+      "period": "2021–2022",
+      "role": {
+        "pt": "Técnico Superior",
+        "en": "Senior Technician",
+        "es": "Técnico Superior",
+        "de": "Höherer technischer Mitarbeiter",
+        "fr": "Technicien supérieur",
+        "it": "Tecnico superiore",
+        "no": "Seniorrådgiver / teknisk medarbeider",
+        "zh": "高级技术人员"
+      },
+      "organizations": [
+        {
+          "name": {
+            "pt": "Unimadeiras S.A.",
+            "en": "Unimadeiras S.A.",
+            "es": "Unimadeiras S.A.",
+            "de": "Unimadeiras S.A.",
+            "fr": "Unimadeiras S.A.",
+            "it": "Unimadeiras S.A.",
+            "no": "Unimadeiras S.A.",
+            "zh": "Unimadeiras S.A."
+          },
+          "url": "https://unimadeiras.pt/"
+        }
+      ],
+      "description": {
+        "pt": "Gestão SIG do património florestal, atualização de bases de dados, edição de informação topocartográfica e produção de cartografia de apoio à gestão florestal.",
+        "en": "GIS management of forestry assets, database updating, topographic data editing and production of cartography supporting forest management.",
+        "es": "Gestión SIG del patrimonio forestal, actualización de bases de datos, edición de información topocartográfica y producción cartográfica para la gestión forestal.",
+        "de": "GIS-gestützte Verwaltung von Forstflächen, Aktualisierung von Datenbanken, Bearbeitung topographischer Daten und Erstellung von Karten für das Forstmanagement.",
+        "fr": "Gestion SIG du patrimoine forestier, mise à jour de bases de données, édition de données topographiques et production cartographique pour la gestion forestière.",
+        "it": "Gestione GIS del patrimonio forestale, aggiornamento di database, modifica di dati topografici e produzione cartografica per la gestione forestale.",
+        "no": "GIS-forvaltning av skogeiendommer, oppdatering av databaser, redigering av topografiske data og kartproduksjon for skogforvaltning.",
+        "zh": "开展森林资产 GIS 管理、数据库更新、地形数据编辑以及森林经营支持制图。"
+      },
+      "tech": {
+        "pt": "SIG · bases de dados · cartografia florestal · FSC / PEFC",
+        "en": "GIS · databases · forestry cartography · FSC / PEFC",
+        "es": "SIG · bases de datos · cartografía forestal · FSC / PEFC",
+        "de": "GIS · Datenbanken · Forstkartographie · FSC / PEFC",
+        "fr": "SIG · bases de données · cartographie forestière · FSC / PEFC",
+        "it": "GIS · database · cartografia forestale · FSC / PEFC",
+        "no": "GIS · databaser · skogkartlegging · FSC / PEFC",
+        "zh": "GIS · 数据库 · 森林制图 · FSC / PEFC"
+      }
+    }
+  ],
+  "identifiers": [
+    {
+      "label": "ORCID",
+      "value": "0000-0001-9567-1648",
+      "url": "https://orcid.org/0000-0001-9567-1648",
+      "linkLabel": {
+        "pt": "0000-0001-9567-1648",
+        "en": "0000-0001-9567-1648",
+        "es": "0000-0001-9567-1648",
+        "de": "0000-0001-9567-1648",
+        "fr": "0000-0001-9567-1648",
+        "it": "0000-0001-9567-1648",
+        "no": "0000-0001-9567-1648",
+        "zh": "0000-0001-9567-1648"
+      },
+      "profileKey": "orcid"
+    },
+    {
+      "label": "Ciência ID",
+      "value": "1912-6B33-26CC",
+      "url": "",
+      "linkLabel": {
+        "pt": "1912-6B33-26CC",
+        "en": "1912-6B33-26CC",
+        "es": "1912-6B33-26CC",
+        "de": "1912-6B33-26CC",
+        "fr": "1912-6B33-26CC",
+        "it": "1912-6B33-26CC",
+        "no": "1912-6B33-26CC",
+        "zh": "1912-6B33-26CC"
+      }
+    },
+    {
+      "label": "CEGOT",
+      "value": "",
+      "url": "https://cegot.pt/pt/membros/edgar-junceiro-ramos-carneiro-figueira",
+      "linkLabel": {
+        "pt": "Perfil CEGOT",
+        "en": "CEGOT profile",
+        "es": "Perfil CEGOT",
+        "de": "CEGOT-Profil",
+        "fr": "Profil CEGOT",
+        "it": "Profilo CEGOT",
+        "no": "CEGOT-profil",
+        "zh": "CEGOT 个人主页"
+      },
+      "profileKey": "cegot"
+    },
+    {
+      "label": "Google Scholar",
+      "value": "",
+      "url": "https://scholar.google.com/citations?user=lm7kI1sAAAAJ&hl=pt-PT&oi=ao",
+      "linkLabel": {
+        "pt": "Edgar Figueira · Google Scholar ↗",
+        "en": "Edgar Figueira · Google Scholar ↗",
+        "es": "Edgar Figueira · Google Scholar ↗",
+        "de": "Edgar Figueira · Google Scholar ↗",
+        "fr": "Edgar Figueira · Google Scholar ↗",
+        "it": "Edgar Figueira · Google Scholar ↗",
+        "no": "Edgar Figueira · Google Scholar ↗",
+        "zh": "Edgar Figueira · Google Scholar ↗"
+      },
+      "profileKey": "googleScholar"
+    }
+  ]
+}

@@ -1,0 +1,559 @@
+media:
+  - name: site_assets
+    label: All site assets & media
+    input: assets
+    output: /assets
+    rename: safe
+  - name: gallery_images
+    label: Field Atlas images
+    input: assets/gallery
+    output: /assets/gallery
+    rename: safe
+    categories: [image]
+  - name: profile_images
+    label: Profile images
+    input: assets
+    output: /assets
+    rename: safe
+    categories: [image]
+
+components:
+  localized_string:
+    type: object
+    label: Languages
+    fields:
+      - { name: pt, label: Português, type: string }
+      - { name: en, label: English, type: string }
+      - { name: es, label: Español, type: string }
+      - { name: de, label: Deutsch, type: string }
+      - { name: fr, label: Français, type: string }
+      - { name: it, label: Italiano, type: string }
+      - { name: "no", label: Norsk, type: string }
+      - { name: zh, label: 中文, type: string }
+
+  localized_text:
+    type: object
+    label: Languages
+    fields:
+      - { name: pt, label: Português, type: text }
+      - { name: en, label: English, type: text }
+      - { name: es, label: Español, type: text }
+      - { name: de, label: Deutsch, type: text }
+      - { name: fr, label: Français, type: text }
+      - { name: it, label: Italiano, type: text }
+      - { name: "no", label: Norsk, type: text }
+      - { name: zh, label: 中文, type: text }
+
+  localized_list:
+    type: object
+    label: Languages
+    fields:
+      - { name: pt, label: Português, type: string, list: true }
+      - { name: en, label: English, type: string, list: true }
+      - { name: es, label: Español, type: string, list: true }
+      - { name: de, label: Deutsch, type: string, list: true }
+      - { name: fr, label: Français, type: string, list: true }
+      - { name: it, label: Italiano, type: string, list: true }
+      - { name: "no", label: Norsk, type: string, list: true }
+      - { name: zh, label: 中文, type: string, list: true }
+
+  bbox:
+    type: object
+    label: Bounding box
+    fields:
+      - { name: south, label: South latitude, type: number }
+      - { name: west, label: West longitude, type: number }
+      - { name: north, label: North latitude, type: number }
+      - { name: east, label: East longitude, type: number }
+
+  coordinate:
+    type: object
+    label: Coordinate
+    fields:
+      - { name: lat, label: Latitude, type: number, required: true }
+      - { name: lon, label: Longitude, type: number, required: true }
+
+  organization_link:
+    type: object
+    label: Organisation
+    fields:
+      - { name: name, label: Display / official name, component: localized_string }
+      - { name: url, label: Website, type: string }
+
+  cv_education_entry:
+    type: object
+    fields:
+      - { name: period, label: Period, component: localized_string }
+      - { name: title, label: Qualification / programme, component: localized_string }
+      - { name: details, label: Institution / details, component: localized_text }
+
+  cv_experience_entry:
+    type: object
+    fields:
+      - { name: period, label: Period, type: string, required: true }
+      - { name: role, label: Role, component: localized_string }
+      - name: organizations
+        label: Organisations / companies
+        component: organization_link
+        list:
+          collapsible:
+            collapsed: true
+            summary: "Organisation {index}"
+      - { name: description, label: Responsibilities, component: localized_text }
+      - { name: tech, label: Technologies / competences, component: localized_string }
+
+  cv_identifier_entry:
+    type: object
+    fields:
+      - { name: label, label: Identifier / profile, type: string, required: true }
+      - { name: value, label: Value, type: string }
+      - { name: url, label: URL fallback, type: string }
+      - name: profileKey
+        label: Use URL from profile field
+        type: select
+        options:
+          values:
+            - { name: orcid, label: ORCID }
+            - { name: researchgate, label: ResearchGate }
+            - { name: googleScholar, label: Google Scholar }
+            - { name: linkedin, label: LinkedIn }
+            - { name: cegot, label: CEGOT }
+      - { name: linkLabel, label: Display text, component: localized_string }
+
+  research_axis:
+    type: object
+    fields:
+      - { name: number, label: Number, type: string }
+      - { name: title, label: Title, component: localized_string }
+      - { name: copy, label: Description, component: localized_text }
+
+  research_method:
+    type: object
+    fields:
+      - { name: label, label: Method, component: localized_string }
+
+  research_link:
+    type: object
+    fields:
+      - { name: href, label: Internal URL, type: string, required: true }
+      - { name: intro, label: Supporting text, component: localized_string }
+      - { name: cta, label: Link label, component: localized_string }
+
+  mobility_entry:
+    type: object
+    fields:
+      - { name: year, label: Date / year, type: string, required: true }
+      - { name: title, label: Official title, type: string, required: true }
+      - { name: institution, label: Institution, type: string }
+      - { name: place, label: Place, type: string }
+      - name: statusKey
+        label: Status
+        type: select
+        options:
+          values:
+            - { name: status_active, label: Active }
+            - { name: status_planned, label: Planned }
+            - { name: status_training, label: Training }
+            - { name: status_awarded, label: Awarded }
+            - { name: status_completed, label: Completed }
+      - name: typeKey
+        label: Type
+        type: select
+        options:
+          values:
+            - { name: mob_type_grant, label: Research grant }
+            - { name: mob_type_mobility_grant, label: Mobility grant }
+            - { name: mob_type_training_grant, label: Training grant }
+            - { name: mob_type_field_course, label: Field course }
+            - { name: mob_type_postgrad_workshop, label: Postgraduate workshop }
+            - { name: mob_type_research_stay, label: Research stay }
+      - { name: description, label: Description, component: localized_text }
+      - { name: link, label: External link, type: string }
+      - { name: linkLabelKey, label: Link label translation key, type: string }
+
+  training_entry:
+    type: object
+    fields:
+      - { name: year, label: Date / year, type: string, required: true }
+      - { name: title, label: Official title, type: string, required: true }
+      - { name: institution, label: Institution / event, type: string }
+      - { name: place, label: Place, type: string }
+      - { name: duration, label: Duration, type: string }
+      - name: roleKey
+        label: Role
+        type: select
+        options:
+          values:
+            - { name: training_role_trainer, label: Trainer }
+            - { name: training_role_co_trainer, label: Co-trainer }
+            - { name: training_role_speaker, label: Speaker }
+      - name: typeKey
+        label: Activity type
+        type: select
+        options:
+          values:
+            - { name: training_type_course, label: Training course }
+            - { name: training_type_workshop, label: Workshop }
+            - { name: training_type_session, label: Training session }
+            - { name: training_type_colloquium, label: Colloquium / session }
+      - { name: description, label: Description, component: localized_text }
+      - { name: link, label: External link, type: string }
+      - { name: linkLabelKey, label: Link label translation key, type: string }
+
+content:
+  - name: profile_group
+    label: Profile & homepage
+    type: group
+    items:
+      - name: profile
+        label: Profile, links & homepage
+        type: file
+        path: data/profile.json
+        format: json
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - name: site
+            label: Site files
+            type: object
+            fields:
+              - name: favicon
+                label: Favicon
+                type: image
+                options: { media: site_assets }
+          - name: profile
+            label: Scientific profile
+            type: object
+            fields:
+              - { name: name, label: Display name, type: string, required: true }
+              - { name: brandMark, label: Header initials / mark, type: string, required: true }
+              - { name: email, label: Institutional & contact email, type: string, required: true }
+              - { name: orcid, label: ORCID URL, type: string }
+              - { name: researchgate, label: ResearchGate URL, type: string }
+              - { name: googleScholar, label: Google Scholar URL, type: string }
+              - { name: linkedin, label: LinkedIn URL, type: string }
+              - { name: cegot, label: CEGOT profile URL, type: string }
+          - name: homepage
+            label: Homepage
+            type: object
+            fields:
+              - name: profileImage
+                label: Profile image
+                type: image
+                options: { media: profile_images }
+              - { name: atlasPreviewCount, label: Random Atlas photos on homepage, type: number }
+              - name: highlights
+                label: Highlights
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{id} · {label}"
+                fields:
+                  - { name: id, label: Work ID, type: string, required: true }
+                  - { name: label, label: Display label, type: string }
+          - name: metrics
+            label: Live bibliometric settings
+            type: object
+            fields:
+              - { name: citationCacheHours, label: Citation cache (hours), type: number }
+              - name: citationSources
+                label: Citation sources
+                type: object
+                fields:
+                  - { name: crossref, label: Crossref enabled, type: boolean }
+                  - { name: opencitations, label: OpenCitations enabled, type: boolean }
+
+  - name: works_group
+    label: Scientific output
+    type: group
+    items:
+      - name: works
+        label: Works
+        type: file
+        path: data/works.json
+        format: json
+        list: true
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - { name: id, label: ID, type: string, required: true }
+          - { name: year, label: Year, type: number, required: true }
+          - name: type
+            label: Output type
+            type: select
+            options:
+              values:
+                - { name: article, label: Article }
+                - { name: conference, label: Conference }
+                - { name: thesis, label: Thesis }
+                - { name: protocol, label: Protocol / software }
+                - { name: poster, label: Poster }
+          - { name: region, label: Study region ID, type: string, required: true }
+          - { name: title, label: Bibliographic title, type: text, required: true }
+          - { name: authors, label: Authors, type: text }
+          - { name: venue, label: Journal / event / venue, type: string }
+          - { name: topics, label: Topics / keywords, type: string, list: true }
+          - { name: doi, label: DOI, type: string }
+          - { name: url, label: Publication URL, type: string }
+          - { name: bbox, label: Study bounding box, component: bbox }
+          - { name: abstract, label: Abstract / synopsis, component: localized_text }
+          - { name: studyArea, label: Study area description, component: localized_text }
+          - { name: methods, label: Methods, component: localized_list }
+          - { name: findings, label: Main findings, component: localized_list }
+          - { name: citation, label: Citation, type: text }
+          - { name: sourceNote, label: Source note, component: localized_text }
+          - name: image
+            label: Work image
+            type: image
+            options: { media: site_assets, categories: [image] }
+          - { name: imageCaption, label: Image caption, component: localized_string }
+
+      - name: regions
+        label: Study regions
+        type: file
+        path: data/regions.json
+        format: json
+        list: true
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - { name: id, label: Region ID, type: string, required: true }
+          - { name: name, label: Region name, type: string, required: true }
+          - { name: extent, label: Regional bounding box, component: bbox }
+          - name: polygon
+            label: Polygon vertices
+            component: coordinate
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{lat}, {lon}"
+
+  - name: research_group
+    label: Research page
+    type: group
+    items:
+      - name: research_content
+        label: Research content & structure
+        type: file
+        path: data/research.json
+        format: json
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - name: lead
+            label: Research framework
+            type: object
+            fields:
+              - { name: label, label: Eyebrow, component: localized_string }
+              - { name: title, label: Title, component: localized_string }
+              - { name: copy, label: Description, component: localized_text }
+          - name: axes
+            label: Research lines
+            component: research_axis
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{number}"
+          - name: methodsSection
+            label: Methods section
+            type: object
+            fields:
+              - { name: label, label: Eyebrow, component: localized_string }
+              - { name: title, label: Title, component: localized_string }
+              - { name: copy, label: Description, component: localized_text }
+          - name: methods
+            label: Methods / techniques
+            component: research_method
+            list:
+              collapsible:
+                collapsed: true
+                summary: "Method {index}"
+          - name: links
+            label: Research page links
+            component: research_link
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{href}"
+
+  - name: cv_group
+    label: Profile / CV
+    type: group
+    items:
+      - name: cv_content
+        label: Education, experience & identifiers
+        type: file
+        path: data/cv.json
+        format: json
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - name: aside
+            label: CV sidebar
+            type: object
+            fields:
+              - { name: fields, label: Fields, component: localized_string }
+              - { name: affiliation, label: Affiliation, component: localized_text }
+          - name: education
+            label: Education
+            component: cv_education_entry
+            list:
+              collapsible:
+                collapsed: true
+                summary: "Education {index}"
+          - name: experience
+            label: Professional experience
+            component: cv_experience_entry
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{period}"
+          - name: identifiers
+            label: Scientific identifiers & profiles
+            component: cv_identifier_entry
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{label}"
+
+  - name: atlas
+    label: Field Atlas
+    type: file
+    path: data/gallery.json
+    format: json
+    list: true
+    operations: { create: false, rename: false, delete: false }
+    fields:
+      - name: src
+        label: Photo
+        type: image
+        options: { media: gallery_images }
+      - name: ratio
+        label: Layout preference
+        type: select
+        options:
+          values:
+            - { name: auto, label: Automatic }
+            - { name: landscape, label: Landscape }
+            - { name: portrait, label: Portrait }
+      - { name: caption, label: Caption, component: localized_string }
+
+  - name: mobility
+    label: Funding & mobility
+    type: file
+    path: data/mobility.json
+    format: json
+    operations: { create: false, rename: false, delete: false }
+    fields:
+      - name: funding
+        label: Grants & funding
+        component: mobility_entry
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title} · {year}"
+      - name: abroad
+        label: International training & stays
+        component: mobility_entry
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title} · {year}"
+
+  - name: training
+    label: Training & teaching
+    type: file
+    path: data/training.json
+    format: json
+    operations: { create: false, rename: false, delete: false }
+    fields:
+      - name: activities
+        label: Delivered training, workshops & sessions
+        component: training_entry
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title} · {year}"
+
+  - name: terminology
+    label: Geomorphological terminology
+    type: file
+    path: data/terminology.json
+    format: json
+    list: true
+    operations: { create: false, rename: false, delete: false }
+    fields:
+      - name: category
+        label: Category
+        type: select
+        options:
+          values:
+            - { name: erosion, label: Glacial erosion }
+            - { name: deposition, label: Glacial deposition }
+            - { name: meltwater, label: Glaciofluvial & glaciolacustrine }
+            - { name: periglacial, label: Periglacial & nival }
+            - { name: ice, label: Glacier system & reconstruction }
+            - { name: mountain, label: High-mountain landscape }
+      - { name: pt, label: Português, type: string, required: true }
+      - { name: en, label: English, type: string, required: true }
+      - { name: es, label: Español, type: string }
+      - { name: de, label: Deutsch, type: string }
+      - { name: fr, label: Français, type: string }
+      - { name: it, label: Italiano, type: string }
+      - { name: "no", label: Norsk, type: string }
+      - { name: zh, label: 中文, type: string }
+
+  - name: translations
+    label: Interface translations & metadata
+    type: file
+    path: data/ui-translations.json
+    format: json
+    list: true
+    operations: { create: false, rename: false, delete: false }
+    fields:
+      - { name: key, label: Translation key, type: string, required: true }
+      - { name: pt, label: Português, type: text }
+      - { name: en, label: English, type: text }
+      - { name: es, label: Español, type: text }
+      - { name: de, label: Deutsch, type: text }
+      - { name: fr, label: Français, type: text }
+      - { name: it, label: Italiano, type: text }
+      - { name: "no", label: Norsk, type: text }
+      - { name: zh, label: 中文, type: text }
+
+  - name: advanced_group
+    label: Advanced site files
+    type: group
+    items:
+      - { name: code_index, label: Homepage HTML, type: file, path: index.html, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_works, label: Works HTML, type: file, path: works.html, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_work, label: Work detail HTML, type: file, path: work.html, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_research, label: Research HTML, type: file, path: research.html, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_terms, label: Terminology HTML, type: file, path: terminology.html, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_atlas, label: Atlas HTML, type: file, path: atlas.html, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_mobility, label: Mobility HTML, type: file, path: mobility.html, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_training, label: Training HTML, type: file, path: training.html, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_cv, label: CV HTML, type: file, path: cv.html, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_contact, label: Contact HTML, type: file, path: contact.html, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_css, label: Global CSS, type: file, path: styles.css, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_app, label: Core app JavaScript, type: file, path: js/app.js, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_loader, label: Data loader JavaScript, type: file, path: js/data-loader.js, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_home, label: Homepage JavaScript, type: file, path: js/home.js, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_metrics, label: Metrics JavaScript, type: file, path: js/metrics.js, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_works_js, label: Works JavaScript, type: file, path: js/works.js, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_work_detail, label: Work detail JavaScript, type: file, path: js/work-detail.js, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_gallery, label: Atlas JavaScript, type: file, path: js/gallery-render.js, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_glossary, label: Terminology JavaScript, type: file, path: js/glossary-render.js, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_mobility_js, label: Mobility JavaScript, type: file, path: js/mobility-render.js, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_training_js, label: Training JavaScript, type: file, path: js/training-render.js, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_cv_js, label: CV renderer JavaScript, type: file, path: js/cv-render.js, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_research_js, label: Research renderer JavaScript, type: file, path: js/research-render.js, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_contact_js, label: Contact JavaScript, type: file, path: js/contact.js, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: readme, label: README, type: file, path: README.md, format: code, operations: { create: false, rename: false, delete: false } }
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: user
+    templates:
+      create: "content: create {path}"
+      update: "content: update {path}"
+      delete: "content: delete {path}"
+      rename: "content: rename {oldPath} -> {newPath}"
