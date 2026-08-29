@@ -252,9 +252,17 @@
     }
   },
   {
+    "src": "/assets/gallery/drone/fep.jpg",
     "ratio": "landscape",
     "caption": {
-      "pt": "Faculdade de Economia - DJI Mini 3"
+      "pt": "Faculdade de Economia - DJI Mini 3",
+      "en": "Faculty of Economics, University of Porto – DJI Mini 3",
+      "es": "Facultad de Economía de la Universidad de Oporto - DJI Mini 3",
+      "de": "Fakultät für Wirtschaftswissenschaften der Universität Porto – DJI Mini 3",
+      "fr": "Faculté d'économie de l'Université de Porto – DJI Mini 3",
+      "it": "Facoltà di Economia, Università di Porto – DJI Mini 3",
+      "no": "Fakultet for økonomi og ledelse, Universitetet i Porto – DJI Mini 3",
+      "zh": "波爾圖大學經濟與管理學院 —— DJI Mini 3"
     }
   }
 ]
