@@ -3,6 +3,16 @@
 		{
 			"year": "8 Jul 2026",
 			"title": "Geotecnologias, AR e AI ao serviço dos professores de ciências",
+			"displayTitle": {
+				"pt": "Geotecnologias, AR e AI ao serviço dos professores de ciências",
+				"en": "Geotechnologies, AR and AI at the service of science teachers",
+				"es": "Geotecnologías, AR e IA al servicio del profesorado de ciencias",
+				"de": "Geotechnologien, AR und KI im Dienst des naturwissenschaftlichen Unterrichts",
+				"fr": "Géotechnologies, RA et IA au service des enseignants de sciences",
+				"it": "Geotecnologie, AR e IA al servizio degli insegnanti di scienze",
+				"no": "Geoteknologi, AR og KI for naturfaglærere",
+				"zh": "面向科学教师的地理空间技术、AR 与 AI"
+			},
 			"institution": "XI Encontro da Casa das Ciências · DG-FLUP",
 			"place": "Guimarães, Portugal",
 			"roleKey": "training_role_co_trainer",
@@ -24,6 +34,16 @@
 		{
 			"year": "2023–2026",
 			"title": "Dinamização de aulas através da representação de informação geográfica (DARIG)",
+			"displayTitle": {
+				"pt": "Dinamização de aulas através da representação de informação geográfica (DARIG)",
+				"en": "Enhancing classes through the representation of geographic information (DARIG)",
+				"es": "Dinamización de clases mediante la representación de información geográfica (DARIG)",
+				"de": "Gestaltung des Unterrichts durch die Darstellung geografischer Informationen (DARIG)",
+				"fr": "Dynamisation des cours par la représentation de l’information géographique (DARIG)",
+				"it": "Dinamizzazione delle lezioni attraverso la rappresentazione dell’informazione geografica (DARIG)",
+				"no": "Aktivisering av undervisning gjennom representasjon av geografisk informasjon (DARIG)",
+				"zh": "通过地理信息表达提升课堂教学（DARIG）"
+			},
 			"institution": "Departamento de Geografia · Faculdade de Letras da Universidade do Porto",
 			"place": "Universidade do Porto · online",
 			"roleKey": "training_role_trainer",
@@ -45,6 +65,16 @@
 		{
 			"year": "Nov 2024",
 			"title": "Programação aplicada a WebSIG's",
+			"displayTitle": {
+				"pt": "Programação aplicada a WebSIG's",
+				"en": "Programming applied to WebGIS",
+				"es": "Programación aplicada a WebSIG",
+				"de": "Programmierung für WebGIS",
+				"fr": "Programmation appliquée aux WebSIG",
+				"it": "Programmazione applicata ai WebGIS",
+				"no": "Programmering anvendt på WebGIS",
+				"zh": "WebGIS 应用编程"
+			},
 			"institution": "Jornadas da Geografia — GeoPlanUM · Departamento de Geografia, Universidade do Minho",
 			"place": "Braga, Portugal",
 			"roleKey": "training_role_trainer",
@@ -66,6 +96,16 @@
 		{
 			"year": "2020",
 			"title": "Adobe Illustrator & ArcGIS Pro: integração de ferramentas SIG e de design gráfico",
+			"displayTitle": {
+				"pt": "Adobe Illustrator & ArcGIS Pro: integração de ferramentas SIG e de design gráfico",
+				"en": "Adobe Illustrator & ArcGIS Pro: integration of GIS and graphic design tools",
+				"es": "Adobe Illustrator & ArcGIS Pro: integración de herramientas SIG y de diseño gráfico",
+				"de": "Adobe Illustrator & ArcGIS Pro: Integration von GIS- und Grafikdesign-Werkzeugen",
+				"fr": "Adobe Illustrator & ArcGIS Pro : intégration d’outils SIG et de conception graphique",
+				"it": "Adobe Illustrator & ArcGIS Pro: integrazione di strumenti GIS e di progettazione grafica",
+				"no": "Adobe Illustrator & ArcGIS Pro: integrasjon av GIS- og grafiske designverktøy",
+				"zh": "Adobe Illustrator 与 ArcGIS Pro：GIS 与平面设计工具的整合"
+			},
 			"institution": "Open GIS Days 2020 · Faculdade de Letras da Universidade do Porto",
 			"place": "Porto, Portugal",
 			"roleKey": "training_role_co_trainer",

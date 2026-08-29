@@ -26,9 +26,12 @@
 
   function runtimeWork(work){
     const w = {...work};
-    if(w.bbox && ['south','west','north','east'].every(k => Number.isFinite(Number(w.bbox[k])))){
-      w.extent = [Number(w.bbox.south), Number(w.bbox.west), Number(w.bbox.north), Number(w.bbox.east)];
-    } else w.extent = null;
+    const point=w.location;
+    if(point && Number.isFinite(Number(point.lat)) && Number.isFinite(Number(point.lon))){
+      w.location={lat:Number(point.lat),lon:Number(point.lon)};
+    } else {
+      w.location=null;
+    }
     w.image = normalizeAssetPath(w.image);
     return w;
   }

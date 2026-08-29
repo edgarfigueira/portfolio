@@ -386,14 +386,14 @@
   },
   {
     "key": "works_intro",
-    "pt": "Cada trabalho possui uma localização aproximada. Clique em “Mapa” para ajustar a vista à área de estudo.",
-    "en": "Each work has an approximate location. Click “Map” to adjust the view to the study area.",
-    "es": "Cada trabajo tiene una localización aproximada. Haz clic en “Mapa” para ajustar la vista al área de estudio.",
-    "de": "Jede Arbeit besitzt eine ungefähre geografische Lage. Klicken Sie auf „Karte“, um die Ansicht an das Untersuchungsgebiet anzupassen.",
-    "fr": "Chaque travail possède une localisation approximative. Cliquez sur « Carte » pour ajuster la vue à la zone d’étude.",
-    "it": "Ogni lavoro ha una localizzazione approssimativa. Clicca su “Mappa” per adattare la vista all’area di studio.",
-    "no": "Hvert arbeid har en omtrentlig geografisk plassering. Klikk på «Kart» for å tilpasse visningen til studieområdet.",
-    "zh": "每项研究均具有一个大致位置。点击“地图”可将视图调整至相应的研究区域。"
+    "pt": "Cada trabalho possui uma localização aproximada. Clique em “Mapa” para aproximar a vista dessa localização.",
+    "en": "Each work has an approximate location. Click “Map” to zoom to that location.",
+    "es": "Cada trabajo tiene una localización aproximada. Haz clic en “Mapa” para acercar la vista a esa localización.",
+    "de": "Jede Arbeit besitzt eine ungefähre geografische Lage. Klicken Sie auf „Karte“, um auf diesen Standort zu zoomen.",
+    "fr": "Chaque travail possède une localisation approximative. Cliquez sur « Carte » pour zoomer sur cette localisation.",
+    "it": "Ogni lavoro ha una localizzazione approssimativa. Clicca su “Mappa” per ingrandire la vista su tale localizzazione.",
+    "no": "Hvert arbeid har en omtrentlig geografisk plassering. Klikk på «Kart» for å zoome inn på denne plasseringen.",
+    "zh": "每项研究均具有一个大致位置。点击“地图”可缩放至该位置。"
   },
   {
     "key": "search",
@@ -485,14 +485,14 @@
   },
   {
     "key": "map_context",
-    "pt": "Centróides das áreas de estudo. Selecionar “Mapa” num trabalho ajusta a vista à respetiva bounding box, sem desenhar geometria.",
-    "en": "Study-area centroids. Selecting “Map” on a work fits the view to its bounding box without drawing geometry.",
-    "es": "Centroides de las áreas de estudio. Al seleccionar “Mapa” en un trabajo, la vista se ajusta a su bounding box sin dibujar geometría.",
-    "de": "Zentroidpunkte der Untersuchungsgebiete. „Karte“ zoomt auf die jeweilige Bounding Box, ohne Geometrie darzustellen.",
-    "fr": "Centroïdes des zones d’étude. « Carte » ajuste la vue à la bounding box du travail sans afficher de géométrie.",
-    "it": "Centroidi delle aree di studio. “Mappa” adatta la vista alla bounding box del lavoro senza mostrare geometrie.",
-    "no": "Sentroider for studieområdene. «Kart» tilpasser visningen til arbeidets bounding box uten å vise geometri.",
-    "zh": "研究区质心。点击某项工作的“地图”后，视图将缩放到其边界框范围，而不绘制几何图形。"
+    "pt": "Pontos de localização aproximada dos trabalhos. Selecionar “Mapa” aproxima a vista ao respetivo ponto.",
+    "en": "Approximate location points for the works. Selecting “Map” zooms the view to the corresponding point.",
+    "es": "Puntos de localización aproximada de los trabajos. Al seleccionar “Mapa”, la vista se acerca al punto correspondiente.",
+    "de": "Ungefähre Standortpunkte der Arbeiten. Mit „Karte“ wird auf den jeweiligen Punkt gezoomt.",
+    "fr": "Points de localisation approximative des travaux. Sélectionner « Carte » zoome sur le point correspondant.",
+    "it": "Punti di localizzazione approssimativa dei lavori. Selezionando “Mappa”, la vista viene ingrandita sul punto corrispondente.",
+    "no": "Omtrentlige lokaliseringspunkter for arbeidene. «Kart» zoomer inn på det aktuelle punktet.",
+    "zh": "各项成果的大致位置点。选择“地图”后，视图将缩放至对应位置点。"
   },
   {
     "key": "type_article",
@@ -1761,14 +1761,14 @@
   },
   {
     "key": "training_section_intro",
-    "pt": "Atividades de formação e divulgação organizadas cronologicamente, mantendo o título oficial de cada iniciativa.",
-    "en": "Training and outreach activities organised chronologically, retaining the official title of each initiative.",
-    "es": "Actividades de formación y divulgación organizadas cronológicamente, manteniendo el título oficial de cada iniciativa.",
-    "de": "Chronologisch geordnete Lehr- und Vermittlungsaktivitäten unter Beibehaltung der offiziellen Titel der jeweiligen Veranstaltungen.",
-    "fr": "Activités de formation et de médiation organisées chronologiquement, en conservant le titre officiel de chaque initiative.",
-    "it": "Attività di formazione e divulgazione organizzate cronologicamente, mantenendo il titolo ufficiale di ciascuna iniziativa.",
-    "no": "Opplærings- og formidlingsaktiviteter ordnet kronologisk, med den offisielle tittelen på hvert tiltak beholdt.",
-    "zh": "按时间顺序展示培训与传播活动，并保留各项活动的官方名称。"
+    "pt": "Atividades de formação e divulgação organizadas cronologicamente, com os títulos apresentados no idioma selecionado e o título oficial preservado no registo.",
+    "en": "Training and outreach activities organised chronologically, with titles shown in the selected language and the official title preserved in the record.",
+    "es": "Actividades de formación y divulgación organizadas cronológicamente, con los títulos mostrados en el idioma seleccionado y el título oficial conservado en el registro.",
+    "de": "Chronologisch geordnete Lehr- und Vermittlungsaktivitäten, deren Titel in der gewählten Sprache angezeigt werden, während der offizielle Titel im Datensatz erhalten bleibt.",
+    "fr": "Activités de formation et de médiation organisées chronologiquement, avec les titres affichés dans la langue sélectionnée et le titre officiel conservé dans la fiche.",
+    "it": "Attività di formazione e divulgazione organizzate cronologicamente, con i titoli mostrati nella lingua selezionata e il titolo ufficiale conservato nel record.",
+    "no": "Opplærings- og formidlingsaktiviteter ordnet kronologisk, med titler vist på valgt språk og den offisielle tittelen bevart i registreringen.",
+    "zh": "培训与传播活动按时间顺序展示，标题随所选语言显示，同时在记录中保留官方原始标题。"
   },
   {
     "key": "training_role_trainer",
@@ -2509,14 +2509,14 @@
   },
   {
     "key": "works_map_aria",
-    "pt": "Mapa das áreas de estudo",
-    "en": "Map of study areas",
-    "es": "Mapa de las áreas de estudio",
-    "de": "Karte der Untersuchungsgebiete",
-    "fr": "Carte des terrains d’étude",
-    "it": "Mappa delle aree di studio",
-    "no": "Kart over studieområder",
-    "zh": "研究区地图"
+    "pt": "Mapa das localizações dos estudos",
+    "en": "Map of study locations",
+    "es": "Mapa de las localizaciones de los estudios",
+    "de": "Karte der Studienstandorte",
+    "fr": "Carte des localisations des études",
+    "it": "Mappa delle localizzazioni degli studi",
+    "no": "Kart over studielokaliteter",
+    "zh": "研究位置地图"
   },
   {
     "key": "work_meta_title",
@@ -2704,5 +2704,27 @@
     "it": "Diagnostica delle metriche di citazione",
     "no": "Diagnostikk for siteringsmålinger",
     "zh": "引用指标诊断"
+  },
+  {
+    "key": "location_focus",
+    "pt": "Localização aproximada do estudo",
+    "en": "Approximate study location",
+    "es": "Localización aproximada del estudio",
+    "de": "Ungefährer Studienstandort",
+    "fr": "Localisation approximative de l’étude",
+    "it": "Localizzazione approssimativa dello studio",
+    "no": "Omtrentlig studielokalitet",
+    "zh": "研究的大致位置"
+  },
+  {
+    "key": "contact_github",
+    "pt": "Código & projetos",
+    "en": "Code & projects",
+    "es": "Código & proyectos",
+    "de": "Code & Projekte",
+    "fr": "Code & projets",
+    "it": "Codice & progetti",
+    "no": "Kode & prosjekter",
+    "zh": "代码与项目"
   }
 ]

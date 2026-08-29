@@ -1014,7 +1014,7 @@ footer {
 	}
 }
 /* V4 — spatial index uses centroids + bounding-box navigation only */
-.study-centroid {
+.study-point {
 	stroke: var(--text) !important;
 	fill: var(--text) !important;
 	transition:
@@ -1045,7 +1045,7 @@ footer {
 }
 
 /* V4.1 — robust per-work spatial index */
-.study-centroid {
+.study-point {
 	cursor: pointer;
 }
 .leaflet-tooltip {

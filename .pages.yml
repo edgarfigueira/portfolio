@@ -57,15 +57,6 @@ components:
       - { name: "no", label: Norsk, type: string, list: true }
       - { name: zh, label: 中文, type: string, list: true }
 
-  bbox:
-    type: object
-    label: Bounding box
-    fields:
-      - { name: south, label: South latitude, type: number }
-      - { name: west, label: West longitude, type: number }
-      - { name: north, label: North latitude, type: number }
-      - { name: east, label: East longitude, type: number }
-
   coordinate:
     type: object
     label: Coordinate
@@ -117,6 +108,7 @@ components:
             - { name: researchgate, label: ResearchGate }
             - { name: googleScholar, label: Google Scholar }
             - { name: linkedin, label: LinkedIn }
+            - { name: github, label: GitHub }
             - { name: cegot, label: CEGOT }
       - { name: linkLabel, label: Display text, component: localized_string }
 
@@ -143,7 +135,8 @@ components:
     type: object
     fields:
       - { name: year, label: Date / year, type: string, required: true }
-      - { name: title, label: Official title, type: string, required: true }
+      - { name: title, label: Official / original title, type: string, required: true }
+      - { name: displayTitle, label: Localised display title, component: localized_text }
       - { name: institution, label: Institution, type: string }
       - { name: place, label: Place, type: string }
       - name: statusKey
@@ -175,7 +168,8 @@ components:
     type: object
     fields:
       - { name: year, label: Date / year, type: string, required: true }
-      - { name: title, label: Official title, type: string, required: true }
+      - { name: title, label: Official / original title, type: string, required: true }
+      - { name: displayTitle, label: Localised display title, component: localized_text }
       - { name: institution, label: Institution / event, type: string }
       - { name: place, label: Place, type: string }
       - { name: duration, label: Duration, type: string }
@@ -231,6 +225,7 @@ content:
               - { name: researchgate, label: ResearchGate URL, type: string }
               - { name: googleScholar, label: Google Scholar URL, type: string }
               - { name: linkedin, label: LinkedIn URL, type: string }
+              - { name: github, label: GitHub URL, type: string }
               - { name: cegot, label: CEGOT profile URL, type: string }
           - name: homepage
             label: Homepage
@@ -288,13 +283,14 @@ content:
                 - { name: protocol, label: Protocol / software }
                 - { name: poster, label: Poster }
           - { name: region, label: Study region ID, type: string, required: true }
-          - { name: title, label: Bibliographic title, type: text, required: true }
+          - { name: title, label: Original / bibliographic title, type: text, required: true }
+          - { name: displayTitle, label: Localised display title, component: localized_text }
           - { name: authors, label: Authors, type: text }
           - { name: venue, label: Journal / event / venue, type: string }
           - { name: topics, label: Topics / keywords, type: string, list: true }
           - { name: doi, label: DOI, type: string }
           - { name: url, label: Publication URL, type: string }
-          - { name: bbox, label: Study bounding box, component: bbox }
+          - { name: location, label: Approximate map location, component: coordinate }
           - { name: abstract, label: Abstract / synopsis, component: localized_text }
           - { name: studyArea, label: Study area description, component: localized_text }
           - { name: methods, label: Methods, component: localized_list }
@@ -317,14 +313,6 @@ content:
         fields:
           - { name: id, label: Region ID, type: string, required: true }
           - { name: name, label: Region name, type: string, required: true }
-          - { name: extent, label: Regional bounding box, component: bbox }
-          - name: polygon
-            label: Polygon vertices
-            component: coordinate
-            list:
-              collapsible:
-                collapsed: true
-                summary: "{lat}, {lon}"
 
   - name: research_group
     label: Research page

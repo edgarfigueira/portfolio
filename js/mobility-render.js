@@ -16,7 +16,7 @@
   }
   function renderList(id,items){
     const host=document.getElementById(id); if(!host) return;
-    host.innerHTML=(items||[]).map((item)=>`<article class="mobility-entry"><div class="mobility-meta"><span>${esc(item.year)}</span><span>${esc(t(item.typeKey))}</span></div><div class="mobility-main"><div class="mobility-title-line"><h2>${esc(item.title)}</h2><span class="mobility-status">${esc(t(item.statusKey))}</span></div><p class="mobility-place">${esc(item.institution)} · ${esc(item.place)}</p><p>${esc(window.siteI18n?.value(item.description)||'')}</p>${externalLink(item)}</div></article>`).join('');
+    host.innerHTML=(items||[]).map((item)=>`<article class="mobility-entry"><div class="mobility-meta"><span>${esc(item.year)}</span><span>${esc(t(item.typeKey))}</span></div><div class="mobility-main"><div class="mobility-title-line"><h2>${esc(window.siteI18n?.value(item.displayTitle)||item.title)}</h2><span class="mobility-status">${esc(t(item.statusKey))}</span></div><p class="mobility-place">${esc(item.institution)} · ${esc(item.place)}</p><p>${esc(window.siteI18n?.value(item.description)||'')}</p>${externalLink(item)}</div></article>`).join('');
   }
   function render(){const d=window.MOBILITY_DATA||{};renderList('fundingList',d.funding);renderList('abroadList',d.abroad);}
   window.onSiteDataReady(render);

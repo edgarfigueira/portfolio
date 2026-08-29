@@ -13,7 +13,7 @@
     host.innerHTML=items.map(item=>{
       const w=works.find(x=>x.id===item.id); if(!w) return '';
       const region=window.REGIONS?.[w.region]?.name || '';
-      return `<a class="selected-item" href="work.html?id=${encodeURIComponent(w.id)}"><span>${esc(item.label||w.year)}</span><strong>${esc(w.title)}</strong><em>${esc(region)}</em></a>`;
+      return `<a class="selected-item" href="work.html?id=${encodeURIComponent(w.id)}"><span>${esc(item.label||w.year)}</span><strong>${esc(window.siteI18n?.value(w.displayTitle)||w.title)}</strong><em>${esc(region)}</em></a>`;
     }).join('');
   }
 
@@ -174,4 +174,5 @@
   }
 
   window.onSiteDataReady(init);
+  window.addEventListener('site-language-change',renderHighlights);
 })();

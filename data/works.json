@@ -5,6 +5,16 @@
 		"type": "conference",
 		"region": "geres",
 		"title": "Evidências geomorfológicas da língua glaciária de Compadre (Serra do Gerês): o potencial da aplicação de LiDAR de alta resolução",
+		"displayTitle": {
+			"pt": "Evidências geomorfológicas da língua glaciária de Compadre (Serra do Gerês): o potencial da aplicação de LiDAR de alta resolução",
+			"en": "Geomorphological evidence of the Compadre glacier tongue (Serra do Gerês): the potential of high-resolution LiDAR",
+			"es": "Evidencias geomorfológicas de la lengua glaciar de Compadre (Serra do Gerês): el potencial de la aplicación de LiDAR de alta resolución",
+			"de": "Geomorphologische Hinweise auf die Compadre-Gletscherzunge (Serra do Gerês): das Potenzial hochauflösender LiDAR-Daten",
+			"fr": "Indices géomorphologiques de la langue glaciaire de Compadre (Serra do Gerês) : le potentiel du LiDAR à haute résolution",
+			"it": "Evidenze geomorfologiche della lingua glaciale di Compadre (Serra do Gerês): il potenziale del LiDAR ad alta risoluzione",
+			"no": "Geomorfologiske spor etter Compadre-bretungen (Serra do Gerês): potensialet i høyoppløselig LiDAR",
+			"zh": "Compadre 冰川舌（Serra do Gerês）的地貌证据：高分辨率 LiDAR 的应用潜力"
+		},
 		"authors": "Edgar Figueira; Alberto Gomes; Paulo Pereira; Javier Santos-González",
 		"venue": "XII Congresso Nacional de Geologia",
 		"topics": ["moraine", "erratic", "roche_moutonnee", "lidar"],
@@ -155,6 +165,10 @@
 			"north": 41.835,
 			"east": -7.985
 		},
+		"location": {
+			"lat": 41.785,
+			"lon": -8.045
+		},
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -173,6 +187,16 @@
 		"type": "conference",
 		"region": "sil",
 		"title": "CRONOLOGÍA DE LA DEGLACIACIÓN DE LA CUENCA ALTA DEL RÍO SIL (CORDILLERA CANTÁBRICA) A PARTIR DE DATACIONES CON 14C DE SEDIMENTOS GLACIOLACUSTRES",
+		"displayTitle": {
+			"pt": "Cronologia da deglaciação da bacia superior do rio Sil (Cordilheira Cantábrica) a partir de datações por 14C de sedimentos glaciolacustres",
+			"en": "Deglaciation chronology of the upper Sil River basin (Cantabrian Mountains) based on 14C dating of glaciolacustrine sediments",
+			"es": "Cronología de la deglaciación de la cuenca alta del río Sil (Cordillera Cantábrica) a partir de dataciones con 14C de sedimentos glaciolacustres",
+			"de": "Chronologie der Deglaziation im oberen Einzugsgebiet des Río Sil (Kantabrisches Gebirge) anhand von 14C-Datierungen glaziolakustriner Sedimente",
+			"fr": "Chronologie de la déglaciation du haut bassin du río Sil (Cordillère Cantabrique) à partir de datations 14C de sédiments glaciolacustres",
+			"it": "Cronologia della deglaciazione dell’alto bacino del fiume Sil (Cordigliera Cantabrica) basata su datazioni 14C di sedimenti glaciolacustri",
+			"no": "Deglasiasjonskronologi for øvre del av Sil-vassdraget (De kantabriske fjellene) basert på 14C-datering av glasilakustrine sedimenter",
+			"zh": "坎塔布连山脉锡尔河上游流域退冰年代学：基于冰湖沉积物 14C 测年"
+		},
 		"authors": "Javier Santos-González; Alfonso Pisabarro-Pérez; Alberto Gomes; José María Redondo-Vega; Edgar Figueira; Sergio Alberto Peña-Pérez; Rosa Blanca González-Gutiérrez; Adrián Melón-Nava; Amelia Gómez-Villar",
 		"venue": "Avances de la Geomorfología española en 2023–2025",
 		"topics": ["deglaciation", "glaciolacustrine", "radiocarbon"],
@@ -307,6 +331,10 @@
 			"north": 42.99,
 			"east": -6.125
 		},
+		"location": {
+			"lat": 42.8325,
+			"lon": -6.4875
+		},
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -325,6 +353,16 @@
 		"type": "conference",
 		"region": "soajo",
 		"title": "GEOMORPHOLOGICAL MAP OF ALTO VEZ PALAEOGLACIATION, PARQUE NACIONAL DA PENEDA-GERÊS, PORTUGAL",
+		"displayTitle": {
+			"pt": "Mapa geomorfológico da paleoglaciação do Alto Vez, Parque Nacional da Peneda-Gerês, Portugal",
+			"en": "Geomorphological map of the Alto Vez palaeoglaciation, Peneda-Gerês National Park, Portugal",
+			"es": "Mapa geomorfológico de la paleoglaciación de Alto Vez, Parque Nacional da Peneda-Gerês, Portugal",
+			"de": "Geomorphologische Karte der Paläovergletscherung von Alto Vez, Nationalpark Peneda-Gerês, Portugal",
+			"fr": "Carte géomorphologique de la paléoglaciation de l’Alto Vez, Parc national de Peneda-Gerês, Portugal",
+			"it": "Carta geomorfologica della paleoglaciazione dell’Alto Vez, Parco Nazionale di Peneda-Gerês, Portogallo",
+			"no": "Geomorfologisk kart over paleoglasiasjonen i Alto Vez, Peneda-Gerês nasjonalpark, Portugal",
+			"zh": "葡萄牙佩内达-热雷什国家公园 Alto Vez 古冰川作用地貌图"
+		},
 		"authors": "Edgar Figueira; Augusto Pérez-Alberti; Alberto Gomes; Jorge Costa",
 		"venue": "Avances de la Geomorfología española en 2023–2025",
 		"topics": ["geomorph_mapping", "moraine", "erratic", "icefield"],
@@ -467,6 +505,10 @@
 			"north": 41.985,
 			"east": -8.205
 		},
+		"location": {
+			"lat": 41.935,
+			"lon": -8.2775
+		},
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -485,6 +527,16 @@
 		"type": "article",
 		"region": "cabreira",
 		"title": "Late Pleistocene Low-Altitude Atlantic Palaeoglaciation and Palaeo-ELA Modelling: Insights from Serra da Cabreira, NW Iberia",
+		"displayTitle": {
+			"pt": "Paleoglaciação atlântica de baixa altitude do Plistocénico Superior e modelação da paleo-ELA: contributos da Serra da Cabreira, NO da Ibéria",
+			"en": "Late Pleistocene Low-Altitude Atlantic Palaeoglaciation and Palaeo-ELA Modelling: Insights from Serra da Cabreira, NW Iberia",
+			"es": "Paleoglaciación atlántica de baja altitud del Pleistoceno Superior y modelización de la paleo-ELA: aportaciones de Serra da Cabreira, NO de Iberia",
+			"de": "Spätpleistozäne niedrig gelegene atlantische Paläovergletscherung und Modellierung der Paläo-ELA: Erkenntnisse aus der Serra da Cabreira, NW-Iberien",
+			"fr": "Paléoglaciation atlantique de basse altitude du Pléistocène supérieur et modélisation de la paléo-ELA : enseignements de la Serra da Cabreira, NO de la péninsule Ibérique",
+			"it": "Paleoglaciazione atlantica di bassa quota del Pleistocene superiore e modellazione della paleo-ELA: evidenze dalla Serra da Cabreira, Iberia nord-occidentale",
+			"no": "Senpleistocen atlantisk paleoglasiasjon i lav høyde og modellering av paleo-ELA: innsikt fra Serra da Cabreira, Nordvest-Iberia",
+			"zh": "晚更新世低海拔大西洋型古冰川作用与古 ELA 模拟：来自伊比利亚西北部 Serra da Cabreira 的认识"
+		},
 		"authors": "Edgar Figueira; Alberto Gomes; Jorge Costa",
 		"venue": "Quaternary 8(4), 71",
 		"topics": ["ela", "valley", "moraine", "palaeoclimate"],
@@ -635,6 +687,10 @@
 			"north": 41.725,
 			"east": -7.92
 		},
+		"location": {
+			"lat": 41.645,
+			"lon": -8.0325
+		},
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -653,6 +709,16 @@
 		"type": "protocol",
 		"region": "digital",
 		"title": "Conversão LAZ ⇄ LAS (LAZ-LAS Converter v1.2.1)",
+		"displayTitle": {
+			"pt": "Conversão LAZ ⇄ LAS (LAZ-LAS Converter v1.2.1)",
+			"en": "LAZ ⇄ LAS conversion (LAZ-LAS Converter v1.2.1)",
+			"es": "Conversión LAZ ⇄ LAS (LAZ-LAS Converter v1.2.1)",
+			"de": "LAZ-⇄-LAS-Konvertierung (LAZ-LAS Converter v1.2.1)",
+			"fr": "Conversion LAZ ⇄ LAS (LAZ-LAS Converter v1.2.1)",
+			"it": "Conversione LAZ ⇄ LAS (LAZ-LAS Converter v1.2.1)",
+			"no": "LAZ ⇄ LAS-konvertering (LAZ-LAS Converter v1.2.1)",
+			"zh": "LAZ ⇄ LAS 转换（LAZ-LAS Converter v1.2.1）"
+		},
 		"authors": "Edgar Figueira",
 		"venue": "protocols.io",
 		"topics": ["lidar", "software"],
@@ -756,6 +822,7 @@
 			"zh": "根据所提供的 protocols.io 导出内容整理。"
 		},
 		"bbox": null,
+		"location": null,
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -774,6 +841,16 @@
 		"type": "article",
 		"region": "amarela",
 		"title": "Cartografia geomorfológica glaciária e delimitação da paleoglaciação da Serra Amarela",
+		"displayTitle": {
+			"pt": "Cartografia geomorfológica glaciária e delimitação da paleoglaciação da Serra Amarela",
+			"en": "Glacial geomorphological mapping and delimitation of the Serra Amarela palaeoglaciation",
+			"es": "Cartografía geomorfológica glaciar y delimitación de la paleoglaciación de Serra Amarela",
+			"de": "Glazialgeomorphologische Kartierung und Abgrenzung der Paläovergletscherung der Serra Amarela",
+			"fr": "Cartographie géomorphologique glaciaire et délimitation de la paléoglaciation de la Serra Amarela",
+			"it": "Cartografia geomorfologica glaciale e delimitazione della paleoglaciazione della Serra Amarela",
+			"no": "Glasialgeomorfologisk kartlegging og avgrensning av paleoglasiasjonen i Serra Amarela",
+			"zh": "Serra Amarela 冰川地貌制图与古冰川作用范围界定"
+		},
 		"authors": "Edgar Figueira; Alberto Gomes; Jorge Costa",
 		"venue": "Comunicações Geológicas 112, Especial I, 135–139",
 		"topics": ["geomorph_mapping", "cirque", "moraine", "ela"],
@@ -916,6 +993,10 @@
 			"north": 41.885,
 			"east": -8.06
 		},
+		"location": {
+			"lat": 41.815,
+			"lon": -8.1575
+		},
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -934,6 +1015,16 @@
 		"type": "conference",
 		"region": "cabreira",
 		"title": "Depósitos periglaciários da Serra da Cabreira, NW de Portugal: Cartografia geomorfológica e morfometria",
+		"displayTitle": {
+			"pt": "Depósitos periglaciários da Serra da Cabreira, NW de Portugal: Cartografia geomorfológica e morfometria",
+			"en": "Periglacial deposits of Serra da Cabreira, NW Portugal: geomorphological mapping and morphometry",
+			"es": "Depósitos periglaciares de Serra da Cabreira, NO de Portugal: cartografía geomorfológica y morfometría",
+			"de": "Periglaziale Ablagerungen der Serra da Cabreira, Nordwestportugal: geomorphologische Kartierung und Morphometrie",
+			"fr": "Dépôts périglaciaires de la Serra da Cabreira, NO du Portugal : cartographie géomorphologique et morphométrie",
+			"it": "Depositi periglaciali della Serra da Cabreira, Portogallo nord-occidentale: cartografia geomorfologica e morfometria",
+			"no": "Periglasiale avsetninger i Serra da Cabreira, Nordvest-Portugal: geomorfologisk kartlegging og morfometri",
+			"zh": "葡萄牙西北部 Serra da Cabreira 的冰缘沉积：地貌制图与形态测量"
+		},
 		"authors": "Edgar Figueira; Alberto Gomes; Jorge Costa; Jorge Meira; Luiza Neto; Stélio Júnior",
 		"venue": "X Congresso Nacional de Geomorfologia",
 		"topics": ["periglacial", "block_slope", "morphometry"],
@@ -1068,6 +1159,10 @@
 			"north": 41.705,
 			"east": -7.975
 		},
+		"location": {
+			"lat": 41.6525,
+			"lon": -8.05
+		},
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -1086,6 +1181,16 @@
 		"type": "conference",
 		"region": "geres",
 		"title": "Estabilidade do divisor no maciço montanhoso Gerês – Larouco",
+		"displayTitle": {
+			"pt": "Estabilidade do divisor no maciço montanhoso Gerês – Larouco",
+			"en": "Watershed-divide stability in the Gerês–Larouco mountain massif",
+			"es": "Estabilidad de la divisoria en el macizo montañoso Gerês–Larouco",
+			"de": "Stabilität der Wasserscheide im Gebirgsmassiv Gerês–Larouco",
+			"fr": "Stabilité de la ligne de partage des eaux dans le massif montagneux Gerês–Larouco",
+			"it": "Stabilità dello spartiacque nel massiccio montuoso Gerês–Larouco",
+			"no": "Stabilitet i vannskillet i fjellmassivet Gerês–Larouco",
+			"zh": "Gerês–Larouco 山地的分水岭稳定性"
+		},
 		"authors": "Jorge Costa; Alberto Gomes; Edgar Figueira",
 		"venue": "X Congresso Nacional de Geomorfologia",
 		"topics": ["drainage", "geomorphology"],
@@ -1174,6 +1279,10 @@
 			"north": 41.95,
 			"east": -7.65
 		},
+		"location": {
+			"lat": 41.82,
+			"lon": -7.925
+		},
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -1192,6 +1301,16 @@
 		"type": "conference",
 		"region": "cabreira",
 		"title": "Modelação da glaciação plistocénica da Serra da Cabreira (NW de Portugal)",
+		"displayTitle": {
+			"pt": "Modelação da glaciação plistocénica da Serra da Cabreira (NW de Portugal)",
+			"en": "Modelling the Pleistocene glaciation of Serra da Cabreira (NW Portugal)",
+			"es": "Modelización de la glaciación pleistocena de Serra da Cabreira (NO de Portugal)",
+			"de": "Modellierung der pleistozänen Vergletscherung der Serra da Cabreira (Nordwestportugal)",
+			"fr": "Modélisation de la glaciation pléistocène de la Serra da Cabreira (NO du Portugal)",
+			"it": "Modellazione della glaciazione pleistocenica della Serra da Cabreira (Portogallo nord-occidentale)",
+			"no": "Modellering av den pleistocene glasiasjonen i Serra da Cabreira (Nordvest-Portugal)",
+			"zh": "葡萄牙西北部 Serra da Cabreira 更新世冰川作用模拟"
+		},
 		"authors": "Edgar Figueira; Alberto Gomes; Jorge Costa",
 		"venue": "XIV Congresso da Geografia Portuguesa",
 		"topics": ["ela", "valley", "palaeoglacier"],
@@ -1334,6 +1453,10 @@
 			"north": 41.71,
 			"east": -7.93
 		},
+		"location": {
+			"lat": 41.6475,
+			"lon": -8.0325
+		},
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -1352,6 +1475,16 @@
 		"type": "conference",
 		"region": "amarela",
 		"title": "Cartografia geomorfológica das formas glaciárias da Serra Amarela (PNPG)",
+		"displayTitle": {
+			"pt": "Cartografia geomorfológica das formas glaciárias da Serra Amarela (PNPG)",
+			"en": "Geomorphological mapping of the glacial landforms of Serra Amarela (PNPG)",
+			"es": "Cartografía geomorfológica de las formas glaciares de Serra Amarela (PNPG)",
+			"de": "Geomorphologische Kartierung der Glazialformen der Serra Amarela (PNPG)",
+			"fr": "Cartographie géomorphologique des formes glaciaires de la Serra Amarela (PNPG)",
+			"it": "Cartografia geomorfologica delle forme glaciali della Serra Amarela (PNPG)",
+			"no": "Geomorfologisk kartlegging av glasiale landformer i Serra Amarela (PNPG)",
+			"zh": "Serra Amarela（PNPG）冰川地貌制图"
+		},
 		"authors": "Edgar Figueira; Alberto Gomes; Jorge Costa",
 		"venue": "XI Congresso Nacional de Geologia",
 		"topics": ["cirque", "moraine", "glaciofluvial", "lidar"],
@@ -1494,6 +1627,10 @@
 			"north": 41.875,
 			"east": -8.075
 		},
+		"location": {
+			"lat": 41.8175,
+			"lon": -8.155
+		},
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -1512,6 +1649,16 @@
 		"type": "poster",
 		"region": "castro",
 		"title": "Geomorphological analysis of Castro de Laboreiro area (PNPG) with LiDAR data",
+		"displayTitle": {
+			"pt": "Análise geomorfológica da área de Castro de Laboreiro (PNPG) com dados LiDAR",
+			"en": "Geomorphological analysis of the Castro de Laboreiro area (PNPG) with LiDAR data",
+			"es": "Análisis geomorfológico del área de Castro de Laboreiro (PNPG) con datos LiDAR",
+			"de": "Geomorphologische Analyse des Gebiets Castro de Laboreiro (PNPG) mit LiDAR-Daten",
+			"fr": "Analyse géomorphologique de la région de Castro de Laboreiro (PNPG) à partir de données LiDAR",
+			"it": "Analisi geomorfologica dell’area di Castro de Laboreiro (PNPG) mediante dati LiDAR",
+			"no": "Geomorfologisk analyse av Castro de Laboreiro-området (PNPG) med LiDAR-data",
+			"zh": "利用 LiDAR 数据开展 Castro de Laboreiro 地区（PNPG）地貌分析"
+		},
 		"authors": "Jorge Costa; Alberto Gomes; Edgar Figueira",
 		"venue": "XI Congresso Nacional de Geologia",
 		"topics": ["lidar", "drainage", "granite"],
@@ -1654,6 +1801,10 @@
 			"north": 42.095,
 			"east": -8.03
 		},
+		"location": {
+			"lat": 42.03,
+			"lon": -8.1525
+		},
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -1672,6 +1823,16 @@
 		"type": "article",
 		"region": "soajo",
 		"title": "Pleistocene Glaciations of the Northwest of Iberia: Glacial Maximum Extent, Ice Thickness, and ELA of the Soajo Mountain",
+		"displayTitle": {
+			"pt": "Glaciações plistocénicas do noroeste da Ibéria: extensão máxima glaciar, espessura do gelo e ELA da Serra do Soajo",
+			"en": "Pleistocene Glaciations of the Northwest of Iberia: Glacial Maximum Extent, Ice Thickness, and ELA of the Soajo Mountain",
+			"es": "Glaciaciones pleistocenas del noroeste de Iberia: extensión máxima glaciar, espesor del hielo y ELA de Serra do Soajo",
+			"de": "Pleistozäne Vergletscherungen im Nordwesten Iberiens: maximale Gletscherausdehnung, Eisdicke und ELA der Serra do Soajo",
+			"fr": "Glaciations pléistocènes du nord-ouest de la péninsule Ibérique : extension glaciaire maximale, épaisseur de glace et ELA de la Serra do Soajo",
+			"it": "Glaciazioni pleistoceniche dell’Iberia nord-occidentale: massima estensione glaciale, spessore del ghiaccio ed ELA della Serra do Soajo",
+			"no": "Pleistocene glasiasjoner i Nordvest-Iberia: maksimal breutbredelse, istykkelse og ELA i Serra do Soajo",
+			"zh": "伊比利亚西北部更新世冰川作用：Serra do Soajo 最大冰川范围、冰厚与 ELA"
+		},
 		"authors": "Edgar Figueira; Alberto Gomes; Augusto Pérez-Alberti",
 		"venue": "Land 12(6), 1226",
 		"topics": ["icefield", "moraine", "ela", "palaeoglacier"],
@@ -1822,6 +1983,10 @@
 			"north": 42.005,
 			"east": -8.105
 		},
+		"location": {
+			"lat": 41.925,
+			"lon": -8.255
+		},
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -1840,6 +2005,16 @@
 		"type": "conference",
 		"region": "soajo",
 		"title": "3D modelling of the maximum ice extent and thickness of the palaeoglacier of Serra do Soajo, Northern Portugal",
+		"displayTitle": {
+			"pt": "Modelação 3D da extensão máxima do gelo e da espessura do paleoglaciar da Serra do Soajo, norte de Portugal",
+			"en": "3D modelling of the maximum ice extent and thickness of the palaeoglacier of Serra do Soajo, Northern Portugal",
+			"es": "Modelización 3D de la extensión máxima del hielo y del espesor del paleoglaciar de Serra do Soajo, norte de Portugal",
+			"de": "3D-Modellierung der maximalen Eisausdehnung und Eisdicke des Paläogletschers der Serra do Soajo, Nordportugal",
+			"fr": "Modélisation 3D de l’extension maximale de la glace et de l’épaisseur du paléoglacier de la Serra do Soajo, nord du Portugal",
+			"it": "Modellazione 3D della massima estensione del ghiaccio e dello spessore del paleoghiacciaio della Serra do Soajo, Portogallo settentrionale",
+			"no": "3D-modellering av maksimal isutbredelse og tykkelsen til paleobreen i Serra do Soajo, Nord-Portugal",
+			"zh": "葡萄牙北部 Serra do Soajo 古冰川最大冰川范围与厚度的三维模拟"
+		},
 		"authors": "Edgar Figueira; Alberto Gomes; Augusto Pérez-Alberti; Helder I. Chaminé",
 		"venue": "10th International Conference on Geomorphology",
 		"topics": ["icefield", "palaeoglacier", "glaRe"],
@@ -1982,6 +2157,10 @@
 			"north": 41.995,
 			"east": -8.135
 		},
+		"location": {
+			"lat": 41.925,
+			"lon": -8.2625
+		},
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -2000,6 +2179,16 @@
 		"type": "conference",
 		"region": "cabreira",
 		"title": "TILL MACROFABRIC AND GRAIN SIZE ANALYSIS OF GLACIAL DIAMICTONS IN THE SERRA DA CABREIRA MOUNTAINS, NW PORTUGAL",
+		"displayTitle": {
+			"pt": "Análise de macrofábrica e granulometria de till em diamictitos glaciários da Serra da Cabreira, NO de Portugal",
+			"en": "Till macrofabric and grain-size analysis of glacial diamictons in the Serra da Cabreira mountains, NW Portugal",
+			"es": "Análisis de macrofábrica y granulometría de till en diamictones glaciares de la Serra da Cabreira, NO de Portugal",
+			"de": "Analyse des Till-Makrogefüges und der Korngrößenverteilung glazialer Diamikte in der Serra da Cabreira, Nordwestportugal",
+			"fr": "Analyse de la macrofabrique du till et de la granulométrie des diamictons glaciaires de la Serra da Cabreira, NO du Portugal",
+			"it": "Analisi della macrofabbrica del till e della granulometria dei diamicton glaciali della Serra da Cabreira, Portogallo nord-occidentale",
+			"no": "Analyse av tillens makrofabrikk og kornstørrelse i glasiale diamiktoner i Serra da Cabreira, Nordvest-Portugal",
+			"zh": "葡萄牙西北部 Serra da Cabreira 冰川杂砾岩中冰碛物宏观组构与粒度分析"
+		},
 		"authors": "João Santos; Alberto Gomes; Jorge Costa; Edgar Figueira",
 		"venue": "Geological Society of America Abstracts with Programs 54(2)",
 		"topics": ["till", "moraine", "sedimentology"],
@@ -2134,6 +2323,10 @@
 			"north": 41.715,
 			"east": -7.925
 		},
+		"location": {
+			"lat": 41.6525,
+			"lon": -8.0325
+		},
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -2152,6 +2345,16 @@
 		"type": "conference",
 		"region": "soajo",
 		"title": "Moreias da Serra do Soajo: distribuição e extensão das Glaciações Plistocénicas",
+		"displayTitle": {
+			"pt": "Moreias da Serra do Soajo: distribuição e extensão das Glaciações Plistocénicas",
+			"en": "Moraines of Serra do Soajo: distribution and extent of the Pleistocene glaciations",
+			"es": "Morrenas de Serra do Soajo: distribución y extensión de las glaciaciones pleistocenas",
+			"de": "Moränen der Serra do Soajo: Verteilung und Ausdehnung der pleistozänen Vergletscherungen",
+			"fr": "Moraines de la Serra do Soajo : distribution et extension des glaciations pléistocènes",
+			"it": "Morene della Serra do Soajo: distribuzione ed estensione delle glaciazioni pleistoceniche",
+			"no": "Morener i Serra do Soajo: fordeling og utbredelse av de pleistocene glasiasjonene",
+			"zh": "Serra do Soajo 冰碛：更新世冰川作用的分布与范围"
+		},
 		"authors": "Edgar Figueira; Alberto Gomes; Augusto Pérez-Alberti; Helder I. Chaminé",
 		"venue": "XIII Congresso da Geografia Portuguesa — Livro de Atas",
 		"topics": ["moraine", "erratic", "fieldwork"],
@@ -2294,6 +2497,10 @@
 			"north": 41.995,
 			"east": -8.155
 		},
+		"location": {
+			"lat": 41.93,
+			"lon": -8.2725
+		},
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -2312,6 +2519,16 @@
 		"type": "thesis",
 		"region": "soajo",
 		"title": "Cartografia Geomorfológica dos vestígios glaciários na Serra do Soajo: um contributo para o ordenamento do território no Parque Nacional Peneda-Gerês",
+		"displayTitle": {
+			"pt": "Cartografia Geomorfológica dos vestígios glaciários na Serra do Soajo: um contributo para o ordenamento do território no Parque Nacional Peneda-Gerês",
+			"en": "Geomorphological mapping of glacial evidence in Serra do Soajo: a contribution to spatial planning in Peneda-Gerês National Park",
+			"es": "Cartografía geomorfológica de los vestigios glaciares en Serra do Soajo: una contribución a la ordenación del territorio en el Parque Nacional Peneda-Gerês",
+			"de": "Geomorphologische Kartierung glazialer Spuren in der Serra do Soajo: ein Beitrag zur Raumplanung im Nationalpark Peneda-Gerês",
+			"fr": "Cartographie géomorphologique des vestiges glaciaires de la Serra do Soajo : une contribution à l’aménagement du territoire dans le Parc national de Peneda-Gerês",
+			"it": "Cartografia geomorfologica delle testimonianze glaciali nella Serra do Soajo: un contributo alla pianificazione territoriale nel Parco Nazionale di Peneda-Gerês",
+			"no": "Geomorfologisk kartlegging av glasiale spor i Serra do Soajo: et bidrag til arealplanlegging i Peneda-Gerês nasjonalpark",
+			"zh": "Serra do Soajo 冰川遗迹地貌制图：对 Peneda-Gerês 国家公园空间规划的贡献"
+		},
 		"authors": "Edgar Junceiro Ramos Carneiro Figueira",
 		"venue": "Universidade do Porto — Dissertação de Mestrado",
 		"topics": [
@@ -2470,6 +2687,10 @@
 			"north": 42.03,
 			"east": -8.07
 		},
+		"location": {
+			"lat": 41.9275,
+			"lon": -8.25
+		},
 		"imageCaption": {
 			"pt": "",
 			"en": "",
@@ -2488,6 +2709,16 @@
 		"type": "conference",
 		"region": "soajo",
 		"title": "Moreias da Serra do Soajo: distribuição e extensão da Glaciação Plistocénica",
+		"displayTitle": {
+			"pt": "Moreias da Serra do Soajo: distribuição e extensão da Glaciação Plistocénica",
+			"en": "Moraines of Serra do Soajo: distribution and extent of the Pleistocene glaciation",
+			"es": "Morrenas de Serra do Soajo: distribución y extensión de la glaciación pleistocena",
+			"de": "Moränen der Serra do Soajo: Verteilung und Ausdehnung der pleistozänen Vergletscherung",
+			"fr": "Moraines de la Serra do Soajo : distribution et extension de la glaciation pléistocène",
+			"it": "Morene della Serra do Soajo: distribuzione ed estensione della glaciazione pleistocenica",
+			"no": "Morener i Serra do Soajo: fordeling og utbredelse av den pleistocene glasiasjonen",
+			"zh": "Serra do Soajo 冰碛：更新世冰川作用的分布与范围"
+		},
 		"authors": "Edgar Figueira; Alberto Gomes; Augusto Pérez-Alberti; Helder I. Chaminé",
 		"venue": "XIII Congresso da Geografia Portuguesa",
 		"topics": ["moraine", "fieldwork"],
@@ -2593,6 +2824,10 @@
 			"west": -8.385,
 			"north": 41.99,
 			"east": -8.165
+		},
+		"location": {
+			"lat": 41.93,
+			"lon": -8.275
 		},
 		"imageCaption": {
 			"pt": "",

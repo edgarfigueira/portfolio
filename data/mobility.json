@@ -3,6 +3,16 @@
     {
       "year": "2026–2030",
       "title": "FCT Doctoral Research Grant",
+      "displayTitle": {
+        "pt": "Bolsa de Investigação para Doutoramento FCT",
+        "en": "FCT Doctoral Research Grant",
+        "es": "Beca de investigación doctoral FCT",
+        "de": "FCT-Forschungsstipendium für die Promotion",
+        "fr": "Bourse de recherche doctorale FCT",
+        "it": "Borsa di ricerca per dottorato FCT",
+        "no": "FCT-forskningsstipend for doktorgrad",
+        "zh": "FCT 博士研究奖学金"
+      },
       "institution": "Fundação para a Ciência e a Tecnologia (FCT)",
       "place": "Portugal",
       "statusKey": "status_active",
@@ -21,6 +31,16 @@
     {
       "year": "2025",
       "title": "IAG Grant — BSG Post-Graduate Training Workshop",
+      "displayTitle": {
+        "pt": "Bolsa IAG — BSG Post-Graduate Training Workshop",
+        "en": "IAG Grant — BSG Post-Graduate Training Workshop",
+        "es": "Beca IAG — BSG Post-Graduate Training Workshop",
+        "de": "IAG-Stipendium — BSG Post-Graduate Training Workshop",
+        "fr": "Bourse IAG — BSG Post-Graduate Training Workshop",
+        "it": "Borsa IAG — BSG Post-Graduate Training Workshop",
+        "no": "IAG-stipend — BSG Post-Graduate Training Workshop",
+        "zh": "IAG 资助 — BSG 研究生培训工作坊"
+      },
       "institution": "International Association of Geomorphologists (IAG)",
       "place": "Windsor, United Kingdom",
       "statusKey": "status_awarded",
@@ -41,6 +61,16 @@
     {
       "year": "2027",
       "title": "Erasmus+ MIND PhD25",
+      "displayTitle": {
+        "pt": "Erasmus+ MIND PhD25",
+        "en": "Erasmus+ MIND PhD25",
+        "es": "Erasmus+ MIND PhD25",
+        "de": "Erasmus+ MIND PhD25",
+        "fr": "Erasmus+ MIND PhD25",
+        "it": "Erasmus+ MIND PhD25",
+        "no": "Erasmus+ MIND PhD25",
+        "zh": "Erasmus+ MIND PhD25"
+      },
       "institution": "UiT — The Arctic University of Norway",
       "place": "Tromsø, Norway",
       "statusKey": "status_planned",
@@ -61,6 +91,16 @@
     {
       "year": "29–31 Jul 2026",
       "title": "Técnicas de Trabajo de Campo en Zonas de Montañas y Regiones Frías",
+      "displayTitle": {
+        "pt": "Técnicas de trabalho de campo em zonas de montanha e regiões frias",
+        "en": "Fieldwork techniques in mountain areas and cold regions",
+        "es": "Técnicas de Trabajo de Campo en Zonas de Montañas y Regiones Frías",
+        "de": "Feldarbeitstechniken in Gebirgsräumen und kalten Regionen",
+        "fr": "Techniques de terrain en zones de montagne et régions froides",
+        "it": "Tecniche di lavoro sul campo in aree montane e regioni fredde",
+        "no": "Feltarbeidsteknikker i fjellområder og kalde regioner",
+        "zh": "山地与寒冷地区野外工作技术"
+      },
       "institution": "IPE-CSIC",
       "place": "Jaca, Spain",
       "statusKey": "status_training",
@@ -79,6 +119,16 @@
     {
       "year": "1–4 Dec 2025",
       "title": "BSG Post-Graduate Training Workshop (Windsor Workshop)",
+      "displayTitle": {
+        "pt": "Workshop de formação pós-graduada da BSG (Windsor Workshop)",
+        "en": "BSG Post-Graduate Training Workshop (Windsor Workshop)",
+        "es": "Taller de formación de posgrado de la BSG (Windsor Workshop)",
+        "de": "BSG-Weiterbildungsworkshop für Postgraduierte (Windsor Workshop)",
+        "fr": "Atelier de formation postgraduée de la BSG (Windsor Workshop)",
+        "it": "Workshop di formazione post-laurea della BSG (Windsor Workshop)",
+        "no": "BSG-workshop for videreutdanning på høyere grads nivå (Windsor Workshop)",
+        "zh": "BSG 研究生培训工作坊（Windsor Workshop）"
+      },
       "institution": "British Society for Geomorphology (BSG)",
       "place": "Cumberland Lodge, Windsor Great Park, United Kingdom",
       "statusKey": "status_completed",
@@ -97,6 +147,16 @@
     {
       "year": "Jun–Jul 2027",
       "title": "Doctoral research mobility",
+      "displayTitle": {
+        "pt": "Mobilidade de investigação doutoral",
+        "en": "Doctoral research mobility",
+        "es": "Movilidad de investigación doctoral",
+        "de": "Forschungsmobilität im Rahmen der Promotion",
+        "fr": "Mobilité de recherche doctorale",
+        "it": "Mobilità di ricerca dottorale",
+        "no": "Forskningsmobilitet på doktorgradsnivå",
+        "zh": "博士研究交流"
+      },
       "institution": "UiT — The Arctic University of Norway",
       "place": "Tromsø, Norway",
       "statusKey": "status_planned",

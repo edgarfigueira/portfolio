@@ -1,4 +1,4 @@
-# Edgar Figueira — Scientific Portfolio V7.5.0 (Pages CMS-ready)
+# Edgar Figueira — Scientific Portfolio V7.5.1 (Pages CMS-ready)
 
 This version keeps the V6.2 visual design but separates **content from JavaScript logic** so the repository can be managed with Pages CMS.
 
@@ -7,8 +7,8 @@ This version keeps the V6.2 visual design but separates **content from JavaScrip
 Editable content is now stored in `data/`:
 
 - `data/profile.json` — profile links, homepage settings, Highlights and metrics
-- `data/works.json` — scientific works, BBox, methods, findings and work images
-- `data/regions.json` — study-region labels, bounding boxes and polygon vertices
+- `data/works.json` — scientific works, approximate point locations, multilingual display titles, methods, findings and work images
+- `data/regions.json` — study-region labels; legacy spatial metadata is preserved but no longer required by the CMS or map
 - `data/gallery.json` — Field Atlas images and multilingual captions
 - `data/mobility.json` — grants, funding, international training received and research stays
 - `data/training.json` — training, workshops and sessions delivered as trainer/co-trainer
@@ -38,20 +38,18 @@ Narrative fields in works, mobility and gallery captions are stored as language 
 
 If the selected language is empty, the site falls back to English and then Portuguese. This lets you progressively complete translations without breaking the site.
 
-## Bounding boxes
+## Map locations
 
-Works now store BBox values with named fields instead of an anonymous array:
+Works are now administered with one approximate point location instead of requiring a study polygon or bounding box:
 
 ```json
-"bbox": {
-  "south": 41.565,
-  "west": -8.145,
-  "north": 41.725,
-  "east": -7.920
+"location": {
+  "lat": 41.645,
+  "lon": -8.0325
 }
 ```
 
-The runtime still converts this to Leaflet bounds automatically.
+The works map plots these coordinates directly. Selecting “Map” keeps the animated zoom interaction and moves the view to the selected point. Existing legacy BBox and regional polygon metadata are retained in the JSON files for content preservation, but are hidden from the routine Pages CMS editor and are no longer used to generate map centroids.
 
 ## Adding Atlas photos manually
 
@@ -67,7 +65,7 @@ A ready-to-use `.pages.yml` is included at the repository root. It exposes:
 
 - Profile & homepage
 - Scientific works
-- Study regions, bounding boxes and polygon vertices
+- Study regions and direct point locations for scientific works
 - Research page content and repeatable research lines/methods
 - CV education, professional experience and scientific identifiers
 - Field Atlas
@@ -158,7 +156,7 @@ This version is the hand-off build for Pages CMS. The objective is that routine 
 - Norwegian field names are explicitly quoted as `"no"` in `.pages.yml` to avoid YAML boolean ambiguity.
 - `data/cv.json` makes education, work experience, organisation links, descriptions, technologies and scientific identifiers repeatable CMS records.
 - `data/research.json` makes research lines, methods and internal research-page links repeatable CMS records.
-- `data/regions.json` now stores bounding boxes and polygon vertices in a structured form that Pages CMS can edit; the runtime converts them back to the legacy arrays expected by the site.
+- V7.5.0 structured regional bounding boxes and polygon vertices for CMS editing; V7.5.1 supersedes that workflow with direct point coordinates on each work while preserving the legacy regional geometry in the data.
 - Work and study-area counts on the homepage are derived automatically from `works.json`, so adding/removing works through the CMS updates the headline metrics without a second manual edit.
 - Page titles, meta descriptions, navigation accessibility labels, map labels, homepage affiliation text and image alt text are connected to the multilingual translation dataset.
 - `data/profile.json` has one contact email source (`profile.email`), used for both the visible institutional address and the contact form.
@@ -167,3 +165,12 @@ This version is the hand-off build for Pages CMS. The objective is that routine 
 - The **Advanced site files** CMS group exposes all first-party HTML, CSS and JavaScript files in a code editor for exceptional structural changes.
 
 Pages CMS structured files are protected against whole-file deletion, while repeatable lists inside them can still be added to, reordered, edited and removed in the editor.
+
+
+## V7.5.1 — direct map points, translated record titles & GitHub profile
+
+- Scientific works now use an editable `location` (`lat` / `lon`) in Pages CMS. The public map plots that point directly instead of deriving a centroid from a BBox or polygon. The animated zoom-to-selected-work interaction remains active.
+- Legacy BBox and region polygon fields are preserved in the data for backwards/content preservation, but are no longer exposed in the routine CMS forms or used by the map renderer.
+- Publications, grants/mobility entries and delivered-training entries now retain their original/official `title` and add a multilingual `displayTitle`. The interface renders `displayTitle` according to the selected site language while citations and original titles remain unchanged.
+- The contact page now includes the GitHub profile, managed through `profile.github` in Pages CMS.
+- `.pages.yml` exposes the new point-location and multilingual-title fields and keeps the complete assets/media administration already available in V7.5.0.

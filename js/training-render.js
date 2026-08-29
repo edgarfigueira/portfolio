@@ -21,7 +21,7 @@
     host.innerHTML=items.map(item=>{
       const meta=[item.year, item.typeKey ? t(item.typeKey) : '', item.duration || ''].filter(Boolean);
       const place=[item.institution,item.place].filter(Boolean).join(' · ');
-      return `<article class="mobility-entry training-entry"><div class="mobility-meta">${meta.map(v=>`<span>${esc(v)}</span>`).join('')}</div><div class="mobility-main"><div class="mobility-title-line"><h2>${esc(item.title)}</h2><span class="mobility-status">${esc(t(item.roleKey))}</span></div><p class="mobility-place">${esc(place)}</p><p>${esc(window.siteI18n?.value(item.description)||'')}</p>${externalLink(item)}</div></article>`;
+      return `<article class="mobility-entry training-entry"><div class="mobility-meta">${meta.map(v=>`<span>${esc(v)}</span>`).join('')}</div><div class="mobility-main"><div class="mobility-title-line"><h2>${esc(window.siteI18n?.value(item.displayTitle)||item.title)}</h2><span class="mobility-status">${esc(t(item.roleKey))}</span></div><p class="mobility-place">${esc(place)}</p><p>${esc(window.siteI18n?.value(item.description)||'')}</p>${externalLink(item)}</div></article>`;
     }).join('');
   }
   window.onSiteDataReady(render);
