@@ -278,5 +278,19 @@
       "no": "Punta Escarra glacial cirque · Aragonske Pyreneene",
       "zh": "蓬塔埃斯卡拉冰斗·阿拉貢比利牛斯山脈"
     }
+  },
+  {
+    "src": "/assets/gallery/drone/salinas_ua.jpg",
+    "ratio": "auto",
+    "caption": {
+      "pt": "Salinas, Universidade de Aveiro · Aveiro, Portugal",
+      "en": "Salinas, University of Aveiro · Aveiro, Portugal",
+      "es": "Salinas, Universidad de Aveiro · Aveiro, Portugal",
+      "de": "Salinas, Universität Aveiro · Aveiro, Portugal",
+      "fr": "Salines, Université d'Aveiro · Aveiro, Portugal",
+      "it": "Salinas, Università di Aveiro · Aveiro, Portogallo",
+      "no": "Salinas, Universitetet i Aveiro · Aveiro, Portugal",
+      "zh": "薩利納斯，阿威羅大學·阿威羅，葡萄牙"
+    }
   }
 ]
