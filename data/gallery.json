@@ -225,7 +225,7 @@
   },
   {
     "src": "/assets/gallery/jaca/jaca2.jpg",
-    "ratio": "portrait",
+    "ratio": "landscape",
     "caption": {
       "pt": "Catedral basílica de Nuestra Señora del Pilar · Zaragoza, Espanha",
       "en": "Basilica Cathedral of Our Lady of the Pillar · Zaragoza, Spain",
@@ -239,7 +239,7 @@
   },
   {
     "src": "/assets/gallery/leon/me_leon.jpg",
-    "ratio": "landscape",
+    "ratio": "portrait",
     "caption": {
       "pt": "Recolha de amostras em ambiente de turfa · Léon, Espanha",
       "en": "Sample collection in a peat environment · León, Spain",
