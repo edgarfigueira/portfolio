@@ -28,7 +28,7 @@
     }
   },
   {
-    "src": "/assets/gallery/periglaciar3.jpg",
+    "src": "/assets/gallery/cabreira/periglaciar3.jpg",
     "ratio": "landscape",
     "caption": {
       "pt": "Levantamento geomorfológico · Pôr do sol na Serra da Cabreira",
@@ -224,17 +224,17 @@
     }
   },
   {
-    "src": "/assets/gallery/jaca/jaca2.jpg",
-    "ratio": "portrait",
+    "src": "/assets/gallery/drone/fep.jpg",
+    "ratio": "landscape",
     "caption": {
-      "pt": "Catedral basílica de Nuestra Señora del Pilar · Zaragoza, Espanha",
-      "en": "Basilica Cathedral of Our Lady of the Pillar · Zaragoza, Spain",
-      "es": "Catedral basílica de Nuestra Señora del Pilar · Zaragoza, España",
-      "de": "Basilika-Kathedrale von Unsere Liebe Frau des Pfeils · Zaragoza, Spanien",
-      "fr": "Cathédrale basilique de Notre-Dame du Piller · Zaragoza, Espagne",
-      "it": "Cattedrale basilica di Nostra Signora del Pilar · Zaragoza, Spagna",
-      "no": "Basilika-Kathedrale von Unsere Liebe Frau des Pfeils · Zaragoza, Spanien",
-      "zh": "圣母柱大教堂 · 萨拉戈萨，西班牙"
+      "pt": "Faculdade de Economia - DJI Mini 3",
+      "en": "Faculty of Economics, University of Porto – DJI Mini 3",
+      "es": "Facultad de Economía de la Universidad de Oporto - DJI Mini 3",
+      "de": "Fakultät für Wirtschaftswissenschaften der Universität Porto – DJI Mini 3",
+      "fr": "Faculté d'économie de l'Université de Porto – DJI Mini 3",
+      "it": "Facoltà di Economia, Università di Porto – DJI Mini 3",
+      "no": "Fakultet for økonomi og ledelse, Universitetet i Porto – DJI Mini 3",
+      "zh": "波爾圖大學經濟與管理學院 —— DJI Mini 3"
     }
   },
   {
@@ -249,6 +249,48 @@
       "it": "Raccolta di campioni in un ambiente torboso · León, Spagna",
       "no": "Prøvetaking i et myrområde · León, Spania",
       "zh": "泥炭環境中的樣本採集 · 西班牙萊昂"
+    }
+  },
+  {
+    "src": "/assets/gallery/jaca/jaca2.jpg",
+    "ratio": "portrait",
+    "caption": {
+      "pt": "Catedral basílica de Nuestra Señora del Pilar · Zaragoza, Espanha",
+      "en": "Basilica Cathedral of Our Lady of the Pillar · Zaragoza, Spain",
+      "es": "Catedral basílica de Nuestra Señora del Pilar · Zaragoza, España",
+      "de": "Basilika-Kathedrale von Unsere Liebe Frau des Pfeils · Zaragoza, Spanien",
+      "fr": "Cathédrale basilique de Notre-Dame du Piller\\Zaragoza, Espagne",
+      "it": "Cattedrale basilica di Nostra Signora del Pilar · Zaragoza, Spagna",
+      "no": "Basilika-Kathedrale von Unsere Liebe Frau des Pfeils · Zaragoza, Spanien",
+      "zh": "圣母柱大教堂 · 萨拉戈萨，西班牙"
+    }
+  },
+  {
+    "src": "/assets/gallery/jaca/jaca5.jpg",
+    "ratio": "auto",
+    "caption": {
+      "pt": "Circo glaciário de Punta Escarra · Pirinéus Aragoneses",
+      "en": "Punta Escarra glacial cirque · Aragonese Pyrenees",
+      "es": "Circo glaciar de Punta Escarra · Pirineo aragonés",
+      "de": "Gletscherkessel Punta Escarra · Aragonesische Pyrenäen",
+      "fr": "Cirque glaciaire de Punta Escarra · Pyrénées aragonaises",
+      "it": "Circo glaciale di Punta Escarra · Pirenei aragonesi",
+      "no": "Punta Escarra glacial cirque · Aragonske Pyreneene",
+      "zh": "蓬塔埃斯卡拉冰斗·阿拉貢比利牛斯山脈"
+    }
+  },
+  {
+    "src": "/assets/gallery/drone/salinas_ua.jpg",
+    "ratio": "auto",
+    "caption": {
+      "pt": "Salinas, Universidade de Aveiro · Aveiro, Portugal",
+      "en": "Salinas, University of Aveiro · Aveiro, Portugal",
+      "es": "Salinas, Universidad de Aveiro · Aveiro, Portugal",
+      "de": "Salinas, Universität Aveiro · Aveiro, Portugal",
+      "fr": "Salines, Université d'Aveiro · Aveiro, Portugal",
+      "it": "Salinas, Università di Aveiro · Aveiro, Portogallo",
+      "no": "Salinas, Universitetet i Aveiro · Aveiro, Portugal",
+      "zh": "薩利納斯，阿威羅大學·阿威羅，葡萄牙"
     }
   }
 ]
