@@ -2493,6 +2493,17 @@
       "it": "Sintesi elaborata a partire dalla tesi di master fornita.",
       "no": "Sammendrag utarbeidet på grunnlag av den medfølgende masteravhandlingen.",
       "zh": "根据所提供的硕士论文整理。"
+    },
+    "image": "/assets/soajo.jpg",
+    "imageCaption": {
+      "pt": "Vale do Vez – Serra do Soajo",
+      "en": "Vez valley – Serra do Soajo",
+      "es": "Valle del Vez – Serra do Soajo",
+      "de": "Vez-Tal – Serra do Soajo",
+      "fr": "Vallée de la Vez – Serra do Soajo",
+      "it": "Valle del Vez - Serra do Soajo",
+      "no": "Vez-dalen – Serra do Soajo",
+      "zh": "韋茲河谷－索阿若山脈"
     }
   },
   {
