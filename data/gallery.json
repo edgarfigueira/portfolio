@@ -224,6 +224,20 @@
     }
   },
   {
+    "src": "/assets/gallery/drone/fep.jpg",
+    "ratio": "landscape",
+    "caption": {
+      "pt": "Faculdade de Economia - DJI Mini 3",
+      "en": "Faculty of Economics, University of Porto – DJI Mini 3",
+      "es": "Facultad de Economía de la Universidad de Oporto - DJI Mini 3",
+      "de": "Fakultät für Wirtschaftswissenschaften der Universität Porto – DJI Mini 3",
+      "fr": "Faculté d'économie de l'Université de Porto – DJI Mini 3",
+      "it": "Facoltà di Economia, Università di Porto – DJI Mini 3",
+      "no": "Fakultet for økonomi og ledelse, Universitetet i Porto – DJI Mini 3",
+      "zh": "波爾圖大學經濟與管理學院 —— DJI Mini 3"
+    }
+  },
+  {
     "src": "/assets/gallery/jaca/jaca2.jpg",
     "ratio": "landscape",
     "caption": {
@@ -249,20 +263,6 @@
       "it": "Raccolta di campioni in un ambiente torboso · León, Spagna",
       "no": "Prøvetaking i et myrområde · León, Spania",
       "zh": "泥炭環境中的樣本採集 · 西班牙萊昂"
-    }
-  },
-  {
-    "src": "/assets/gallery/drone/fep.jpg",
-    "ratio": "landscape",
-    "caption": {
-      "pt": "Faculdade de Economia - DJI Mini 3",
-      "en": "Faculty of Economics, University of Porto – DJI Mini 3",
-      "es": "Facultad de Economía de la Universidad de Oporto - DJI Mini 3",
-      "de": "Fakultät für Wirtschaftswissenschaften der Universität Porto – DJI Mini 3",
-      "fr": "Faculté d'économie de l'Université de Porto – DJI Mini 3",
-      "it": "Facoltà di Economia, Università di Porto – DJI Mini 3",
-      "no": "Fakultet for økonomi og ledelse, Universitetet i Porto – DJI Mini 3",
-      "zh": "波爾圖大學經濟與管理學院 —— DJI Mini 3"
     }
   }
 ]
