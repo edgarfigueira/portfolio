@@ -259,14 +259,24 @@
       "en": "Basilica Cathedral of Our Lady of the Pillar · Zaragoza, Spain",
       "es": "Catedral basílica de Nuestra Señora del Pilar · Zaragoza, España",
       "de": "Basilika-Kathedrale von Unsere Liebe Frau des Pfeils · Zaragoza, Spanien",
-      "fr": "Cathédrale basilique de Notre-Dame du Piller · Zaragoza, Espagne",
+      "fr": "Cathédrale basilique de Notre-Dame du Piller\\Zaragoza, Espagne",
       "it": "Cattedrale basilica di Nostra Signora del Pilar · Zaragoza, Spagna",
       "no": "Basilika-Kathedrale von Unsere Liebe Frau des Pfeils · Zaragoza, Spanien",
       "zh": "圣母柱大教堂 · 萨拉戈萨，西班牙"
     }
   },
   {
-    "src": "/assets/gallery/oviedo/1.jpg",
-    "ratio": "auto"
+    "src": "/assets/gallery/jaca/jaca5.jpg",
+    "ratio": "auto",
+    "caption": {
+      "pt": "Circo glaciário de Punta Escarra · Pirinéus Aragoneses",
+      "en": "Punta Escarra glacial cirque · Aragonese Pyrenees",
+      "es": "Circo glaciar de Punta Escarra · Pirineo aragonés",
+      "de": "Gletscherkessel Punta Escarra · Aragonesische Pyrenäen",
+      "fr": "Cirque glaciaire de Punta Escarra · Pyrénées aragonaises",
+      "it": "Circo glaciale di Punta Escarra · Pirenei aragonesi",
+      "no": "Punta Escarra glacial cirque · Aragonske Pyreneene",
+      "zh": "蓬塔埃斯卡拉冰斗·阿拉貢比利牛斯山脈"
+    }
   }
 ]
