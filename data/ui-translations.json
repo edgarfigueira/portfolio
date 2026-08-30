@@ -2726,5 +2726,16 @@
     "it": "Codice & progetti",
     "no": "Kode & prosjekter",
     "zh": "代码与项目"
+  },
+  {
+    "key": "work_views",
+    "pt": "Visualizações",
+    "en": "Views",
+    "es": "Visualizaciones",
+    "de": "Aufrufe",
+    "fr": "Vues",
+    "it": "Visualizzazioni",
+    "no": "Visninger",
+    "zh": "浏览量"
   }
 ]

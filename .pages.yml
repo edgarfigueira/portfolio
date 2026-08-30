@@ -268,6 +268,13 @@ content:
                   - { name: enabled, label: Enable Cloudflare Web Analytics, type: boolean }
                   - { name: hostname, label: Production hostname, type: string }
                   - { name: token, label: Cloudflare Web Analytics token, type: string }
+              - name: goatcounter
+                label: Scientific item analytics
+                type: object
+                fields:
+                  - { name: enabled, label: Enable GoatCounter for scientific works, type: boolean }
+                  - { name: endpoint, label: GoatCounter endpoint, type: string }
+                  - { name: publicCounts, label: Show public view counts on scientific works, type: boolean }
           - name: seo
             label: SEO & search visibility
             type: object

@@ -199,7 +199,8 @@
       visibleWorks=getFilteredWorks();
       summary.textContent=`${visibleWorks.length} ${window.siteI18n.t('results')}`;
 
-      list.innerHTML=visibleWorks.map(w=>`<article class="work-row" data-id="${w.id}"><div class="work-index"><span>${w.year}</span><span>${typeLabel(w.type)}</span></div><div class="work-main"><h2><a href="work.html?id=${w.id}">${escapeHtml(workTitle(w))}</a></h2><p>${escapeHtml(w.authors)}</p><p class="work-venue">${escapeHtml(w.venue)} · ${escapeHtml(regionLabel(w.region))}</p><div class="work-actions"><button class="text-action map-action" data-map="${w.id}">${window.siteI18n.t('map')}</button><a class="text-action" href="work.html?id=${w.id}">${window.siteI18n.t('details')} ↗</a>${w.url?`<a class="text-action" href="${escapeAttr(w.url)}" target="_blank" rel="noopener">${window.siteI18n.t('publication')} ↗</a>`:''}</div></div></article>`).join('');
+      list.innerHTML=visibleWorks.map(w=>`<article class="work-row" data-id="${w.id}"><div class="work-index"><span>${w.year}</span><span>${typeLabel(w.type)}</span></div><div class="work-main"><h2><a href="work.html?id=${w.id}">${escapeHtml(workTitle(w))}</a></h2><p>${escapeHtml(w.authors)}</p><p class="work-venue">${escapeHtml(w.venue)} · ${escapeHtml(regionLabel(w.region))}</p><p class="work-view-stat" data-work-views-wrap hidden><span>${window.siteI18n.t('work_views')}</span><span aria-hidden="true">·</span><strong data-work-views="${escapeAttr(w.id)}"></strong></p><div class="work-actions"><button class="text-action map-action" data-map="${w.id}">${window.siteI18n.t('map')}</button><a class="text-action" href="work.html?id=${w.id}">${window.siteI18n.t('details')} ↗</a>${w.url?`<a class="text-action" href="${escapeAttr(w.url)}" target="_blank" rel="noopener">${window.siteI18n.t('publication')} ↗</a>`:''}</div></div></article>`).join('');
+      window.scientificViews?.populate?.(list);
 
       if(map){
         drawWorkPoints(visibleWorks);

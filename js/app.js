@@ -239,6 +239,146 @@
     document.body.appendChild(script);
   }
 
+  const SCIENTIFIC_VIEW_CACHE_KEY='scientific-view-counts-v1';
+  const SCIENTIFIC_VIEW_CACHE_MS=60*60*1000;
+  const scientificCountPromises=new Map();
+
+  function scientificAnalyticsConfig(){
+    return window.SITE_CONFIG?.analytics?.goatcounter||{};
+  }
+
+  function scientificItemPath(id){
+    return `/scientific/${String(id||'').trim()}`;
+  }
+
+  function isWorkDetailPage(){
+    return /(?:^|\/)work\.html$/.test(window.location.pathname);
+  }
+
+  function currentScientificWork(){
+    if(!isWorkDetailPage()) return null;
+    const works=window.SCIENTIFIC_WORKS||[];
+    if(!works.length) return null;
+    const id=new URLSearchParams(window.location.search).get('id');
+    return works.find(work=>work.id===id)||works[0]||null;
+  }
+
+  function publicCounterBase(){
+    const endpoint=String(scientificAnalyticsConfig().endpoint||'').trim();
+    if(!endpoint) return '';
+    try{return new URL(endpoint).origin}catch{return ''}
+  }
+
+  function readScientificCountCache(){
+    try{
+      const parsed=JSON.parse(localStorage.getItem(SCIENTIFIC_VIEW_CACHE_KEY)||'{}');
+      return parsed && typeof parsed==='object' ? parsed : {};
+    }catch{return {}}
+  }
+
+  function writeScientificCountCache(cache){
+    try{localStorage.setItem(SCIENTIFIC_VIEW_CACHE_KEY,JSON.stringify(cache))}catch(_){ }
+  }
+
+  function clearScientificCountCache(id){
+    const cache=readScientificCountCache();
+    delete cache[id];
+    writeScientificCountCache(cache);
+    scientificCountPromises.delete(id);
+  }
+
+  async function fetchScientificViewCount(id,{force=false}={}){
+    const cfg=scientificAnalyticsConfig();
+    if(cfg.publicCounts!==true) return null;
+    const base=publicCounterBase();
+    if(!base || !id) return null;
+
+    const cache=readScientificCountCache();
+    const cached=cache[id];
+    if(!force && cached && Number.isFinite(Number(cached.updatedAt)) && Date.now()-Number(cached.updatedAt)<SCIENTIFIC_VIEW_CACHE_MS){
+      return String(cached.count ?? '0');
+    }
+
+    if(!force && scientificCountPromises.has(id)) return scientificCountPromises.get(id);
+
+    const promise=(async()=>{
+      const path=scientificItemPath(id);
+      const url=`${base}/counter/${encodeURIComponent(path)}.json`;
+      const response=await fetch(url,{cache:'no-store',credentials:'omit'});
+      if(response.status===404){
+        cache[id]={count:'0',updatedAt:Date.now()};
+        writeScientificCountCache(cache);
+        return '0';
+      }
+      if(!response.ok) throw new Error(`GoatCounter public counter returned ${response.status}`);
+      const result=await response.json();
+      const count=String(result?.count ?? '0');
+      cache[id]={count,updatedAt:Date.now()};
+      writeScientificCountCache(cache);
+      return count;
+    })().finally(()=>scientificCountPromises.delete(id));
+
+    scientificCountPromises.set(id,promise);
+    return promise;
+  }
+
+  async function populateScientificViewCounts(root=document,{force=false}={}){
+    const cfg=scientificAnalyticsConfig();
+    const nodes=[...root.querySelectorAll('[data-work-views]')];
+    if(!nodes.length) return;
+
+    if(cfg.publicCounts!==true){
+      nodes.forEach(node=>node.closest('[data-work-views-wrap]')?.setAttribute('hidden',''));
+      return;
+    }
+
+    await Promise.all(nodes.map(async node=>{
+      const id=node.dataset.workViews;
+      const wrap=node.closest('[data-work-views-wrap]');
+      try{
+        const count=await fetchScientificViewCount(id,{force});
+        if(count===null) return;
+        node.textContent=count;
+        wrap?.removeAttribute('hidden');
+      }catch(error){
+        wrap?.setAttribute('hidden','');
+        console.warn(`[Scientific views] Could not load public count for ${id}:`,error);
+      }
+    }));
+  }
+
+  function loadScientificAnalytics(){
+    const cfg=scientificAnalyticsConfig();
+    const endpoint=typeof cfg.endpoint==='string'?cfg.endpoint.trim():'';
+    const work=currentScientificWork();
+    if(cfg.enabled!==true || !endpoint || !work) return;
+    if(document.querySelector('script[data-site-analytics="goatcounter"]')) return;
+
+    // We count scientific work detail pages manually so each ?id= value maps
+    // to a stable GoatCounter path such as /scientific/w14.
+    window.goatcounter={...(window.goatcounter||{}),no_onload:true,no_events:true};
+
+    const script=document.createElement('script');
+    script.async=true;
+    script.src='https://gc.zgo.at/count.js';
+    script.setAttribute('data-goatcounter',endpoint);
+    script.setAttribute('data-site-analytics','goatcounter');
+    script.addEventListener('load',()=>{
+      try{
+        window.goatcounter?.count?.({
+          path:scientificItemPath(work.id),
+          title:work.title||work.id,
+          event:false
+        });
+        clearScientificCountCache(work.id);
+        setTimeout(()=>populateScientificViewCounts(document,{force:true}),1400);
+      }catch(error){
+        console.warn('[Scientific views] GoatCounter could not record this work view:',error);
+      }
+    },{once:true});
+    document.body.appendChild(script);
+  }
+
   function applySiteConfig(){
     const cfg=window.SITE_CONFIG||{};
     const profile=cfg.profile||{};
@@ -278,6 +418,7 @@
     });
   }
 
+  window.scientificViews={populate:populateScientificViewCounts,count:fetchScientificViewCount,path:scientificItemPath};
   window.siteSeo={sync:syncSeoMetadata,setCanonical,setStructuredData,setWork:setWorkSeo,absoluteUrl:absoluteSiteUrl};
   window.siteI18n={t,value,list,applyLanguage,get lang(){return root.lang}};
   root.lang=initial;
@@ -288,6 +429,7 @@
     applySiteConfig();
     loadWebAnalytics();
     applyLanguage(initial);
+    loadScientificAnalytics();
     document.querySelectorAll('[data-current-year]').forEach(el=>el.textContent=new Date().getFullYear());
     document.getElementById('languageSelect')?.addEventListener('change',e=>applyLanguage(e.target.value));
     document.getElementById('themeToggle')?.addEventListener('click',()=>{

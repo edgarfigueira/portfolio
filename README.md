@@ -1,4 +1,4 @@
-# Edgar Figueira — Scientific Portfolio V7.5.1 (Pages CMS-ready)
+# Edgar Figueira — Scientific Portfolio V7.6.1 (Pages CMS-ready)
 
 This version keeps the V6.2 visual design but separates **content from JavaScript logic** so the repository can be managed with Pages CMS.
 
@@ -183,3 +183,10 @@ Submit `https://edgarfigueira.github.io/portfolio/sitemap.xml` in Google Search 
 
 Because this is currently a GitHub **project** Pages site, the repository's `robots.txt` is served at `/portfolio/robots.txt`, while the robots standard checks `/robots.txt` at the hostname root. This does not prevent indexing; use Search Console to submit the sitemap directly. If the portfolio later moves to a custom domain or to the root `edgarfigueira.github.io` site, the included `robots.txt` is ready for root deployment.
 
+
+
+## Scientific work views (V7.6.1)
+
+GoatCounter is integrated specifically for scientific-work detail views. Each `work.html?id=...` page is recorded under a stable analytics path such as `/scientific/w14`, so works remain distinct even though the public site uses a query parameter. Public view counts can be shown on both `works.html` and `work.html`.
+
+Settings are stored under `analytics.goatcounter` in `data/profile.json` and exposed in Pages CMS. To display the public counters, enable **Allow adding visitor counts on your website** in the GoatCounter site settings. Cloudflare Web Analytics remains unchanged and continues to provide global traffic and performance analytics.

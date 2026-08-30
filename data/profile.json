@@ -43,6 +43,11 @@
       "enabled": true,
       "hostname": "edgarfigueira.github.io",
       "token": "c82ca2b2e62241f3a16d0745ad8053ce"
+    },
+    "goatcounter": {
+      "enabled": true,
+      "endpoint": "https://edgarfigueira.goatcounter.com/count",
+      "publicCounts": true
     }
   },
   "seo": {

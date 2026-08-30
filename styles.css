@@ -517,6 +517,27 @@ input {
 .work-venue {
 	margin-top: 3px !important;
 }
+
+.work-view-stat {
+	display: flex;
+	align-items: baseline;
+	gap: 5px;
+	margin-top: 7px !important;
+	font-size: 10.5px !important;
+	color: var(--muted);
+}
+.work-view-stat strong {
+	font-size: inherit;
+	font-weight: 620;
+	color: var(--text);
+}
+.work-view-stat[hidden] {
+	display: none !important;
+}
+.work-view-stat--detail {
+	margin: 8px 0 0 !important;
+}
+
 .work-actions {
 	display: flex;
 	gap: 15px;
