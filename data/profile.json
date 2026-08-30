@@ -44,5 +44,11 @@
       "hostname": "edgarfigueira.github.io",
       "token": "c82ca2b2e62241f3a16d0745ad8053ce"
     }
+  },
+  "seo": {
+    "siteUrl": "https://edgarfigueira.github.io/portfolio/",
+    "siteName": "Edgar Figueira · Scientific Portfolio",
+    "defaultImage": "assets/me.jpeg",
+    "structuredData": true
   }
 }

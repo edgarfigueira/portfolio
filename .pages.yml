@@ -268,6 +268,17 @@ content:
                   - { name: enabled, label: Enable Cloudflare Web Analytics, type: boolean }
                   - { name: hostname, label: Production hostname, type: string }
                   - { name: token, label: Cloudflare Web Analytics token, type: string }
+          - name: seo
+            label: SEO & search visibility
+            type: object
+            fields:
+              - { name: siteUrl, label: Canonical site URL, type: string, required: true }
+              - { name: siteName, label: Site name for search / social metadata, type: string, required: true }
+              - name: defaultImage
+                label: Default social sharing image
+                type: image
+                options: { media: profile_images }
+              - { name: structuredData, label: Enable structured data (JSON-LD), type: boolean }
 
   - name: works_group
     label: Scientific output
@@ -530,6 +541,8 @@ content:
       - { name: code_training, label: Training HTML, type: file, path: training.html, format: code, operations: { create: false, rename: false, delete: false } }
       - { name: code_cv, label: CV HTML, type: file, path: cv.html, format: code, operations: { create: false, rename: false, delete: false } }
       - { name: code_contact, label: Contact HTML, type: file, path: contact.html, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_sitemap, label: Sitemap XML, type: file, path: sitemap.xml, format: code, operations: { create: false, rename: false, delete: false } }
+      - { name: code_robots, label: Robots TXT, type: file, path: robots.txt, format: code, operations: { create: false, rename: false, delete: false } }
       - { name: code_css, label: Global CSS, type: file, path: styles.css, format: code, operations: { create: false, rename: false, delete: false } }
       - { name: code_app, label: Core app JavaScript, type: file, path: js/app.js, format: code, operations: { create: false, rename: false, delete: false } }
       - { name: code_loader, label: Data loader JavaScript, type: file, path: js/data-loader.js, format: code, operations: { create: false, rename: false, delete: false } }

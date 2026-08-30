@@ -174,3 +174,12 @@ Pages CMS structured files are protected against whole-file deletion, while repe
 - Publications, grants/mobility entries and delivered-training entries now retain their original/official `title` and add a multilingual `displayTitle`. The interface renders `displayTitle` according to the selected site language while citations and original titles remain unchanged.
 - The contact page now includes the GitHub profile, managed through `profile.github` in Pages CMS.
 - `.pages.yml` exposes the new point-location and multilingual-title fields and keeps the complete assets/media administration already available in V7.5.0.
+
+## SEO, indexing and social metadata (V7.6.0)
+
+The site now includes canonical URLs, Open Graph and Twitter/X metadata, a sitemap, robots directives, and JSON-LD structured data. The homepage publishes `WebSite` + `Person` structured data at runtime; individual `work.html?id=...` records publish `ScholarlyArticle` for articles and `CreativeWork` for the remaining output types. SEO settings (`siteUrl`, site name, default social image and structured-data switch) are editable in Pages CMS under **Profile & homepage → SEO & search visibility**.
+
+Submit `https://edgarfigueira.github.io/portfolio/sitemap.xml` in Google Search Console after adding the URL-prefix property `https://edgarfigueira.github.io/portfolio/`. Existing work URLs are included in the sitemap. New work records created later are still discoverable through the internal Publications links; if desired, refresh `sitemap.xml` from the Advanced site files section.
+
+Because this is currently a GitHub **project** Pages site, the repository's `robots.txt` is served at `/portfolio/robots.txt`, while the robots standard checks `/robots.txt` at the hostname root. This does not prevent indexing; use Search Console to submit the sitemap directly. If the portfolio later moves to a custom domain or to the root `edgarfigueira.github.io` site, the included `robots.txt` is ready for root deployment.
+
