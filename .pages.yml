@@ -257,6 +257,17 @@ content:
                 fields:
                   - { name: crossref, label: Crossref enabled, type: boolean }
                   - { name: opencitations, label: OpenCitations enabled, type: boolean }
+          - name: analytics
+            label: Web analytics
+            type: object
+            fields:
+              - name: cloudflare
+                label: Cloudflare Web Analytics
+                type: object
+                fields:
+                  - { name: enabled, label: Enable Cloudflare Web Analytics, type: boolean }
+                  - { name: hostname, label: Production hostname, type: string }
+                  - { name: token, label: Cloudflare Web Analytics token, type: string }
 
   - name: works_group
     label: Scientific output

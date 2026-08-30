@@ -55,6 +55,24 @@
     };
   }
 
+  function loadWebAnalytics(){
+    const cloudflare=window.SITE_CONFIG?.analytics?.cloudflare||{};
+    const enabled=cloudflare.enabled===true;
+    const token=typeof cloudflare.token==='string'?cloudflare.token.trim():'';
+    const hostname=typeof cloudflare.hostname==='string'?cloudflare.hostname.trim():'';
+
+    if(!enabled || !token) return;
+    if(hostname && window.location.hostname!==hostname) return;
+    if(document.querySelector('script[data-site-analytics="cloudflare"]')) return;
+
+    const script=document.createElement('script');
+    script.type='module';
+    script.src='https://static.cloudflareinsights.com/beacon.min.js';
+    script.setAttribute('data-cf-beacon',JSON.stringify({token}));
+    script.setAttribute('data-site-analytics','cloudflare');
+    document.body.appendChild(script);
+  }
+
   function applySiteConfig(){
     const cfg=window.SITE_CONFIG||{};
     const profile=cfg.profile||{};
@@ -101,6 +119,7 @@
 
   window.onSiteDataReady(()=>{
     applySiteConfig();
+    loadWebAnalytics();
     applyLanguage(initial);
     document.querySelectorAll('[data-current-year]').forEach(el=>el.textContent=new Date().getFullYear());
     document.getElementById('languageSelect')?.addEventListener('change',e=>applyLanguage(e.target.value));
