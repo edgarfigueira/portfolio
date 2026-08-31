@@ -11,7 +11,7 @@
     "brandMark": "EF"
   },
   "homepage": {
-    "profileImage": "assets/me.jpeg",
+    "profileImage": "/assets/me.jpeg",
     "atlasPreviewCount": 4,
     "highlights": [
       {
@@ -29,10 +29,10 @@
     ]
   },
   "site": {
-    "favicon": "assets/favicon.svg"
+    "favicon": "/assets/favicon.svg"
   },
   "metrics": {
-    "citationCacheHours": 12,
+    "citationCacheHours": 48,
     "citationSources": {
       "crossref": true,
       "opencitations": true
@@ -53,7 +53,7 @@
   "seo": {
     "siteUrl": "https://edgarfigueira.github.io/portfolio/",
     "siteName": "Edgar Figueira · Scientific Portfolio",
-    "defaultImage": "assets/me.jpeg",
+    "defaultImage": "/assets/me.jpeg",
     "structuredData": true
   }
 }
