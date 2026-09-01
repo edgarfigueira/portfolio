@@ -1,19 +1,5 @@
 [
   {
-    "src": "/assets/gallery/geres/marinho.jpg",
-    "ratio": "landscape",
-    "caption": {
-      "pt": "Serra do Gerês · Lagoa do Marinho",
-      "en": "Serra do Gerês · Lagoa do Marinho",
-      "es": "Serra do Gerês · Lagoa do Marinho",
-      "de": "Serra do Gerês · Lagoa do Marinho",
-      "fr": "Serra do Gerês · Lagoa do Marinho",
-      "it": "Serra do Gerês · Lagoa do Marinho",
-      "no": "Serra do Gerês · Lagoa do Marinho",
-      "zh": "Serra do Gerês · Lagoa do Marinho"
-    }
-  },
-  {
     "src": "/assets/gallery/jaca/jaca4.jpg",
     "ratio": "portrait",
     "caption": {
