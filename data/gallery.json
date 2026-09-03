@@ -278,5 +278,19 @@
       "no": "Salinas, Universitetet i Aveiro · Aveiro, Portugal",
       "zh": "薩利納斯，阿威羅大學·阿威羅，葡萄牙"
     }
+  },
+  {
+    "src": "/assets/gallery/geres/geres_rrim.png",
+    "ratio": "auto",
+    "caption": {
+      "pt": "Red Relief Image Map na Serra do Gerês (Chiba, T., Kaneta, S., & Suzuki, Y., 2008)",
+      "en": "Serra do Gerês Red Relief Image Map (Chiba, T., Kaneta, S., & Suzuki, Y., 2008)",
+      "es": "Red Relief Image Map en la Serra do Gerês  (Chiba, T., Kaneta, S., & Suzuki, Y., 2008)",
+      "de": "Red-Relief-Image-Karte der Serra do Gerês (Chiba, T., Kaneta, S., & Suzuki, Y., 2008)",
+      "fr": "Carte d'imagerie de relief en rouge (Red Relief Image Map) dans la Serra do Gerês (Chiba, T., Kaneta, S., & Suzuki, Y., 2008)",
+      "it": "Mappa a rilievo con rappresentazione cromatica rossa della Serra do Gerês (Chiba, T., Kaneta, S., & Suzuki, Y., 2008)",
+      "no": "Reliefkart i rødt over Serra do Gerês (Chiba, S., Kaneta, S. og Suzuki, Y., 2008)",
+      "zh": "塞拉·杜·熱雷斯（Serra do Gerês）的紅色浮雕影像圖（Chiba, S., Kaneta, S., & Suzuki, Y., 2008)"
+    }
   }
 ]
