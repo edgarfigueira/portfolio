@@ -1,5 +1,131 @@
 [
   {
+    "id": "w18",
+    "year": 2026,
+    "type": "conference",
+    "region": "geres",
+    "title": "Cartografia geomorfológica e dinâmica glaciária no setor de Compadre (Serra do Gerês, NW Portugal)",
+    "displayTitle": {
+      "pt": "Cartografia geomorfológica e dinâmica glaciária no setor de Compadre (Serra do Gerês, NW Portugal)",
+      "en": "Geomorphological mapping and glacial dynamics in the Compadre sector (Serra do Gerês, NW Portugal)",
+      "es": "Cartografía geomorfológica y dinámica glaciar en el sector de Compadre (Serra do Gerês, NW de Portugal)",
+      "de": "Geomorphologische Kartierung und Gletscherdynamik im Bereich Compadre (Serra do Gerês, NW von Portugal)",
+      "fr": "Cartographie géomorphologique et dynamique des glaciers dans le secteur de\nCompadre (Serra do Gerês, NW du Portugal)",
+      "it": "Cartografia geomorfologica e dinamica glaciale nel settore Compadre (Serra do Gerês, NW Portugal)",
+      "no": "Geomorfologisk kartlegging og bredynamikk i Compadre-sektoren (Serra do Gerês, NW Portugal)",
+      "zh": "Compadre 區的地形測繪和冰川動力學（葡萄牙西北部 Serra do Gerês"
+    },
+    "authors": "Edgar Figueira; Alberto Gomes; Paulo Pereira; Javier Santos-González",
+    "venue": "XI Congresso Nacional de Geomorfologia",
+    "topics": [
+      "Cartografia geomorfológica; paleoglaciares; moreias; Serra do Gerês; LiDAR; deglaciação"
+    ],
+    "url": "https://www.researchgate.net/publication/414235171_Geomorphological_mapping_and_glacial_dynamics_in_the_Compadre_sector_Serra_do_Geres_NW_Portugal",
+    "location": {
+      "lat": 41.80094,
+      "lon": -8.00859
+    },
+    "abstract": {
+      "pt": "Apresenta uma cartografia geomorfológica de alta resolução do setor terminal de Compadre, nos vales de Biduiça–Dola, combinando dados LiDAR e validação de campo para refinar a identificação e interpretação das formas glaciárias.",
+      "en": "Presents high-resolution geomorphological mapping of the terminal Compadre sector in the Biduiça–Dola valleys, combining LiDAR data and field validation to refine the identification and interpretation of glacial landforms.",
+      "es": "Presenta una cartografía geomorfológica de alta resolución del sector terminal de Compadre, en los valles de Biduiça–Dola, combinando datos LiDAR y validación de campo para mejorar la identificación e interpretación de las formas glaciares.",
+      "de": "Präsentiert eine hochauflösende geomorphologische Kartierung des terminalen Compadre-Sektors in den Tälern Biduiça–Dola durch die Kombination von LiDAR-Daten und Geländevalidierung zur verbesserten Erfassung und Interpretation glazialer Landformen.",
+      "fr": "Présente une cartographie géomorphologique à haute résolution du secteur terminal de Compadre, dans les vallées de Biduiça–Dola, combinant données LiDAR et validation de terrain afin d'affiner l'identification et l'interprétation des formes glaciaires.",
+      "it": "Presenta una cartografia geomorfologica ad alta risoluzione del settore terminale di Compadre, nelle valli Biduiça–Dola, integrando dati LiDAR e validazione sul terreno per migliorare l'identificazione e l'interpretazione delle forme glaciali.",
+      "no": "Presenterer høyoppløselig geomorfologisk kartlegging av den terminale Compadre-sektoren i Biduiça–Dola-dalene, basert på LiDAR-data og feltvalidering for å forbedre identifikasjonen og tolkningen av glasiale landformer.",
+      "zh": "利用 LiDAR 数据与野外验证，对 Biduiça–Dola 山谷的 Compadre 冰川末端区域进行高分辨率地貌制图，以提高冰川地貌识别与解释的精度。"
+    },
+    "studyArea": {
+      "pt": "Setor terminal do paleoglaciar de Compadre, na vertente oriental da Serra do Gerês, aproximadamente entre 900 e 1350 m de altitude.",
+      "en": "Terminal sector of the Compadre palaeoglacier on the eastern slope of the Gerês Mountains, at approximately 900–1350 m a.s.l.",
+      "es": "Sector terminal del paleoglaciar de Compadre, en la vertiente oriental de la Serra do Gerês, aproximadamente entre 900 y 1350 m de altitud.",
+      "de": "Terminaler Bereich des Compadre-Paläogletschers am Osthang des Gerês-Gebirges, in etwa 900–1350 m Höhe.",
+      "fr": "Secteur terminal du paléoglacier de Compadre, sur le versant oriental du massif du Gerês, entre environ 900 et 1350 m d'altitude.",
+      "it": "Settore terminale del paleoghiacciaio di Compadre, sul versante orientale della Serra do Gerês, tra circa 900 e 1350 m di quota.",
+      "no": "Den terminale delen av Compadre-paleobreen på østsiden av Gerês-fjellene, omtrent 900–1350 moh.",
+      "zh": "Compadre 古冰川末端区域，位于 Gerês 山地东坡，海拔约 900–1350 m。"
+    },
+    "methods": {
+      "pt": [
+        "Dados LiDAR da DGT",
+        "Sombreamento multidirecional, declive, openness diferencial e curvas de nível"
+      ],
+      "en": [
+        "DGT LiDAR data",
+        "Multidirectional hillshade, slope, differential openness and contour lines."
+      ],
+      "es": [
+        "Datos LiDAR de la DGT",
+        "Sombreado multidireccional, pendiente, apertura diferencial y curvas de nivel."
+      ],
+      "de": [
+        "LiDAR-Daten der DGT",
+        "Multidirektionale Schummerung, Hangneigung, differentielle Openness und Höhenlinien."
+      ],
+      "fr": [
+        "Données LiDAR de la DGT",
+        "Ombrage multidirectionnel, pente, ouverture différentielle et courbes de niveau."
+      ],
+      "it": [
+        "Dati LiDAR della DGT",
+        "Ombreggiatura multidirezionale, pendenza, apertura differenziale e curve di livello."
+      ],
+      "no": [
+        "LiDAR-data fra DGT",
+        "Multidireksjonal skyggerelieff, helning, differensiell openness og høydekurver."
+      ],
+      "zh": [
+        "DGT LiDAR 数据",
+        "多方向阴影、坡度、差异开放度及等高线。"
+      ]
+    },
+    "findings": {
+      "pt": [
+        "Identificação de formas e depósitos glaciários, fluvioglaciários e paraglaciários.",
+        "Os dados LiDAR permitiram identificar formas de menor expressão topográfica e refinar significativamente a cartografia geomorfológica anterior."
+      ],
+      "en": [
+        "Identification of glacial, glaciofluvial and paraglacial landforms and deposits.",
+        "LiDAR data enabled the identification of subtle landforms and substantially refined previous geomorphological mapping."
+      ],
+      "es": [
+        "Identificación de formas y depósitos glaciares, fluvioglaciares y paraglaciares.",
+        "Los datos LiDAR permitieron identificar formas de escasa expresión topográfica y mejorar sustancialmente la cartografía geomorfológica anterior."
+      ],
+      "de": [
+        "Identifizierung glazialer, glazifluvialer und paraglazialer Formen und Ablagerungen.",
+        "LiDAR-Daten ermöglichten die Erfassung topographisch schwach ausgeprägter Formen und eine deutliche Verfeinerung früherer geomorphologischer Kartierungen."
+      ],
+      "fr": [
+        "Identification de formes et dépôts glaciaires, fluvioglaciaires et paraglaciaires.",
+        "Les données LiDAR ont permis d'identifier des formes à faible expression topographique et d'affiner considérablement la cartographie géomorphologique antérieure."
+      ],
+      "it": [
+        "Identificazione di forme e depositi glaciali, fluvioglaciali e paraglaciali.",
+        "I dati LiDAR hanno permesso di identificare forme con debole espressione topografica e di affinare significativamente la cartografia geomorfologica precedente."
+      ],
+      "no": [
+        "Identifikasjon av glasiale, glasifluviale og paraglasiale landformer og avsetninger.",
+        "LiDAR-data gjorde det mulig å identifisere landformer med svakt topografisk uttrykk og forbedre tidligere geomorfologisk kartlegging betydelig."
+      ],
+      "zh": [
+        "识别出冰川、冰水和冰后地貌及沉积物。",
+        "LiDAR 数据有助于识别地形起伏较弱的地貌，并显著提高既有地貌制图的精度。"
+      ]
+    },
+    "citation": "Figueira, E., Gomes, A., Pereira, P., & Santos-González, J. (2026). Cartografia geomorfológica e dinâmica glaciária no setor de Compadre (Serra do Gerês, NW Portugal). In XI Congresso Nacional de Geomorfologia: Inovações tecnológicas e aplicações para o ordenamento do território. Publicações da Associação Portuguesa de Geomorfólogos, Vol. XIII, 228–232",
+    "sourceNote": {
+      "pt": "Síntese preparada a partir do trabalho publicado nas atas do XI Congresso Nacional de Geomorfologia de 2026.",
+      "en": "Summary prepared from the paper published in the proceedings of the 2026 XI National Congress of Geomorphology.",
+      "es": "Síntesis preparada a partir del trabajo publicado en las actas del XI Congreso Nacional de Geomorfología de 2026.",
+      "de": "Zusammenfassung auf Grundlage des in den Tagungsakten des XI Nationalen Kongresses für Geomorphologie 2026 veröffentlichten Beitrags.",
+      "fr": "Synthèse préparée à partir de la contribution publiée dans les actes du XI Congrès National de Géomorphologie de 2026.",
+      "it": "Sintesi preparata a partire dal contributo pubblicato negli atti dell'XI Congresso Nazionale di Geomorfologia del 2026.",
+      "no": "Sammendrag utarbeidet på grunnlag av bidraget publisert i konferansepublikasjonen fra XI nasjonale geomorfologikongress i 2026.",
+      "zh": "本摘要根据发表于 2026 年第十一届全国地貌学大会会议论文集中的研究成果整理。"
+    }
+  },
+  {
     "id": "w17",
     "year": 2026,
     "type": "conference",
@@ -2624,140 +2750,14 @@
     },
     "citation": "Figueira, E., Gomes, A., Pérez-Alberti, A., & Chaminé, H. I. (2021). Moreias da Serra do Soajo: distribuição e extensão da Glaciação Plistocénica. XIII Congresso da Geografia Portuguesa, Coimbra.",
     "sourceNote": {
-      "pt": "Registo bibliográfico e síntese baseados no CV fornecido e no artigo de atas posterior.",
-      "en": "Bibliographic record and synopsis based on the supplied CV and the later proceedings paper.",
-      "es": "Registro bibliográfico y síntesis basados en el CV proporcionado y en el posterior trabajo publicado en actas.",
+      "pt": "Registo bibliográfico e síntese baseados no artigo de atas posterior.",
+      "en": "Bibliographic record and synopsis based on the later proceedings paper.",
+      "es": "Registro bibliográfico y síntesis basados en trabajo publicado en actas.",
       "de": "Bibliografischer Datensatz und Synopsis auf Grundlage des bereitgestellten Lebenslaufs und des späteren Tagungsbandbeitrags.",
-      "fr": "Notice bibliographique et synthèse fondées sur le CV fourni et sur l’article d’actes publié ultérieurement.",
-      "it": "Record bibliografico e sintesi basati sul CV fornito e sul successivo contributo pubblicato negli atti.",
-      "no": "Bibliografisk oppføring og sammendrag basert på den medfølgende CV-en og det senere publiserte konferansebidraget.",
+      "fr": "Notice bibliographique et synthèse fondées sur l’article d’actes publié ultérieurement.",
+      "it": "Record bibliografico e sintesi basati sul contributo pubblicato negli atti.",
+      "no": "Bibliografisk oppføring og sammendrag basert på den senere publiserte konferansebidraget.",
       "zh": "书目记录与综述基于所提供的简历及后续发表的会议论文。"
-    }
-  },
-  {
-    "id": "w18",
-    "year": 2026,
-    "type": "conference",
-    "region": "geres",
-    "title": "Cartografia geomorfológica e dinâmica glaciária no setor de Compadre (Serra do Gerês, NW Portugal)",
-    "displayTitle": {
-      "pt": "Cartografia geomorfológica e dinâmica glaciária no setor de Compadre (Serra do Gerês, NW Portugal)",
-      "en": "Geomorphological mapping and glacial dynamics in the Compadre sector (Serra do Gerês, NW Portugal)",
-      "es": "Cartografía geomorfológica y dinámica glaciar en el sector de Compadre (Serra do Gerês, NW de Portugal)",
-      "de": "Geomorphologische Kartierung und Gletscherdynamik im Bereich Compadre (Serra do Gerês, NW von Portugal)",
-      "fr": "Cartographie géomorphologique et dynamique des glaciers dans le secteur de\nCompadre (Serra do Gerês, NW du Portugal)",
-      "it": "Cartografia geomorfologica e dinamica glaciale nel settore Compadre (Serra do Gerês, NW Portugal)",
-      "no": "Geomorfologisk kartlegging og bredynamikk i Compadre-sektoren (Serra do Gerês, NW Portugal)",
-      "zh": "Compadre 區的地形測繪和冰川動力學（葡萄牙西北部 Serra do Gerês"
-    },
-    "authors": "Edgar Figueira; Alberto Gomes; Paulo Pereira; Javier Santos-González",
-    "venue": "XI Congresso Nacional de Geomorfologia",
-    "topics": [
-      "Cartografia geomorfológica; paleoglaciares; moreias; Serra do Gerês; LiDAR; deglaciação"
-    ],
-    "url": "https://www.researchgate.net/publication/414235171_Geomorphological_mapping_and_glacial_dynamics_in_the_Compadre_sector_Serra_do_Geres_NW_Portugal",
-    "location": {
-      "lat": 41.80094,
-      "lon": -8.00859
-    },
-    "abstract": {
-      "pt": "Apresenta uma cartografia geomorfológica de alta resolução do setor terminal de Compadre, nos vales de Biduiça–Dola, combinando dados LiDAR e validação de campo para refinar a identificação e interpretação das formas glaciárias.",
-      "en": "Presents high-resolution geomorphological mapping of the terminal Compadre sector in the Biduiça–Dola valleys, combining LiDAR data and field validation to refine the identification and interpretation of glacial landforms.",
-      "es": "Presenta una cartografía geomorfológica de alta resolución del sector terminal de Compadre, en los valles de Biduiça–Dola, combinando datos LiDAR y validación de campo para mejorar la identificación e interpretación de las formas glaciares.",
-      "de": "Präsentiert eine hochauflösende geomorphologische Kartierung des terminalen Compadre-Sektors in den Tälern Biduiça–Dola durch die Kombination von LiDAR-Daten und Geländevalidierung zur verbesserten Erfassung und Interpretation glazialer Landformen.",
-      "fr": "Présente une cartographie géomorphologique à haute résolution du secteur terminal de Compadre, dans les vallées de Biduiça–Dola, combinant données LiDAR et validation de terrain afin d'affiner l'identification et l'interprétation des formes glaciaires.",
-      "it": "Presenta una cartografia geomorfologica ad alta risoluzione del settore terminale di Compadre, nelle valli Biduiça–Dola, integrando dati LiDAR e validazione sul terreno per migliorare l'identificazione e l'interpretazione delle forme glaciali.",
-      "no": "Presenterer høyoppløselig geomorfologisk kartlegging av den terminale Compadre-sektoren i Biduiça–Dola-dalene, basert på LiDAR-data og feltvalidering for å forbedre identifikasjonen og tolkningen av glasiale landformer.",
-      "zh": "利用 LiDAR 数据与野外验证，对 Biduiça–Dola 山谷的 Compadre 冰川末端区域进行高分辨率地貌制图，以提高冰川地貌识别与解释的精度。"
-    },
-    "studyArea": {
-      "pt": "Setor terminal do paleoglaciar de Compadre, na vertente oriental da Serra do Gerês, aproximadamente entre 900 e 1350 m de altitude.",
-      "en": "Terminal sector of the Compadre palaeoglacier on the eastern slope of the Gerês Mountains, at approximately 900–1350 m a.s.l.",
-      "es": "Sector terminal del paleoglaciar de Compadre, en la vertiente oriental de la Serra do Gerês, aproximadamente entre 900 y 1350 m de altitud.",
-      "de": "Terminaler Bereich des Compadre-Paläogletschers am Osthang des Gerês-Gebirges, in etwa 900–1350 m Höhe.",
-      "fr": "Secteur terminal du paléoglacier de Compadre, sur le versant oriental du massif du Gerês, entre environ 900 et 1350 m d'altitude.",
-      "it": "Settore terminale del paleoghiacciaio di Compadre, sul versante orientale della Serra do Gerês, tra circa 900 e 1350 m di quota.",
-      "no": "Den terminale delen av Compadre-paleobreen på østsiden av Gerês-fjellene, omtrent 900–1350 moh.",
-      "zh": "Compadre 古冰川末端区域，位于 Gerês 山地东坡，海拔约 900–1350 m。"
-    },
-    "methods": {
-      "pt": [
-        "Dados LiDAR da DGT",
-        "Sombreamento multidirecional, declive, openness diferencial e curvas de nível"
-      ],
-      "en": [
-        "DGT LiDAR data",
-        "Multidirectional hillshade, slope, differential openness and contour lines."
-      ],
-      "es": [
-        "Datos LiDAR de la DGT",
-        "Sombreado multidireccional, pendiente, apertura diferencial y curvas de nivel."
-      ],
-      "de": [
-        "LiDAR-Daten der DGT",
-        "Multidirektionale Schummerung, Hangneigung, differentielle Openness und Höhenlinien."
-      ],
-      "fr": [
-        "Données LiDAR de la DGT",
-        "Ombrage multidirectionnel, pente, ouverture différentielle et courbes de niveau."
-      ],
-      "it": [
-        "Dati LiDAR della DGT",
-        "Ombreggiatura multidirezionale, pendenza, apertura differenziale e curve di livello."
-      ],
-      "no": [
-        "LiDAR-data fra DGT",
-        "Multidireksjonal skyggerelieff, helning, differensiell openness og høydekurver."
-      ],
-      "zh": [
-        "DGT LiDAR 数据",
-        "多方向阴影、坡度、差异开放度及等高线。"
-      ]
-    },
-    "findings": {
-      "pt": [
-        "Identificação de formas e depósitos glaciários, fluvioglaciários e paraglaciários.",
-        "Os dados LiDAR permitiram identificar formas de menor expressão topográfica e refinar significativamente a cartografia geomorfológica anterior."
-      ],
-      "en": [
-        "Identification of glacial, glaciofluvial and paraglacial landforms and deposits.",
-        "LiDAR data enabled the identification of subtle landforms and substantially refined previous geomorphological mapping."
-      ],
-      "es": [
-        "Identificación de formas y depósitos glaciares, fluvioglaciares y paraglaciares.",
-        "Los datos LiDAR permitieron identificar formas de escasa expresión topográfica y mejorar sustancialmente la cartografía geomorfológica anterior."
-      ],
-      "de": [
-        "Identifizierung glazialer, glazifluvialer und paraglazialer Formen und Ablagerungen.",
-        "LiDAR-Daten ermöglichten die Erfassung topographisch schwach ausgeprägter Formen und eine deutliche Verfeinerung früherer geomorphologischer Kartierungen."
-      ],
-      "fr": [
-        "Identification de formes et dépôts glaciaires, fluvioglaciaires et paraglaciaires.",
-        "Les données LiDAR ont permis d'identifier des formes à faible expression topographique et d'affiner considérablement la cartographie géomorphologique antérieure."
-      ],
-      "it": [
-        "Identificazione di forme e depositi glaciali, fluvioglaciali e paraglaciali.",
-        "I dati LiDAR hanno permesso di identificare forme con debole espressione topografica e di affinare significativamente la cartografia geomorfologica precedente."
-      ],
-      "no": [
-        "Identifikasjon av glasiale, glasifluviale og paraglasiale landformer og avsetninger.",
-        "LiDAR-data gjorde det mulig å identifisere landformer med svakt topografisk uttrykk og forbedre tidligere geomorfologisk kartlegging betydelig."
-      ],
-      "zh": [
-        "识别出冰川、冰水和冰后地貌及沉积物。",
-        "LiDAR 数据有助于识别地形起伏较弱的地貌，并显著提高既有地貌制图的精度。"
-      ]
-    },
-    "citation": "Figueira, E., Gomes, A., Pereira, P., & Santos-González, J. (2026). Cartografia geomorfológica e dinâmica glaciária no setor de Compadre (Serra do Gerês, NW Portugal). In XI Congresso Nacional de Geomorfologia: Inovações tecnológicas e aplicações para o ordenamento do território. Publicações da Associação Portuguesa de Geomorfólogos, Vol. XIII, 228–232",
-    "sourceNote": {
-      "pt": "Síntese preparada a partir do trabalho publicado nas atas do XI Congresso Nacional de Geomorfologia de 2026.",
-      "en": "Summary prepared from the paper published in the proceedings of the 2026 XI National Congress of Geomorphology.",
-      "es": "Síntesis preparada a partir del trabajo publicado en las actas del XI Congreso Nacional de Geomorfología de 2026.",
-      "de": "Zusammenfassung auf Grundlage des in den Tagungsakten des XI Nationalen Kongresses für Geomorphologie 2026 veröffentlichten Beitrags.",
-      "fr": "Synthèse préparée à partir de la contribution publiée dans les actes du XI Congrès National de Géomorphologie de 2026.",
-      "it": "Sintesi preparata a partire dal contributo pubblicato negli atti dell'XI Congresso Nazionale di Geomorfologia del 2026.",
-      "no": "Sammendrag utarbeidet på grunnlag av bidraget publisert i konferansepublikasjonen fra XI nasjonale geomorfologikongress i 2026.",
-      "zh": "本摘要根据发表于 2026 年第十一届全国地貌学大会会议论文集中的研究成果整理。"
     }
   }
 ]
